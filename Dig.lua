@@ -1,2806 +1,2805 @@
 -- This script was generated using the MoonVeil Obfuscator v1.3.1 [https://moonveil.cc]
 
-local we,Yf,pg=getmetatable,pairs,type;
-local O,Ja,Oe,Xb,Ug,td
-Ja,Oe={[-4505]=-30738,[30036]=-2654,[-6601]=10787,[14519]=-4779,[18161]=-4779,[-31690]=-30738,[-2311]=-2654,[12082]=17259,[-29080]=-4779},function(Od)
-    return Ja[Od+26889]
+local qe,Z,Wf=pairs,type,getmetatable;
+local Ga,Ba,ub,hh,C,gb
+Ba,hh={[-31883]=-18902,[18950]=-10495,[6533]=12275,[-22892]=-16850,[-12844]=12275,[1746]=12275,[17357]=345,[-5873]=5723,[-27694]=5723,[27924]=19605,[-17346]=345},function(_)
+    return Ba[_+-8363]
 end
-Xb=Oe(-12370)
+Ga=hh(10109)
 repeat
     while true do
-        if Xb==-2654 then
-            td=(function(...)
-                return{[1]={...},[2]=Ug('#',...)}
+        if Ga==5723 then
+            gb=(function(...)
+                return{[1]={...},[2]=C('#',...)}
             end);
-            Xb=Oe(-58579);
-        elseif Xb==-4779 then
-            Ug=(select);
-            Xb=Oe(-29200);
-        elseif Xb==-30738 then
-            O=((function()
-                local function Ha(cc,_a,g)
-                    if _a>g then
+            Ga=hh(25720);
+        elseif Ga==12275 then
+            C=(select);
+            Ga=hh(-19331);
+        elseif Ga==345 then
+            ub=((function()
+                local function Ke(Mf,qc,Dd)
+                    if qc>Dd then
                         return
                     end
-                    return cc[_a],Ha(cc,_a+1,g)
+                    return Mf[qc],Ke(Mf,qc+1,Dd)
                 end
-                return Ha
+                return Ke
             end)());
-            Xb=Oe(-14807);
+            Ga=hh(-23520);
             break;
         end
     end
-until Xb==17259
-local Z=loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local Ra=game:GetService('Players')
-local Sc=game:GetService('RunService')
-local Kd=game:GetService('ReplicatedStorage')
-local Cf=game:GetService('UserInputService')
-local Lf=game:GetService('VirtualInputManager')
-local le=Ra.LocalPlayer
-local mc=workspace.CurrentCamera
-local ug=Z:CreateWindow({Name='Phoenix | Dig',LoadingTitle='Dig',LoadingSubtitle='by Relyz',ConfigurationSaving={Enabled=false},Discord={Enabled=false},KeySystem=true,KeySettings={Title='Phoenix Keystem',Subtitle='Key System',Note='https://discord.gg/Q2BUuxdT2S',FileName='Key',SaveKey=true,GrabKeyFromSite=false,Key={'KeyForPhoenix8172'}}})
-local zc=false
-local Oc=false
-local Xa=10
-local je=false
-local Ad=false
-local Qf=nil
-local Fa=false
-local r=false
-local Ka=false
-local De=50
-local Sa=workspace.Gravity
-local H=mc.FieldOfView
-local function Pe(Mc,...)
-    local w={...}
-    local S,q,Rc,sa,Hf,Hc,Jd,Re,nc,Ab
-    Hf,Hc={[-1471]=16360,[-13135]=6933,[15416]=-5496,[-23660]=-5418,[-20255]=25740,[-24517]=-11120,[-26454]=-12624,[-8111]=25740,[25660]=-7507,[-19214]=-12895,[19898]=-220,[17131]=16360,[-21119]=7262,[22355]=16360,[-14716]=-7507,[-15395]=16360,[29487]=14222},function(Wf)
-        return Hf[Wf+4719]
+until Ga==-18902
+local Cf=loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local kh=game:GetService('Players')
+local Yd=game:GetService('RunService')
+local Of=game:GetService('ReplicatedStorage')
+local wg=game:GetService('UserInputService')
+local ta=game:GetService('VirtualInputManager')
+local Uf=kh.LocalPlayer
+local Jb=workspace.CurrentCamera
+local Ig=Cf:CreateWindow({Name='Phoenix | Dig',LoadingTitle='Dig',LoadingSubtitle='by Relyz',ConfigurationSaving={Enabled=false},Discord={Enabled=false},KeySystem=true,KeySettings={Title='Phoenix Keystem',Subtitle='Key System',Note='https://discord.gg/Q2BUuxdT2S',FileName='Key',SaveKey=true,GrabKeyFromSite=false,Key={'KeyForPhoenix8172'}}})
+local ma=false
+local x=false
+local mb=10
+local Fd=false
+local ld=false
+local Hd=nil
+local _h=false
+local Ub=false
+local Za=false
+local td=50
+local Vb=workspace.Gravity
+local w=Jb.FieldOfView
+local function hf(f,...)
+    local fa={...}
+    local Od,Ca,Yf,He,fd,Sc,i,cb,Bf,rc
+    Yf,fd={[-16983]=-17991,[-5737]=20487,[-23493]=-20519,[1042]=11187,[13968]=-21161,[-8567]=7323,[-21864]=-3643,[7608]=-20519,[-1231]=10228,[21616]=15589,[-5181]=-21161,[-31892]=14173,[-29214]=-31522,[-17803]=-20519,[5813]=10817,[-29537]=11187},function(Ng)
+        return Yf[Ng-29295]
     end
-    Jd=Hc(-25838)
+    Od=fd(12312)
     repeat
         while true do
-            if Jd==7262 then
-                q=td(pcall(function()
-                    local Zg,bd,Xg,ff,_,kf,Ff,ud,pb,ff,Cc,db,Jc,kb,db,Qa,vc,_b,Hd,eh,vc,eh,jg,za,qf,Ca,qb
-                    kf,ud={[22021]=801,[-8493]=10970,[30284]=12855,[1080]=-8507,[644]=25060,[21005]=30725,[32467]=-6581,[-20272]=12855,[-8146]=22898,[-1654]=-29981,[-4546]=-12326,[-7172]=11333,[11575]=-16597,[-24141]=-23532,[3308]=12855,[-14734]=-31445,[1249]=-28548,[-12909]=-11530,[-843]=21911,[32505]=-16597,[-22466]=-16597,[-22667]=-3531,[-30412]=-13050,[12505]=-13387,[-32698]=2585,[11283]=11029,[3826]=11237,[9692]=-12326,[9038]=31168,[-6966]=-28548,[24438]=-16597,[-4527]=28787,[-6789]=31044,[20035]=30379,[7148]=14336,[-22894]=-27755,[-2879]=-19821,[24787]=-27755,[16959]=14336,[-13596]=-8507,[6406]=-20402,[31160]=6928,[2395]=-10396,[9464]=-16597,[6066]=28120,[-848]=-32186,[32596]=-28548,[32468]=-5429,[-14750]=-28548,[-20270]=-13050,[20739]=28120,[-24500]=-16597,[16650]=10116,[-24710]=-8765,[-9329]=-28548,[-1517]=-28548,[9744]=10030,[13909]=-16597,[5780]=-12003,[-16616]=-16597,[16231]=20450,[-946]=-23532,[12911]=4691,[672]=801,[-27487]=10970,[30420]=20219,[-32408]=-19892,[-11802]=-30806,[15537]=12855,[-31901]=-4169,[6233]=-3998,[23228]=31484,[15999]=24989,[10832]=-20836,[-23011]=-10008,[7747]=12855,[17412]=17069,[3195]=-28548,[23402]=-11530,[-20152]=12556,[-8383]=-32167,[-493]=-25611,[27930]=29057,[-9486]=23107,[23857]=-19175,[-10642]=-16597,[-4424]=10607,[407]=12855,[-3692]=12855,[-22869]=-16597,[-14465]=-5429,[-1534]=-28548,[-28517]=-31602,[-31112]=3118,[20564]=-1779,[-29575]=-8760,[31188]=23134,[-18443]=-28548,[13068]=-28771,[10955]=20535,[6081]=-28548,[18353]=23134,[591]=29114,[-26674]=-6581,[28962]=4691,[-29651]=-3998,[1686]=22898,[19519]=10691,[13032]=-12951,[-10952]=9093,[-3026]=-20836,[20771]=-11530,[5255]=-30268,[246]=-14273,[27197]=-19175,[-4470]=30725,[-7721]=4595,[-29895]=-28548,[22496]=12855,[8346]=11541,[1595]=13663,[-8879]=-23884,[-4564]=-10008,[-3230]=-2295,[5841]=-28548,[1225]=-28548,[14552]=-16597,[20081]=-27755,[-11384]=9093,[-9633]=-3625,[-32158]=-10889,[-14642]=-18766,[-4082]=-28548,[-1862]=24584,[6208]=-8760,[26669]=19370,[13030]=23134,[6733]=4595,[-1388]=16004},function(xb)
-                        return kf[xb-13858]
+            if Od==11187 then
+                Bf,rc=ub(He[1],1,He[2]);
+                if not Bf then
+                    Od=fd(24114)
+                    break
+                end
+                Od=-20519
+            elseif Od==10817 then
+                Ca=3
+                Od=fd(81)
+            elseif Od==-17991 then
+                He=gb(pcall(function()
+                    local Vf,kd,mc,qf,qf,hc,Rg,v,Ze,pg,Sf,rg,Vf,Bg,a,se,Kf,xb,uc,Ec,Nc,yf,Jg,ca,hc,rg,Cc
+                    xb,Ze={[25763]=-6753,[-28321]=4146,[22053]=-20739,[16477]=-22068,[21376]=-23331,[-20458]=-23674,[450]=-1684,[5723]=24248,[-1683]=-19585,[10029]=9096,[-30304]=12900,[13265]=-6753,[-25258]=-23674,[-30029]=-23674,[-19130]=4146,[25362]=-2014,[5767]=-23674,[-32570]=4170,[14132]=12900,[14768]=-25425,[-6069]=-7033,[17420]=-8524,[-23281]=-7597,[29854]=-11964,[-21826]=17981,[-26630]=-23674,[5515]=-3739,[-27259]=22665,[-6259]=-18823,[8257]=-25661,[7821]=-7756,[-5217]=-12342,[-20892]=-2014,[-17965]=24769,[28042]=-23674,[5223]=-23674,[-1005]=23607,[29903]=-11964,[-23349]=4146,[-13903]=4146,[22865]=-9478,[-1646]=-18004,[19685]=-2133,[25824]=13993,[-14624]=17852,[22164]=19411,[-9952]=9329,[-16974]=-23674,[15670]=-23674,[-28641]=-21540,[-9297]=-23768,[3031]=-8524,[-1153]=-22120,[11351]=-1718,[-22537]=27570,[-14670]=-25425,[10566]=25686,[11978]=-21540,[19724]=-23674,[-15613]=-25425,[-11578]=-19909,[-24177]=9977,[24054]=19411,[-29558]=-5212,[-16687]=17981,[23328]=4146,[-27751]=-4,[-20244]=-25425,[-25695]=-28057,[9116]=19405,[-26987]=-18136,[-10326]=-7236,[32267]=24992,[23364]=-18136,[29977]=13993,[-24859]=-11964,[8548]=-18033,[28569]=-17432,[-26941]=24748,[15759]=26468,[19288]=-20796,[14136]=4146,[-1043]=22665,[29339]=-28057,[-837]=-5158,[25189]=-23674,[3659]=-12997,[-11150]=4146,[-3640]=-12997,[18143]=19667,[-27222]=11634,[17016]=-2133,[8423]=-8539,[-19855]=-31803,[19050]=-20739,[710]=-11726,[23374]=10204,[-1612]=-25425,[-12259]=-25334,[-22460]=-9354,[-23202]=-25425,[29294]=4146,[-24221]=-19585,[9885]=28628,[-6172]=-23674,[15373]=4146,[-31796]=-30643,[5677]=-7719,[-10312]=-8550,[24723]=-31803,[20311]=19405,[542]=-25860,[6387]=4121,[23121]=25134,[26341]=-7597,[-15072]=-25334,[-31115]=-13352,[28049]=-25425,[-1744]=-14687,[5186]=4146,[23063]=25941,[-29881]=19345,[21882]=-22729,[-13563]=-19848,[12491]=-7597,[-19833]=-14687,[15335]=-8550,[18307]=4146,[25544]=24992,[3561]=-18136,[19399]=-23674,[3758]=-12342,[9353]=17699,[-17864]=31948,[-16221]=-5910,[-29275]=-8902,[-9013]=-23674,[15826]=-25425},function(Tc)
+                        return xb[Tc-9038]
                     end
-                    Qa=ud(24813)
+                    ca=Ze(18391)
                     repeat
                         while true do
-                            if Qa==14336 then
-                                Xg,bd,Hd=O(Zg[1],1,Zg[2]);
-                                Qa=ud(19939)
-                            elseif Qa==-8507 then
-                                Zg=td(Yf(_b))
-                                Qa=ud(6137)
-                            elseif Qa==-6869 then
-                                qf=O(kb[1],1,kb[2])
-                                Qa=ud(44278)
-                            elseif Qa==-10889 then
-                                qb=Zg.FireServer
-                                Qa=8819
-                            elseif Qa==17069 then
-                                if za then
-                                    Qa=ud(19638)
-                                    break
-                                end
-                                Qa=7739
-                            elseif Qa==-20402 then
-                                Zg=td(Zg(Xg))
-                                Qa=ud(30817)
-                            elseif Qa==20535 then
-                                if Mc then
-                                    Qa=ud(14502)
-                                    break
-                                else
-                                    Qa=ud(34863)
-                                    break
-                                end
-                                Qa=ud(-9011)
-                            elseif Qa==16004 then
-                                Zg=table.insert
-                                Qa=ud(30089)
-                            elseif Qa==28120 then
-                                Ff=Zg;
-                                Qa=3919;
-                            elseif Qa==4691 then
-                                Zg=table.insert
-                                Qa=ud(2056)
-                            elseif Qa==30725 then
-                                Zg={}
-                                Qa=ud(19924)
-                            elseif Qa==-3625 then
-                                if not za then
-                                    Qa=ud(-17254)
-                                    break
-                                end
-                                Qa=ud(13010)
-                            elseif Qa==-5429 then
-                                _b,Cc,_=O(Zg[1],1,Zg[2]);
-                                if pg(_b)~='function'then
-                                    Qa=ud(37715)
-                                    break
-                                end;
-                                Qa=ud(-6414);
-                            elseif Qa==-10008 then
-                                pb=Zg;
-                                Qa=ud(16253);
-                            elseif Qa==-30806 then
-                                qb=td(db())
-                                Qa=ud(22204)
-                            elseif Qa==3118 then
-                                qb=za
-                                Qa=ud(9331)
-                            elseif Qa==12855 then
-                                ff,vc=_b(Cc,_);
-                                _=ff;
-                                if _==nil then
-                                    Qa=ud(-876)
-                                else
-                                    Qa=ud(12470)
-                                end
-                            elseif Qa==-16597 then
-                                Qa=ud(37086);
+                            if ca==21134 then
+                                Nc=gb(qf())
+                                ca=Ze(9488)
+                            elseif ca==4146 then
+                                ca=Ze(-5586);
                                 break;
-                            elseif Qa==20450 then
-                                qb=td(type(vc))
-                                Qa=ud(-10852)
-                            elseif Qa==-18766 then
-                                za=qb(Zg,O(za[1],1,za[2]))
-                                Qa=ud(27767)
-                            elseif Qa==-12003 then
-                                qb=za
-                                Qa=ud(-14659)
-                            elseif Qa==28787 then
-                                za=qb
-                                Qa=ud(31270)
-                            elseif Qa==-20836 then
-                                Xg,bd,Hd=O(Zg[1],1,Zg[2]);
-                                if pg(Xg)~='function'then
-                                    Qa=ud(-15717)
+                            elseif ca==19411 then
+                                Kf,Sf,Rg=ub(Cc[1],1,Cc[2]);
+                                ca=Ze(-14164)
+                            elseif ca==-16719 then
+                                Bg=(se)
+                                ca=-24484
+                            elseif ca==-6753 then
+                                v=Cc;
+                                ca=5429;
+                            elseif ca==-2133 then
+                                Kf,Sf,Rg=ub(Cc[1],1,Cc[2]);
+                                ca=Ze(24864)
+                            elseif ca==28628 then
+                                Cc={}
+                                ca=Ze(22303)
+                            elseif ca==-25425 then
+                                rg,qf=Kf(Sf,Rg);
+                                Rg=rg;
+                                if Rg==nil then
+                                    ca=Ze(5398)
+                                else
+                                    ca=Ze(-10795)
+                                end
+                            elseif ca==4170 then
+                                Cc=Cc(uc,se)
+                                ca=Ze(37087)
+                            elseif ca==1347 then
+                                Cc=gb(Cc(Kf))
+                                ca=Ze(26054)
+                            elseif ca==25686 then
+                                Bg=se(Cc,ub(Bg[1],1,Bg[2]))
+                                ca=Ze(-14311)
+                            elseif ca==9096 then
+                                se=ub(se[1],1,se[2])==Bg
+                                ca=-16719
+                            elseif ca==22665 then
+                                Jg,yf,Ec=ub(Cc[1],1,Cc[2]);
+                                if Z(Jg)~='function'then
+                                    ca=Ze(-3221)
                                     break
                                 end;
-                                Qa=ud(19699);
-                            elseif Qa==10116 then
-                                Zg=Ca.__iter
-                                Qa=ud(34422)
-                            elseif Qa==-19175 then
-                                Zg=td(we(_b))
-                                Qa=ud(2906)
-                            elseif Qa==10970 then
-                                Zg={}
-                                Qa=ud(9294)
-                            elseif Qa==-28771 then
-                                Zg=td(Yf(Xg))
-                                Qa=ud(-6412)
-                            elseif Qa==-8765 then
-                                za='function'
-                                Qa=12721
-                            elseif Qa==-31445 then
-                                Zg=jg
-                                Qa=ud(-18300)
-                            elseif Qa==-13050 then
-                                Xg,bd,Hd=O(Zg[1],1,Zg[2]);
-                                Qa=ud(15083)
-                            elseif Qa==21617 then
-                                Zg=Zg(Ff,db)
-                                Qa=ud(-16037)
-                            elseif Qa==9093 then
-                                Ca=O(Zg[1],1,Zg[2]);
-                                if Ca~=nil and Ca.__iter~=nil then
-                                    Qa=ud(30508)
-                                    break
-                                elseif pg(_b)=='table'then
-                                    Qa=ud(14938)
+                                ca=Ze(2866);
+                            elseif ca==-27774 then
+                                se=gb(type(qf))
+                                ca=Ze(25515)
+                            elseif ca==-24484 then
+                                if not Bg then
+                                    ca=Ze(7392)
                                     break
                                 end
-                                Qa=ud(14265)
-                            elseif Qa==12721 then
-                                qb=O(qb[1],1,qb[2])==za
-                                Qa=-18926
-                            elseif Qa==3919 then
-                                Zg=td(ipairs(w))
-                                Qa=ud(24690)
-                            elseif Qa==-3998 then
-                                Jc=O(Zg[1],1,Zg[2]);
-                                if Jc~=nil and Jc.__iter~=nil then
-                                    Qa=ud(35879)
+                                ca=21134
+                            elseif ca==-31803 then
+                                Cc=mc.__iter
+                                ca=1347
+                            elseif ca==-8550 then
+                                mc=ub(Cc[1],1,Cc[2]);
+                                if mc~=nil and mc.__iter~=nil then
+                                    ca=Ze(-10817)
                                     break
-                                elseif pg(Xg)=='table'then
-                                    Qa=ud(26926)
+                                elseif Z(Kf)=='table'then
+                                    ca=Ze(-18184)
                                     break
                                 end
-                                Qa=ud(15107)
-                            elseif Qa==31044 then
-                                Zg=table.insert
-                                Qa=21617
-                            elseif Qa==22898 then
-                                jg=O(Zg[1],1,Zg[2]);
-                                if jg then
-                                    Qa=ud(5365)
+                                ca=Ze(-5632)
+                            elseif ca==-22068 then
+                                Bg='function'
+                                ca=Ze(19067)
+                            elseif ca==25941 then
+                                Cc=gb(ipairs(fa))
+                                ca=Ze(-16657)
+                            elseif ca==15900 then
+                                if Bg then
+                                    ca=Ze(39015)
+                                    break
+                                end
+                                ca=Ze(30414)
+                            elseif ca==24992 then
+                                Jg,yf,Ec=ub(Cc[1],1,Cc[2]);
+                                ca=Ze(24708)
+                            elseif ca==-8524 then
+                                Jg,yf,Ec=ub(Cc[1],1,Cc[2]);
+                                ca=Ze(14261)
+                            elseif ca==-8902 then
+                                Bg=pg
+                                ca=-18004
+                            elseif ca==17699 then
+                                if f then
+                                    ca=Ze(2969)
                                     break
                                 else
-                                    Qa=ud(11996)
+                                    ca=Ze(18923)
                                     break
                                 end
-                                Qa=ud(-10642)
-                            elseif Qa==20219 then
-                                za=qf
-                                Qa=3118
-                            elseif Qa==24584 then
-                                Zg='Event not found'
-                                Qa=-11075
-                            elseif Qa==-10396 then
-                                Zg=td(ipairs(w))
-                                Qa=ud(-607)
-                            elseif Qa==-18926 then
-                                za=(qb)
-                                Qa=ud(4225)
-                            elseif Qa==7739 then
-                                kb=vc
-                                Qa=ud(-18550)
-                            elseif Qa==-31602 then
-                                Zg=Zg(pb,qb)
-                                Qa=ud(17166)
-                            elseif Qa==4595 then
-                                _b,Cc,_=O(Zg[1],1,Zg[2]);
-                                Qa=ud(21605)
-                            elseif Qa==-28548 then
-                                eh,db=Xg(bd,Hd);
-                                Hd=eh;
-                                if Hd==nil then
-                                    Qa=ud(-8608)
-                                else
-                                    Qa=-27226
-                                end
-                            elseif Qa==11541 then
-                                Zg=Zg(Ff,O(qb[1],1,qb[2]))
-                                Qa=ud(6892)
-                            elseif Qa==8819 then
-                                za=td(unpack(pb))
-                                Qa=ud(-784)
-                            elseif Qa==-8760 then
-                                Zg=td(we(Xg))
-                                Qa=ud(20091)
-                            elseif Qa==-19892 then
-                                za=kb
-                                Qa=-12003
-                            elseif Qa==801 then
-                                Zg=Jc.__iter
-                                Qa=ud(20264)
-                            elseif Qa==-27226 then
-                                if type(db)=='function'then
-                                    Qa=ud(42820)
+                                ca=Ze(23174)
+                            elseif ca==-1684 then
+                                pg=ub(Nc[1],1,Nc[2])
+                                ca=Ze(-20237)
+                            elseif ca==11634 then
+                                Cc=gb(qe(Kf))
+                                ca=Ze(31202)
+                            elseif ca==-29887 then
+                                Cc=error(Cc)
+                                ca=Ze(38332)
+                            elseif ca==12900 then
+                                uc=Cc;
+                                ca=Ze(32101);
+                            elseif ca==-5212 then
+                                Bg=se
+                                ca=15900
+                            elseif ca==-18004 then
+                                se=Bg
+                                ca=Ze(-20520)
+                            elseif ca==9895 then
+                                se=Cc.FireServer
+                                ca=Ze(32159)
+                            elseif ca==-19848 then
+                                Cc=gb(qe(Jg))
+                                ca=Ze(41305)
+                            elseif ca==-23331 then
+                                Nc=qf
+                                ca=-20851
+                            elseif ca==13993 then
+                                se=Bg
+                                ca=Ze(-23532)
+                            elseif ca==-7756 then
+                                se=gb(Vf())
+                                ca=Ze(-20843)
+                            elseif ca==-2014 then
+                                a=ub(Cc[1],1,Cc[2]);
+                                if a then
+                                    ca=Ze(-18713)
                                     break
                                 else
-                                    Qa=ud(7069)
+                                    ca=Ze(-19603)
                                     break
                                 end
-                                Qa=ud(-4585)
-                            elseif Qa==-32186 then
-                                kb=td(vc())
-                                Qa=-6869
-                            elseif Qa==-1779 then
-                                Zg=td(Zg(_b))
-                                Qa=ud(-10283)
-                            elseif Qa==-23532 then
-                                _b,Cc,_=O(Zg[1],1,Zg[2]);
-                                Qa=ud(36354)
-                            elseif Qa==25060 then
-                                Zg=td(Mc())
-                                Qa=ud(15544)
-                            elseif Qa==-11075 then
-                                Zg=error(Zg)
-                                Qa=ud(25433)
+                                ca=Ze(27345)
+                            elseif ca==-4 then
+                                Cc={}
+                                ca=Ze(-21266)
+                            elseif ca==5429 then
+                                Cc=gb(ipairs(fa))
+                                ca=Ze(-18221)
+                            elseif ca==-21540 then
+                                Cc='Event not found'
+                                ca=-29887
+                            elseif ca==25134 then
+                                Bg=gb(unpack(uc))
+                                ca=Ze(19604)
+                            elseif ca==-28057 then
+                                Kf,Sf,Rg=ub(Cc[1],1,Cc[2]);
+                                if Z(Kf)~='function'then
+                                    ca=Ze(8033)
+                                    break
+                                end;
+                                ca=Ze(23806);
+                            elseif ca==-7033 then
+                                Cc=gb(f())
+                                ca=Ze(34400)
+                            elseif ca==-25334 then
+                                Cc=gb(Wf(Jg))
+                                ca=Ze(-12788)
+                            elseif ca==-14687 then
+                                Cc=table.insert
+                                ca=-27774
+                            elseif ca==24248 then
+                                Cc=table.insert
+                                ca=Ze(16859)
+                            elseif ca==19345 then
+                                Cc=Cc(v,ub(se[1],1,se[2]))
+                                ca=Ze(-7936)
+                            elseif ca==23607 then
+                                Cc=gb(Wf(Kf))
+                                ca=Ze(24373)
+                            elseif ca==-23674 then
+                                hc,Vf=Jg(yf,Ec);
+                                Ec=hc;
+                                if Ec==nil then
+                                    ca=Ze(-10092)
+                                else
+                                    ca=Ze(9580)
+                                end
+                            elseif ca==-20851 then
+                                Bg=Nc
+                                ca=Ze(34862)
+                            elseif ca==-12997 then
+                                Cc=a
+                                ca=9895
+                            elseif ca==-1718 then
+                                Cc=table.insert
+                                ca=Ze(-7183)
+                            elseif ca==24748 then
+                                Cc=gb(Cc(Jg))
+                                ca=Ze(26458)
+                            elseif ca==17981 then
+                                kd=ub(Cc[1],1,Cc[2]);
+                                if kd~=nil and kd.__iter~=nil then
+                                    ca=Ze(29349)
+                                    break
+                                elseif Z(Jg)=='table'then
+                                    ca=Ze(-4525)
+                                    break
+                                end
+                                ca=Ze(-20991)
+                            elseif ca==-5910 then
+                                Cc=Cc(v,Vf)
+                                ca=Ze(-17592)
+                            elseif ca==-25860 then
+                                if type(Vf)=='function'then
+                                    ca=Ze(14761)
+                                    break
+                                else
+                                    ca=Ze(20389)
+                                    break
+                                end
+                                ca=Ze(28437)
+                            elseif ca==19405 then
+                                Cc=kd.__iter
+                                ca=Ze(-17903)
                             end
                         end
-                    until Qa==31484
+                    until ca==17852
                 end))
-                Jd=Hc(-12830)
-            elseif Jd==-7507 then
-                q=Z
-                Jd=Hc(24768)
-            elseif Jd==14222 then
-                S=q.Notify
-                Jd=Hc(15179)
-            elseif Jd==-5496 then
-                Ab={Title=Ab,Content=Re,Duration=sa}
-                Jd=18289
-            elseif Jd==22830 then
-                sa=3
-                Jd=Hc(10697)
-            elseif Jd==25740 then
-                Rc,nc=O(q[1],1,q[2]);
-                if not Rc then
-                    Jd=Hc(20941)
-                    break
-                end
-                Jd=Hc(-20114)
-            elseif Jd==16360 then
-                Jd=Hc(-31173);
+                Od=fd(30337)
+            elseif Od==-31522 then
+                cb={Title=cb,Content=i,Duration=Ca}
+                Od=fd(-2597)
+            elseif Od==20656 then
+                Sc=He.Notify
+                Od=17480
+            elseif Od==23926 then
+                i=tostring(rc)
+                Od=fd(35108)
+            elseif Od==-20519 then
+                Od=fd(50911);
                 break;
-            elseif Jd==-220 then
-                Ab='Error'
-                Jd=Hc(-23933)
-            elseif Jd==-12895 then
-                Re=tostring(nc)
-                Jd=22830
-            elseif Jd==18289 then
-                Ab=S(q,Ab)
-                Jd=Hc(17636)
+            elseif Od==17480 then
+                cb='Error'
+                Od=23926
+            elseif Od==-21161 then
+                He=Cf
+                Od=20656
+            elseif Od==14173 then
+                cb=Sc(He,cb)
+                Od=fd(11492)
             end
         end
-    until Jd==-12624
+    until Od==15589
 end
-local se=ug:CreateTab('Main')
-local Id=ug:CreateTab('Teleport')
-local _e=ug:CreateTab('Movement')
-local uf=se:CreateSection('Dig')
-local Le=se:CreateToggle({Name='Auto Dig',CurrentValue=false,Flag='AutoDig',Callback=function(hc)
-    local ic,_g,rd,sd
-    _g,rd={[27686]=5143,[1243]=7784,[27156]=17387,[8136]=-16655,[-7086]=-28672,[-11466]=-11359,[5776]=-16655,[-25831]=-28672,[-29000]=30428,[2457]=26679,[-1274]=-16655,[12307]=-28672},function(ya)
-        return _g[ya- -28868]
+local Zc=Ig:CreateTab('Main')
+local Wa=Ig:CreateTab('Teleport')
+local ha=Ig:CreateTab('Movement')
+local qg=Zc:CreateSection('Dig')
+local Mg=Zc:CreateToggle({Name='Auto Dig',CurrentValue=false,Flag='AutoDig',Callback=function(da)
+    local ne,Xb,Xg,If
+    If,ne={[22319]=20975,[-2964]=-9868,[2488]=-29930,[-5115]=-29930,[20118]=-29930,[9141]=-32183,[-12501]=-19126,[-17133]=-7862,[-392]=-32183,[31088]=-32183,[12293]=28704,[22088]=12925,[-9499]=28128,[-24687]=-9868},function(r)
+        return If[r+26651]
     end
-    sd=rd(-30142)
+    Xg=ne(-17510)
     repeat
         while true do
-            if sd==-16655 then
-                zc=hc;
-                if hc then
-                    sd=rd(-27625)
+            if Xg==-32183 then
+                ma=da;
+                if da then
+                    Xg=ne(-51338)
                     break
                 end
-                sd=-28672
-            elseif sd==10367 then
-                ic=ic(function()
-                    local tg,qd,xa,Vg,Sd,Eb,jc,pc,hd,Q,M,nb,rf,zf,Kc,be,zd,ha,Ub,Bd,vg,rf,b,ae,Qe,mb,Bd,K,Cd,Md,oa,Zf,Ub,Kc,Td,Bc,Zb,Vb,ia,od,ae,dc,Kf,jc,Yc,zb,I
-                    Zf,zf={[-6700]=27462,[-12859]=-10857,[-14139]=-18140,[2121]=-4125,[28434]=-13231,[-19460]=-31221,[20815]=-32490,[30901]=18684,[23801]=21772,[-16033]=9168,[-4971]=-8713,[25927]=17568,[8133]=-3289,[-5507]=-24506,[3293]=-8126,[10702]=26450,[-18703]=-32612,[9961]=16444,[-17596]=-6318,[19459]=10205,[15289]=9168,[9227]=-26491,[-16030]=15944,[-2217]=-13231,[-15266]=-10388,[7546]=3116,[11328]=-24936,[27252]=-2156,[4014]=-23630,[-10125]=7633,[14465]=13056,[7213]=-10601,[27180]=-12369,[-16805]=21996,[10932]=-31677,[-21326]=15896,[-28821]=19640,[32456]=-27658,[13241]=29354,[9421]=19640,[-27311]=-28458,[20253]=9408,[13293]=-9359,[27561]=-32612,[-8717]=-12565,[-28755]=31817,[19947]=-25760,[5333]=32123,[17320]=27561,[6945]=-4385,[-4712]=-2156,[-18121]=-10601,[11174]=16038,[15886]=-10461,[-20412]=21772,[-9425]=27462,[6962]=-4095,[27478]=25994,[7733]=26910,[27076]=-2156,[332]=-25291,[-26401]=-24506,[-3015]=-17372,[31640]=-17372,[23973]=-11147,[15103]=-22815,[18194]=-27380,[-20066]=15896,[-3964]=-27864,[-10185]=-24506,[-4397]=-26365,[-4753]=7006,[5043]=-24506,[-18765]=1320,[20904]=22574,[27224]=-13231,[-1988]=31817,[-9956]=4412,[7200]=21134,[8619]=15896,[-9420]=28503,[-23387]=-31221,[9542]=-4095,[-17553]=-13231,[-18672]=22623,[9172]=-9603,[19308]=27393,[18571]=-17087,[23285]=-10461,[1072]=9168,[10085]=-15913,[-9978]=15896,[17684]=8270,[28351]=-25291,[-17643]=-17708,[19361]=30473,[-95]=15896,[20791]=-27822,[-13092]=17004,[3335]=-11320,[-9083]=20225,[-32225]=18483,[-131]=23171,[-10527]=-4095,[-6585]=-13231,[17932]=23719,[-2384]=32399,[-15937]=-31677,[-322]=-10425,[7036]=1723,[-24307]=-9842,[-23746]=21996,[1266]=-12534,[7301]=29274,[-20210]=8325,[-3285]=25205,[1747]=-24506,[22021]=-7985,[17954]=18483,[-32083]=14294,[28279]=31817,[5946]=17089,[-6028]=-5628,[19155]=-9603,[9627]=21185,[-22097]=30781,[21605]=15896,[-26907]=14103,[22385]=-31677,[-32177]=13056,[-30756]=-9054,[-22701]=-19561,[-28588]=-12134,[23481]=18917,[-21221]=-13231,[26951]=32123,[27027]=21996,[-26742]=-12369,[-15]=10205,[29263]=10205,[23156]=22576,[18138]=-1303,[-21712]=18917,[16188]=-24506,[9152]=-13231,[-7791]=8325,[26537]=-27658,[32284]=-17708,[-3184]=-9359,[-1576]=-1815,[25272]=30286,[-25222]=15896,[31982]=17004,[-4082]=-28670,[-30332]=-10263,[2000]=-1303,[-4746]=-16700,[10723]=20716,[23228]=9168,[-13437]=-29413,[3696]=9408,[-29864]=-26491,[-23644]=-9054,[30499]=22574,[-21262]=-22785,[-10019]=12628,[-6771]=12592,[-11863]=21185,[15775]=12112,[30409]=5166,[28013]=-27281,[-24091]=8270,[32076]=-12369,[-31387]=-7568,[19838]=-19421,[-24933]=-31924,[10838]=662,[-12225]=-1303,[1196]=-3848,[14732]=8555,[-14679]=-10425,[158]=-12676,[-27364]=31655,[-30277]=-27816,[10029]=23045,[-15641]=-5537,[-10158]=4073,[8549]=-17087,[8773]=9168,[1687]=19996,[23802]=-8450,[22990]=25994,[20092]=21996,[9274]=-13231,[28166]=-9603,[4298]=26910,[-14780]=-14200,[32297]=-14146,[21739]=-3289,[-14554]=-7391,[10801]=-10461,[2118]=-13231,[-26717]=-30986,[-10082]=-9842,[-21304]=14758,[22409]=3702,[-19670]=22574,[3401]=-3279,[7604]=29820,[-10723]=17106,[14677]=12112,[-3496]=15896,[-27856]=31357,[27345]=8275,[-6127]=4741},function(lb)
-                        return Zf[lb+-8410]
+                Xg=-29930
+            elseif Xg==-9868 then
+                Xb=task.spawn
+                Xg=-16218
+            elseif Xg==-29930 then
+                Xg=ne(-4563);
+                break;
+            elseif Xg==-16218 then
+                Xb=Xb(function()
+                    local Vg,Kd,nd,df,e,Wb,Wb,vc,Wg,Yg,Pf,Xe,Xa,Dg,Gg,Ae,m,Sb,_c,Ye,Xa,Ud,Gg,te,vb,md,Ma,Hf,xd,Vc,Tf,Tg,Oa,Sb,l,hd,mf,h,ec,g,je,ad,U,eg,g,xd,yc
+                    Ye,l={[13186]=-31548,[12997]=-24832,[-24811]=-6456,[12709]=30801,[-15906]=-28416,[4758]=8387,[-19078]=-27548,[-27317]=14869,[26845]=-1725,[29277]=4041,[25131]=38,[14271]=-17000,[6886]=-7109,[12143]=-11168,[3686]=-3563,[-20639]=1380,[6635]=-9421,[-10289]=-19459,[18904]=26538,[29834]=-28295,[15191]=-20232,[-14475]=-23288,[31920]=27851,[31621]=-17000,[21839]=-7048,[21006]=25811,[12841]=9589,[19914]=8515,[-19361]=-25346,[-4203]=-24285,[-24651]=-19459,[-19224]=-17000,[1826]=11272,[-7385]=-1794,[-21459]=32230,[-8557]=26686,[17975]=9718,[-19793]=13396,[-23937]=25320,[27442]=10289,[27049]=-32482,[-12522]=-25122,[-1255]=-304,[8401]=27395,[31763]=-22190,[31757]=-17000,[-13273]=-16612,[30432]=-7940,[-32560]=25590,[21535]=-10944,[12809]=-32590,[27369]=22354,[31029]=-13703,[-10892]=-14265,[-14711]=-21488,[-12243]=-19459,[-8179]=-9262,[17987]=13396,[-32064]=5007,[3281]=29041,[6711]=21241,[-10907]=-14378,[15098]=4598,[7742]=23774,[11384]=-29164,[-19863]=5253,[26242]=2415,[10183]=27786,[-18815]=-13377,[12770]=-11626,[-24752]=-22731,[25559]=-8521,[-26227]=-23540,[-30949]=-13377,[6359]=10681,[9663]=16457,[30057]=15824,[-19098]=-10172,[8721]=-17000,[17759]=25896,[985]=20093,[9280]=-27963,[18708]=28551,[6201]=-21427,[-13546]=-23540,[25280]=-12219,[14982]=-22190,[-19746]=1437,[-5330]=-21197,[18319]=31580,[-22606]=17821,[32]=21132,[5550]=-32590,[-19065]=-32590,[13453]=14124,[-17238]=-14539,[-27738]=-22731,[-148]=-13377,[11000]=-3192,[-9226]=-20388,[-14375]=24554,[25870]=30801,[-12703]=-23540,[335]=-20388,[-30175]=3357,[-26102]=-14563,[-24343]=17317,[24912]=-14563,[-661]=5725,[2358]=-28520,[-32116]=-7940,[-24954]=-14694,[-24932]=7305,[2456]=8534,[19287]=27152,[20734]=12000,[-3072]=23036,[-10520]=14124,[-31872]=21012,[13734]=-13703,[-16112]=26892,[-31672]=10289,[-30382]=3377,[-16128]=2202,[22907]=26070,[26783]=19434,[16126]=11757,[11548]=13656,[9018]=-17000,[12534]=29375,[27362]=-5402,[1027]=28551,[32445]=-23288,[11704]=16916,[-14455]=-10600,[15736]=-10944,[6744]=-7940,[7551]=-29538,[31874]=-1725,[-11452]=-13377,[6646]=-3563,[24666]=5253,[-30376]=3377,[-7848]=-13377,[16769]=30841,[-11124]=5823,[6994]=-13377,[-5494]=15824,[25124]=-7055,[-11596]=-28295,[-10320]=-6423,[8333]=4041,[24690]=-24832,[-1780]=-8521,[12508]=-6423,[20199]=3377,[3431]=23036,[-19915]=-27548,[-25375]=-13377,[7885]=-304,[-19854]=16916,[3095]=-7010,[-5097]=-13377,[7000]=-32482,[-9855]=-32406,[17531]=14222,[-3398]=-32250,[-882]=-12377,[-7055]=2978,[19213]=-29832,[22047]=-907,[8355]=25320,[-7414]=6239,[1656]=31597,[32085]=25130,[-22391]=10917,[-26525]=-1725,[28480]=3377,[-10979]=15427,[253]=-13377,[-12442]=30068,[15090]=-17000,[-25764]=14222,[-16367]=5797,[16687]=14939,[8643]=-17000,[19634]=-24832,[26128]=-5061,[12817]=-26510,[4400]=9718,[28703]=16741,[-7452]=12932,[-13432]=12543,[-31761]=8534,[-1553]=30801,[-28761]=-1725,[4671]=-30875,[256]=27851,[24191]=3377,[-15641]=13879,[17755]=13044,[-19865]=-17911,[12983]=-13108,[24815]=4598,[977]=-22731,[-13716]=-7806,[-11378]=14939,[-32085]=3377,[22136]=11757,[-10582]=10681,[32329]=21645,[-10488]=29041,[8596]=15390,[7734]=-32482,[17410]=-3192,[26413]=-2664,[18480]=-15539,[-21514]=-23288,[16600]=-17000,[-4478]=32048,[12226]=-3707,[-12506]=29375,[17800]=32048,[-27077]=9083,[8001]=-22731,[-5179]=-22190,[22901]=-24295,[25383]=12543},function(ya)
+                        return Ye[ya- -5066]
                     end
-                    K=zf(9482)
+                    m=l(-33827)
                     repeat
                         while true do
-                            if K==-32712 then
-                                ia=2048.3314999999998
-                                K=-32315
-                            elseif K==5512 then
-                                Md='PositionPart'
-                                K=zf(27771)
-                            elseif K==7633 then
-                                Q={}
-                                K=zf(40392)
-                            elseif K==-24936 then
-                                Q=td(ipairs(O(Td[1],1,Td[2])))
-                                K=zf(-14977)
-                            elseif K==14294 then
-                                zb=zb.Block
-                                K=zf(18495)
-                            elseif K==-12369 then
-                                Q=game
-                                K=27057
-                            elseif K==-25629 then
-                                Qe=Q
-                                K=-16799
-                            elseif K==-16554 then
-                                Td=td(Qe(Q,Td))
-                                K=zf(15623)
-                            elseif K==-31677 then
-                                ha[rf.Name]=true;
-                                K=zf(2903)
-                            elseif K==7427 then
-                                tg=321.55239999999998
-                                K=-13589
-                            elseif K==-25760 then
-                                Q=Kd:WaitForChild('PlayerItems')
-                                K=10452
-                            elseif K==-4385 then
-                                ia=Color3 .fromRGB
-                                K=zf(27718)
-                            elseif K==26646 then
-                                if jc:IsA('Tool')and ha[jc.Name]then
-                                    K=zf(19211)
+                            if m==28551 then
+                                nd,Pf,hd=ub(df[1],1,df[2]);
+                                m=l(-35442)
+                            elseif m==-28520 then
+                                Dg=gb(Xe(df))
+                                m=l(-24812)
+                            elseif m==14939 then
+                                Kd=ub(Dg[1],1,Dg[2]);
+                                m=l(14147);
+                            elseif m==-29164 then
+                                Dg=1
+                                m=31622
+                            elseif m==-15775 then
+                                Wg=Wg(eg,Tf,Vg)
+                                m=8876
+                            elseif m==27292 then
+                                df=gb(df(nd))
+                                m=l(-4039)
+                            elseif m==25320 then
+                                te=ub(df[1],1,df[2]);
+                                if te~=nil and te.__iter~=nil then
+                                    m=l(-16045)
+                                    break
+                                elseif Z(nd)=='table'then
+                                    m=l(1580)
                                     break
                                 end
-                                K=zf(8315)
-                            elseif K==20716 then
-                                Q=Pe(function()
-                                    return Kd:WaitForChild('Remotes'):WaitForChild('Dig_Finished')
-                                end,O(Q[1],1,Q[2]))
-                                K=zf(40486)
-                            elseif K==-27256 then
-                                K=zf(16014);
-                                break;
-                            elseif K==-10425 then
-                                Q=td(we(Vg))
-                                K=zf(-15234)
-                            elseif K==-10601 then
-                                qd=O(Td[1],1,Td[2]);
-                                K=zf(-1715);
-                            elseif K==-24506 then
-                                Ub,rf=Vg(pc,M);
-                                M=Ub;
-                                if M==nil then
-                                    K=zf(-1609)
+                                m=l(-37151)
+                            elseif m==30709 then
+                                df=gb(ipairs(ub(Dg[1],1,Dg[2])))
+                                m=l(17070)
+                            elseif m==17821 then
+                                Xe=df.SendMouseButtonEvent
+                                m=l(7160)
+                            elseif m==11757 then
+                                nd,Pf,hd=ub(df[1],1,df[2]);
+                                if Z(nd)~='function'then
+                                    m=l(-8138)
+                                    break
+                                end;
+                                m=l(19125);
+                            elseif m==-25635 then
+                                Xe=0.5
+                                m=12853
+                            elseif m==-20388 then
+                                df=vb
+                                m=-3857
+                            elseif m==-7010 then
+                                e=6.4161999999999999
+                                m=l(-14921)
+                            elseif m==21012 then
+                                Xe=Ma
+                                m=l(-6321)
+                            elseif m==-29832 then
+                                df={}
+                                m=l(12921)
+                            elseif m==-17982 then
+                                Tf=321.55239999999998
+                                m=l(-3410)
+                            elseif m==-15828 then
+                                mf=0
+                                m=-9822
+                            elseif m==25590 then
+                                df=hf(function()
+                                    return Of:WaitForChild('Remotes'):WaitForChild('Dig_Finished')
+                                end,ub(df[1],1,df[2]))
+                                m=l(7442)
+                            elseif m==13044 then
+                                df={df,Xe}
+                                m=l(-24981)
+                            elseif m==-1725 then
+                                if ma then
+                                    m=l(20065)
                                 else
-                                    K=zf(30795)
+                                    m=-30497
                                 end
-                            elseif K==-6318 then
-                                Sd=2048.3314999999998
-                                K=zf(3657)
-                            elseif K==-3748 then
-                                Qe=Q.WaitForChild
-                                K=-31580
-                            elseif K==27561 then
-                                Sd=Sd(zb,tg,xa)
-                                K=zf(9676)
-                            elseif K==-30986 then
-                                xa=xa(od,hd,Yc)
-                                K=zf(30819)
-                            elseif K==-15198 then
-                                tg=tg(xa,od,hd)
-                                K=30818
-                            elseif K==-30921 then
-                                Qe=Q.GetChildren
-                                K=zf(6026)
-                            elseif K==20897 then
-                                Td=td(Qe(Q))
-                                K=-5540
-                            elseif K==-6327 then
-                                Qe=1.5
-                                K=zf(26342)
-                            elseif K==25623 then
-                                Qe=ia
-                                K=zf(-15681)
-                            elseif K==-7985 then
-                                zd='CenterCylinder'
-                                K=-22073
-                            elseif K==-25291 then
-                                nb=Q;
-                                K=-12351;
-                            elseif K==19640 then
-                                Q=td(we(Kf))
-                                K=zf(5395)
-                            elseif K==13056 then
-                                Q=Lf
-                                K=27044
-                            elseif K==19965 then
-                                xa=85
-                                K=zf(25730)
-                            elseif K==-10461 then
-                                jc.Parent=be;
-                                K=zf(36689)
+                            elseif m==-23540 then
+                                Gg.Parent=ec;
+                                m=l(3952)
+                            elseif m==3377 then
+                                xd,Wb=nd(Pf,hd);
+                                hd=xd;
+                                if hd==nil then
+                                    m=l(-4731)
+                                else
+                                    m=l(26697)
+                                end
+                            elseif m==-3707 then
+                                Dg=0
+                                m=-15828
+                            elseif m==-14265 then
+                                Dg=Xe(df,Dg,mf,Vc,false,game,Ma)
+                                m=l(484)
+                            elseif m==27152 then
+                                df=Of:WaitForChild('PlayerItems')
+                                m=31719
+                            elseif m==27851 then
+                                vc=ub(df[1],1,df[2]);
+                                if vc~=nil and vc.__iter~=nil then
+                                    m=l(1293)
+                                    break
+                                elseif Z(Yg)=='table'then
+                                    m=l(14848)
+                                    break
+                                end
+                                m=l(10024)
+                            elseif m==-13377 then
+                                Xa,Sb=h(_c,yc);
+                                yc=Xa;
+                                if yc==nil then
+                                    m=l(1678)
+                                else
+                                    m=l(-17508)
+                                end
+                            elseif m==-6675 then
+                                Wg=163
+                                m=l(-29998)
+                            elseif m==22736 then
+                                Wg=2048.3314999999998
+                                m=8832
+                            elseif m==26070 then
+                                Xe=0.050000000000000003
+                                m=l(16981)
+                            elseif m==7305 then
+                                eg=162
+                                m=19283
+                            elseif m==-32250 then
+                                df=gb(Wf(Yg))
+                                m=l(-4810)
+                            elseif m==-14694 then
+                                Wg=108.6206
+                                m=-14984
+                            elseif m==17447 then
+                                Tf=Tf.Cylinder
+                                m=l(20058)
+                            elseif m==-11168 then
+                                df=gb(ipairs(ub(Dg[1],1,Dg[2])))
+                                m=l(-36738)
+                            elseif m==4598 then
+                                Yg,Ae,je=ub(df[1],1,df[2]);
+                                m=l(9205)
+                            elseif m==2202 then
+                                Ma=Ma(Wg,eg,Tf)
+                                m=-22902
+                            elseif m==-23288 then
+                                Sb.Parent=vb;
+                                m=l(25366)
                                 break
-                            elseif K==26910 then
-                                vg,dc,Eb=O(Q[1],1,Q[2]);
-                                K=zf(10528)
-                            elseif K==-10067 then
-                                tg=165
-                                K=zf(-6144)
-                            elseif K==-24249 then
-                                zd=0
-                                K=-28588
-                            elseif K==18917 then
-                                Q=td(we(vg))
-                                K=zf(35888)
-                            elseif K==-12134 then
-                                Q=Cd
-                                K=-3748
-                            elseif K==-6460 then
-                                Q=Cd.Character
-                                K=-25629
-                            elseif K==-13914 then
-                                Q=td(ipairs(O(Td[1],1,Td[2])))
-                                K=zf(26364)
-                            elseif K==-3773 then
-                                Q={Q,Qe}
-                                K=zf(36761)
-                            elseif K==-7568 then
-                                Td='Shovels'
-                                K=-16554
-                            elseif K==-7767 then
-                                Td=b.new
-                                K=-21768
-                            elseif K==-30899 then
-                                ia=0
-                                K=-5926
-                            elseif K==27393 then
-                                Sd=163
-                                K=18456
-                            elseif K==-12351 then
-                                Q=td(unpack(nb))
-                                K=zf(19133)
-                            elseif K==5519 then
-                                tg=Enum.PartType
-                                K=zf(11703)
-                            elseif K==-11320 then
-                                zd=90
-                                K=-23974
-                            elseif K==-31580 then
-                                Td='Backpack'
-                                K=21904
-                            elseif K==-2156 then
-                                Q=Vb
-                                K=-5369
-                            elseif K==-5926 then
-                                Td=Qe(Q,Td,Md,zd,true,game,ia)
-                                K=zf(-3453)
-                            elseif K==-19561 then
-                                Q=I.__iter
-                                K=-24065
-                            elseif K==-9842 then
-                                Kf,oa,Zb=O(Q[1],1,Q[2]);
-                                K=zf(17029)
-                            elseif K==-17372 then
-                                I=O(Q[1],1,Q[2]);
-                                if I~=nil and I.__iter~=nil then
-                                    K=zf(-14291)
+                            elseif m==-22190 then
+                                Hf[Wb.Name]=true;
+                                m=l(15133)
+                            elseif m==-11626 then
+                                Xe=df.SendMouseButtonEvent
+                                m=-3522
+                            elseif m==31580 then
+                                Ma=Color3 .fromRGB
+                                m=-6675
+                            elseif m==8534 then
+                                df=task.wait
+                                m=20254
+                            elseif m==19334 then
+                                Xe=df.GetChildren
+                                m=l(-26525)
+                            elseif m==-7806 then
+                                Wg=Wg.Plastic
+                                m=l(17835)
+                            elseif m==-8521 then
+                                nd,Pf,hd=ub(df[1],1,df[2]);
+                                m=l(23414)
+                            elseif m==-304 then
+                                df=Xe
+                                m=l(-30830)
+                            elseif m==8832 then
+                                eg=108.5706
+                                m=-17982
+                            elseif m==-11706 then
+                                Dg='Players'
+                                m=1454
+                            elseif m==20254 then
+                                Xe=0
+                                m=l(7775)
+                            elseif m==-7940 then
+                                df=task.wait
+                                m=-25635
+                            elseif m==24383 then
+                                Xe=1.5
+                                m=l(-27457)
+                            elseif m==26686 then
+                                Ma=2048.3314999999998
+                                m=l(-30020)
+                            elseif m==-32406 then
+                                md=5.5872999999999999
+                                m=-22430
+                            elseif m==2055 then
+                                Ma=90
+                                m=l(11703)
+                            elseif m==8387 then
+                                Tf=Tg.new
+                                m=l(-21178)
+                            elseif m==3357 then
+                                eg=135
+                                m=18701
+                            elseif m==-14984 then
+                                eg=321.55239999999998
+                                m=l(2485)
+                            elseif m==26462 then
+                                Ma=0
+                                m=l(21717)
+                            elseif m==29406 then
+                                Dg=Oa.CharacterAdded
+                                m=25604
+                            elseif m==27395 then
+                                mf=0
+                                m=-10485
+                            elseif m==21234 then
+                                df=0
+                                m=l(-10396)
+                            elseif m==5253 then
+                                ec=ub(Dg[1],1,Dg[2]);
+                                m=l(13838);
+                            elseif m==9589 then
+                                df=df(Xe)
+                                m=l(14568)
+                            elseif m==-12377 then
+                                mf=0
+                                m=-29379
+                            elseif m==-7055 then
+                                Vg=Tg.new
+                                m=-23643
+                            elseif m==1454 then
+                                Dg=gb(Xe(df,Dg))
+                                m=23315
+                            elseif m==12543 then
+                                Ud=ub(df[1],1,df[2]);
+                                if Ud~=nil and Ud.__iter~=nil then
+                                    m=l(5117)
                                     break
-                                elseif pg(Kf)=='table'then
-                                    K=zf(24185)
+                                elseif Z(h)=='table'then
+                                    m=l(12909)
                                     break
                                 end
-                                K=zf(30015)
-                            elseif K==739 then
-                                zb=135
-                                K=-27813
-                            elseif K==32399 then
-                                Td=td(Qe(Q))
-                                K=zf(19738)
-                            elseif K==-26496 then
-                                Q=Q(Qe)
-                                K=zf(37673)
-                            elseif K==32123 then
-                                Cd=Q;
-                                K=zf(-20178);
-                            elseif K==21996 then
-                                b=Vector3;
-                                K=zf(-19446);
-                            elseif K==11732 then
-                                Q=Q(Qe)
-                                K=zf(31638)
-                            elseif K==16444 then
-                                zb=321.55239999999998
-                                K=17538
-                            elseif K==31817 then
-                                Q=task.wait
-                                K=-2757
-                            elseif K==8672 then
-                                Qe=Q.GetChildren
-                                K=20897
-                            elseif K==-31924 then
-                                Sd=Color3 .fromRGB
-                                K=739
-                            elseif K==-3848 then
-                                Q=td(Yf(Vg))
-                                K=zf(34947)
-                            elseif K==19996 then
-                                xa=b.new
-                                K=zf(5125)
-                            elseif K==30818 then
-                                Qe={Orientation=Qe,Transparency=Td,Name=Md,Position=zd,Color=ia,Material=Sd,Shape=zb,Size=tg}
-                                K=-7767
-                            elseif K==-3289 then
-                                Vb=O(Td[1],1,Td[2]);
-                                K=-6460;
-                            elseif K==10205 then
-                                Q=Lf
-                                K=20374
-                            elseif K==23719 then
-                                Q=Q(Qe)
-                                K=zf(-15336)
-                            elseif K==-5628 then
-                                Md=Td.Wait
-                                K=zf(4328)
-                            elseif K==22576 then
-                                Td=td(Qe(Q))
-                                K=-13914
-                            elseif K==-30438 then
-                                ia=O(zd[1],1,zd[2])
-                                K=25623
-                            elseif K==30473 then
-                                zd=b.new
-                                K=-32712
-                            elseif K==-1815 then
-                                ia=ia(Sd,zb,tg)
-                                K=zf(-16523)
-                            elseif K==-23974 then
-                                ia=90
-                                K=19803
-                            elseif K==3702 then
-                                Td={Orientation=Td,Transparency=Md,Name=zd,Position=ia,Color=Sd,Material=zb,Shape=tg,Size=xa}
-                                K=zf(8279)
-                            elseif K==-24065 then
-                                Q=td(Q(Kf))
-                                K=zf(-12002)
-                            elseif K==17170 then
-                                Sd=Sd.Plastic
-                                K=zf(26604)
-                            elseif K==-10388 then
-                                hd=0.10000000000000001
-                                K=-15198
-                            elseif K==-31221 then
-                                vg,dc,Eb=O(Q[1],1,Q[2]);
-                                if pg(vg)~='function'then
-                                    K=zf(31891)
+                                m=l(-4813)
+                            elseif m==-907 then
+                                df=df(Xe)
+                                m=l(-10560)
+                            elseif m==-28295 then
+                                Oa=df;
+                                m=l(-17588);
+                            elseif m==-27548 then
+                                U=df;
+                                m=l(-13245);
+                            elseif m==30068 then
+                                if Sb:IsA('Tool')and Hf[Sb.Name]then
+                                    m=l(-26580)
+                                    break
+                                end
+                                m=l(-30441)
+                            elseif m==-1818 then
+                                Xe={Xe,Dg}
+                                m=l(12689)
+                            elseif m==-24340 then
+                                if Xe then
+                                    m=l(2819)
+                                    break
+                                end
+                                m=29406
+                            elseif m==-15539 then
+                                Ma=Ma(Wg,eg,Tf)
+                                m=26357
+                            elseif m==-9822 then
+                                Vc=0
+                                m=l(27019)
+                            elseif m==-10172 then
+                                Tf=Enum.PartType
+                                m=17447
+                            elseif m==15390 then
+                                Vc=gb(mf(Dg))
+                                m=-30569
+                            elseif m==-26508 then
+                                Xe={Orientation=Xe,Transparency=Dg,Name=mf,Position=Vc,Color=Ma,Material=Wg,Shape=eg,Size=Tf}
+                                m=270
+                            elseif m==15427 then
+                                df=te.__iter
+                                m=27292
+                            elseif m==-9262 then
+                                df=gb(unpack(U))
+                                m=l(-37626)
+                            elseif m==30841 then
+                                Dg=Dg(mf,Vc,Ma)
+                                m=l(2676)
+                            elseif m==-32502 then
+                                Dg=gb(Xe(df,Dg))
+                                m=l(-24929)
+                            elseif m==-21427 then
+                                Tf=Tf(Vg,ad,e)
+                                m=-26508
+                            elseif m==-17501 then
+                                df=gb(df(h))
+                                m=l(19846)
+                            elseif m==18701 then
+                                Tf=114
+                                m=-21045
+                            elseif m==23036 then
+                                df=gb(Wf(nd))
+                                m=l(3289)
+                            elseif m==30689 then
+                                Xe=df.WaitForChild
+                                m=l(-25705)
+                            elseif m==23315 then
+                                df=ub(Dg[1],1,Dg[2]).LocalPlayer
+                                m=l(24768)
+                            elseif m==-17321 then
+                                ad=0.10000000000000001
+                                m=l(-19521)
+                            elseif m==-3857 then
+                                Xe=df.GetChildren
+                                m=11957
+                            elseif m==8515 then
+                                df=gb(qe(Yg))
+                                m=l(10032)
+                            elseif m==-23643 then
+                                ad=0.20000000000000001
+                                m=l(-1971)
+                            elseif m==10289 then
+                                Yg,Ae,je=ub(df[1],1,df[2]);
+                                if Z(Yg)~='function'then
+                                    m=l(-8464)
                                     break
                                 end;
-                                K=zf(-12811);
-                            elseif K==25994 then
-                                mb=O(Q[1],1,Q[2]);
-                                if mb~=nil and mb.__iter~=nil then
-                                    K=zf(-9233)
-                                    break
-                                elseif pg(vg)=='table'then
-                                    K=zf(-11800)
-                                    break
-                                end
-                                K=zf(-9143)
-                            elseif K==17004 then
-                                ha=Q;
-                                K=4671;
-                            elseif K==-32315 then
-                                Sd=108.6206
-                                K=zf(18371)
-                            elseif K==-15913 then
-                                tg=b.new
-                                K=zf(-18901)
-                            elseif K==-10263 then
-                                Q=Bc.__iter
-                                K=-8010
-                            elseif K==-5369 then
-                                Qe=Q.GetChildren
-                                K=zf(31566)
-                            elseif K==19803 then
-                                Td=Td(Md,zd,ia)
-                                K=zf(-10355)
-                            elseif K==-9359 then
-                                Vg,pc,M=O(Q[1],1,Q[2]);
-                                K=zf(10157)
-                            elseif K==12112 then
-                                Q=td(Yf(Kf))
-                                K=zf(-15897)
-                            elseif K==-1303 then
-                                ae.Parent=Vb;
-                                K=zf(17684)
-                            elseif K==15896 then
-                                Kc,jc=Kf(oa,Zb);
-                                Zb=Kc;
-                                if Zb==nil then
-                                    K=zf(-20345)
-                                else
-                                    K=26646
-                                end
-                            elseif K==-4376 then
-                                Yc=5.5872999999999999
-                                K=zf(-18307)
-                            elseif K==-15340 then
-                                Td=td(Qe(Q,Td))
-                                K=-30399
-                            elseif K==12628 then
-                                Q=be
-                                K=-30921
-                            elseif K==-23342 then
-                                Td=1
-                                K=5512
-                            elseif K==21134 then
-                                Td='Players'
-                                K=-15340
-                            elseif K==-16799 then
-                                if Qe then
-                                    K=zf(26094)
-                                    break
-                                end
-                                K=-21710
-                            elseif K==-21710 then
-                                Td=Cd.CharacterAdded
-                                K=zf(2382)
-                            elseif K==21185 then
-                                Q=task.wait
-                                K=zf(35755)
-                            elseif K==29354 then
-                                Sd=Enum.Material
-                                K=17170
-                            elseif K==10452 then
-                                Qe=Q.WaitForChild
-                                K=zf(-22977)
-                            elseif K==7006 then
-                                zb=108.5706
-                                K=7427
-                            elseif K==9168 then
-                                if zc then
-                                    K=zf(22875)
-                                else
-                                    K=-27256
-                                end
-                            elseif K==14103 then
-                                Q=td(Q(vg))
-                                K=zf(16143)
-                            elseif K==-8126 then
-                                tg=tg.Cylinder
-                                K=zf(10097)
-                            elseif K==-17708 then
-                                Q=mb.__iter
-                                K=zf(-18497)
-                            elseif K==-28588 then
-                                ia=0
-                                K=12769
-                            elseif K==25205 then
-                                od=0.20000000000000001
-                                K=28958
-                            elseif K==-32490 then
-                                Td=0
-                                K=zf(3664)
-                            elseif K==-17087 then
-                                Q=task.wait
-                                K=-6327
-                            elseif K==-5288 then
-                                zb=zb.Pebble
-                                K=5519
-                            elseif K==-12534 then
-                                zb=Enum.Material
-                                K=-5288
-                            elseif K==8275 then
-                                Qe=0.050000000000000003
-                                K=-26496
-                            elseif K==31357 then
-                                Q=0
-                                K=-18873
-                            elseif K==-7391 then
-                                ia=ia(Sd,zb,tg)
-                                K=zf(21651)
-                            elseif K==-28670 then
-                                zd=td(Md(Td))
-                                K=-30438
-                            elseif K==27462 then
-                                be=Q;
-                                K=zf(28357);
-                            elseif K==662 then
-                                od=0.10000000000000001
-                                K=zf(-6856)
-                            elseif K==-5540 then
-                                Q=td(ipairs(O(Td[1],1,Td[2])))
-                                K=zf(28663)
-                            elseif K==-27658 then
-                                Vg,pc,M=O(Q[1],1,Q[2]);
-                                K=zf(24598)
-                            elseif K==-9054 then
-                                Bc=O(Q[1],1,Q[2]);
-                                if Bc~=nil and Bc.__iter~=nil then
-                                    K=zf(-21922)
-                                    break
-                                elseif pg(Vg)=='table'then
-                                    K=zf(9606)
-                                    break
-                                end
-                                K=zf(-1775)
-                            elseif K==32367 then
-                                Q=Q(Qe)
-                                K=zf(3698)
-                            elseif K==17538 then
-                                zb=-zb
-                                K=24033
-                            elseif K==18483 then
-                                Kf,oa,Zb=O(Q[1],1,Q[2]);
-                                if pg(Kf)~='function'then
-                                    K=zf(-20411)
+                                m=l(26691);
+                            elseif m==-22902 then
+                                Wg=Color3 .fromRGB
+                                m=l(-35241)
+                            elseif m==32230 then
+                                Dg=gb(Xe(df))
+                                m=30709
+                            elseif m==-21488 then
+                                Ma=Tg.new
+                                m=22736
+                            elseif m==29041 then
+                                h,_c,yc=ub(df[1],1,df[2]);
+                                if Z(h)~='function'then
+                                    m=l(21062)
                                     break
                                 end;
-                                K=zf(4914);
-                            elseif K==-28458 then
-                                xa=0.10000000000000001
-                                K=zf(19248)
-                            elseif K==-2757 then
-                                Qe=0.5
-                                K=11732
-                            elseif K==8270 then
-                                Q=Qe
-                                K=zf(-1015)
-                            elseif K==16038 then
-                                Qe=0
-                                K=32367
-                            elseif K==-27813 then
-                                tg=114
-                                K=19965
-                            elseif K==-32612 then
-                                vg,dc,Eb=O(Q[1],1,Q[2]);
-                                K=zf(1825)
-                            elseif K==-18873 then
-                                Qe=b.zero
-                                K=-23342
-                            elseif K==18456 then
-                                zb=162
-                                K=-10067
-                            elseif K==27044 then
-                                Qe=Q.SendMouseButtonEvent
-                                K=zf(32212)
-                            elseif K==27057 then
-                                Qe=Q.GetService
-                                K=zf(15610)
-                            elseif K==15793 then
-                                Md=0
-                                K=zf(18439)
-                            elseif K==-14146 then
-                                if ae:IsA('Tool')then
-                                    K=zf(26548)
-                                    break
-                                end
-                                K=zf(36844)
-                            elseif K==-13589 then
-                                tg=-tg
-                                K=zf(6834)
-                            elseif K==-13231 then
-                                Bd,ae=vg(dc,Eb);
-                                Eb=Bd;
-                                if Eb==nil then
-                                    K=zf(-673)
+                                m=l(1928);
+                            elseif m==29793 then
+                                Dg='Shovels'
+                                m=-32464
+                            elseif m==14222 then
+                                vb=df;
+                                m=l(14221);
+                            elseif m==38 then
+                                df=ta
+                                m=l(7704)
+                            elseif m==-5061 then
+                                df=gb(Wf(h))
+                                m=l(-18498)
+                            elseif m==16741 then
+                                eg=eg.Pebble
+                                m=l(-24164)
+                            elseif m==17317 then
+                                Vc='CenterCylinder'
+                                m=l(-19777)
+                            elseif m==-30569 then
+                                Ma=ub(Vc[1],1,Vc[2])
+                                m=l(-36938)
+                            elseif m==1437 then
+                                df=gb(ipairs(ub(Dg[1],1,Dg[2])))
+                                m=l(-1785)
+                            elseif m==-22430 then
+                                Vg=Vg(ad,e,md)
+                                m=-13810
+                            elseif m==-10944 then
+                                Yg,Ae,je=ub(df[1],1,df[2]);
+                                m=l(3655)
+                            elseif m==26538 then
+                                df=Oa.Character
+                                m=l(1820)
+                            elseif m==15824 then
+                                df=ta
+                                m=l(-27672)
+                            elseif m==-10485 then
+                                Vc=0
+                                m=26462
+                            elseif m==-10789 then
+                                eg=eg.Block
+                                m=l(-308)
+                            elseif m==-30875 then
+                                df=Kd
+                                m=19334
+                            elseif m==-30497 then
+                                m=l(-24427);
+                                break;
+                            elseif m==-17000 then
+                                g,Gg=Yg(Ae,je);
+                                je=g;
+                                if je==nil then
+                                    m=l(-2610)
                                 else
-                                    K=zf(40707)
+                                    m=16247
                                 end
-                            elseif K==9408 then
-                                Vg,pc,M=O(Q[1],1,Q[2]);
-                                if pg(Vg)~='function'then
-                                    K=zf(-6269)
+                            elseif m==-6423 then
+                                df=game
+                                m=l(6482)
+                            elseif m==-3522 then
+                                Dg=0
+                                m=l(3335)
+                            elseif m==19434 then
+                                Dg=Xe(df,Dg,mf,Vc,true,game,Ma)
+                                m=l(-17309)
+                            elseif m==23774 then
+                                mf=0
+                                m=l(-29409)
+                            elseif m==15352 then
+                                Vc=Tg.new
+                                m=l(-13623)
+                            elseif m==-24295 then
+                                eg=Enum.PartType
+                                m=-10789
+                            elseif m==12000 then
+                                df=gb(df(Yg))
+                                m=l(10670)
+                            elseif m==10917 then
+                                df=df(Xe)
+                                m=l(2935)
+                            elseif m==10681 then
+                                df=vc.__iter
+                                m=l(15668)
+                            elseif m==-25122 then
+                                df=Oa
+                                m=30689
+                            elseif m==-13810 then
+                                Dg={Orientation=Dg,Transparency=mf,Name=Vc,Position=Ma,Color=Wg,Material=eg,Shape=Tf,Size=Vg}
+                                m=-1818
+                            elseif m==25130 then
+                                Ma=0
+                                m=l(-15958)
+                            elseif m==27786 then
+                                df=Ud.__iter
+                                m=-17501
+                            elseif m==-22731 then
+                                Tg=Vector3;
+                                m=21234;
+                            elseif m==31622 then
+                                mf='PositionPart'
+                                m=15352
+                            elseif m==-10566 then
+                                Xe=df.GetChildren
+                                m=l(-2708)
+                            elseif m==-21197 then
+                                Xe=Tg.zero
+                                m=l(6318)
+                            elseif m==13656 then
+                                Xe=df.GetService
+                                m=-11706
+                            elseif m==-21045 then
+                                Vg=85
+                                m=-15775
+                            elseif m==26892 then
+                                Vg=0.10000000000000001
+                                m=-17321
+                            elseif m==1380 then
+                                Dg='Backpack'
+                                m=-32502
+                            elseif m==11957 then
+                                Dg=gb(Xe(df))
+                                m=l(7077)
+                            elseif m==31719 then
+                                Xe=df.WaitForChild
+                                m=29793
+                            elseif m==26357 then
+                                Wg=Enum.Material
+                                m=l(-18782)
+                            elseif m==-19459 then
+                                df=task.wait
+                                m=l(17841)
+                            elseif m==-14563 then
+                                h,_c,yc=ub(df[1],1,df[2]);
+                                m=l(-36015)
+                            elseif m==-24832 then
+                                df=ec
+                                m=-10566
+                            elseif m==12853 then
+                                df=df(Xe)
+                                m=l(26808)
+                            elseif m==-16612 then
+                                Vc=Vc(Ma,Wg,eg)
+                                m=l(13253)
+                            elseif m==-10600 then
+                                e=0.10000000000000001
+                                m=l(1135)
+                            elseif m==14124 then
+                                h,_c,yc=ub(df[1],1,df[2]);
+                                m=l(-10163)
+                            elseif m==8876 then
+                                eg=Enum.Material
+                                m=l(23637)
+                            elseif m==-29379 then
+                                Vc=90
+                                m=2055
+                            elseif m==19283 then
+                                Tf=165
+                                m=l(13414)
+                            elseif m==-32464 then
+                                Dg=gb(Xe(df,Dg))
+                                m=l(11621)
+                            elseif m==-32590 then
+                                df=task.wait
+                                m=24383
+                            elseif m==270 then
+                                Dg=Tg.new
+                                m=l(-5948)
+                            elseif m==9718 then
+                                df=gb(qe(h))
+                                m=l(-15586)
+                            elseif m==25604 then
+                                mf=Dg.Wait
+                                m=l(3530)
+                            elseif m==-7109 then
+                                Xe=df
+                                m=-24340
+                            elseif m==31597 then
+                                Tf=-Tf
+                                m=l(-21194)
+                            elseif m==-29538 then
+                                eg=-eg
+                                m=l(-18339)
+                            elseif m==13396 then
+                                Hf=df;
+                                m=l(-395);
+                            elseif m==16247 then
+                                if Gg:IsA('Tool')then
+                                    m=l(-17769)
                                     break
-                                end;
-                                K=zf(13453);
-                            elseif K==20225 then
-                                Q=task.wait
-                                K=zf(19584)
-                            elseif K==4671 then
-                                Q=qd
-                                K=8672
-                            elseif K==24033 then
-                                zd=zd(ia,Sd,zb)
-                                K=zf(15355)
-                            elseif K==-30399 then
-                                Q=O(Td[1],1,Td[2]).LocalPlayer
-                                K=zf(13743)
-                            elseif K==-21768 then
-                                Md=0
-                                K=zf(11745)
-                            elseif K==21904 then
-                                Td=td(Qe(Q,Td))
-                                K=zf(30149)
-                            elseif K==-16700 then
-                                Md=0
-                                K=-24249
-                            elseif K==-8010 then
-                                Q=td(Q(Vg))
-                                K=zf(21703)
-                            elseif K==12769 then
-                                Td=Qe(Q,Td,Md,zd,false,game,ia)
-                                K=zf(26981)
-                            elseif K==21772 then
-                                Kf,oa,Zb=O(Q[1],1,Q[2]);
-                                K=zf(-16812)
-                            elseif K==1320 then
-                                Md=0
-                                K=zf(30431)
-                            elseif K==-22073 then
-                                ia=b.new
-                                K=zf(-9186)
-                            elseif K==-8450 then
-                                Td=0
-                                K=15793
-                            elseif K==23171 then
-                                Qe={Qe,Td}
-                                K=-3773
-                            elseif K==28958 then
-                                hd=6.4161999999999999
-                                K=-4376
-                            elseif K==8325 then
-                                Q=td(Yf(vg))
-                                K=zf(35971)
-                            elseif K==23045 then
-                                zd=0
-                                K=-30899
-                            elseif K==-27380 then
-                                zb=Enum.PartType
-                                K=zf(-23673)
-                            elseif K==20374 then
-                                Qe=Q.SendMouseButtonEvent
-                                K=zf(29225)
+                                end
+                                m=l(26555)
+                            elseif m==-3563 then
+                                df=gb(qe(nd))
+                                m=l(20493)
                             end
                         end
-                    until K==29820
+                    until m==-25346
                 end)
-                sd=rd(-54699)
-            elseif sd==7784 then
-                ic=task.spawn
-                sd=10367
-            elseif sd==-28672 then
-                sd=rd(-57868);
+                Xg=ne(-6533)
+            end
+        end
+    until Xg==12925
+end})
+local ue=Zc:CreateSection(' Sell')
+local dc=Zc:CreateButton({Name='Sell All Items',Callback=function()
+    local Zf,ud,hb,ah
+    ah,ud={[3112]=-6803,[-12497]=15681,[-7536]=-32339,[6845]=-18892,[2048]=22917,[-28012]=-6803},function(_a)
+        return ah[_a+-23796]
+    end
+    Zf=ud(16260)
+    repeat
+        while true do
+            if Zf==-32339 then
+                hb=task.spawn
+                Zf=19673
+            elseif Zf==19673 then
+                hb=hb(function()
+                    local ia={workspace:WaitForChild('World'):WaitForChild('NPCs'):WaitForChild('Rocky')};
+                    game:GetService('ReplicatedStorage'):WaitForChild('DialogueRemotes'):WaitForChild('SellAllItems'):FireServer(unpack(ia))
+                end)
+                Zf=ud(26908)
+            elseif Zf==-6803 then
+                Zf=ud(30641);
                 break;
             end
         end
-    until sd==30428
+    until Zf==-18892
 end})
-local Fd=se:CreateSection(' Sell')
-local ta=se:CreateButton({Name='Sell All Items',Callback=function()
-    local Se,J,te,Pc
-    te,Pc={[-23184]=26148,[-27299]=-17318,[-18032]=26148,[29060]=5153,[-2705]=5153,[9156]=-781,[-23844]=19209},function(Jb)
-        return te[Jb+1490]
+local Pa=Zc:CreateToggle({Name='Auto Sell All',CurrentValue=false,Flag='AutoSellAll',Callback=function(og)
+    local dh,ib,Lg,Ff
+    Lg,Ff={[-32062]=-14154,[-2962]=3735,[-10048]=3735,[-13723]=3735,[-26978]=-24817,[-13668]=31005,[-28348]=-21965,[20198]=10828,[2375]=31005,[23603]=-5196,[-27804]=31005},function(db)
+        return Lg[db+4134]
     end
-    Se=Pc(-19522)
+    ib=Ff(-17857)
     repeat
         while true do
-            if Se==5153 then
-                Se=Pc(-25334);
-                break;
-            elseif Se==8707 then
-                J=J(function()
-                    local Ib={workspace:WaitForChild('World'):WaitForChild('NPCs'):WaitForChild('Rocky')};
-                    game:GetService('ReplicatedStorage'):WaitForChild('DialogueRemotes'):WaitForChild('SellAllItems'):FireServer(unpack(Ib))
-                end)
-                Se=Pc(-4195)
-            elseif Se==26148 then
-                J=task.spawn
-                Se=8707
-            end
-        end
-    until Se==19209
-end})
-local of=se:CreateToggle({Name='Auto Sell All',CurrentValue=false,Flag='AutoSellAll',Callback=function(Mb)
-    local Y,Ee,Af,vd
-    Af,vd={[-4811]=21028,[-27614]=21028,[-9469]=5866,[-22322]=27382,[5184]=5920,[-11390]=-10194,[23294]=27382,[18349]=27382,[7749]=21028,[-32460]=-10368,[19531]=-11077,[28497]=-11077},function(Dc)
-        return Af[Dc-3503]
-    end
-    Y=vd(-18819)
-    repeat
-        while true do
-            if Y==-11077 then
-                Ee=task.spawn
-                Y=-25869
-            elseif Y==27382 then
-                Oc=Mb;
-                if Mb then
-                    Y=vd(32000)
-                    break
-                end
-                Y=21028
-            elseif Y==-25869 then
-                Ee=Ee(function()
-                    local eg,bc,ah,Rf,nd,j,P
-                    bc,P={[-25632]=28289,[-16718]=30726,[-4680]=13240,[-3439]=3934,[-24380]=16375,[786]=28312,[31801]=-2091,[-10898]=18526,[16312]=30726,[-16002]=18526,[23141]=30726,[32319]=30726,[21964]=26709,[-21719]=-5750,[-9760]=-32682,[5497]=-1749,[19044]=-1886,[-2934]=26709,[19444]=7550,[28904]=-2091,[11873]=30726},function(gf)
-                        return bc[gf-20979]
+            if ib==-14154 then
+                dh=task.spawn
+                ib=29657
+            elseif ib==29657 then
+                dh=dh(function()
+                    local Hb,Te,gg,Me,Uc,Sa,B
+                    Te,B={[-19179]=14748,[-32079]=14748,[-26826]=7877,[-11226]=-18196,[14919]=-27846,[31173]=-26571,[-8018]=25722,[-22324]=-26571,[-4097]=12713,[3350]=-5890,[27909]=-20331,[26912]=12713,[-29334]=-16152,[-18038]=14748,[-106]=11211,[-15675]=-8192,[23162]=14748},function(Gf)
+                        return Te[Gf+1890]
                     end
-                    ah=P(32852)
+                    gg=B(-19928)
                     repeat
                         while true do
-                            if ah==-15688 then
-                                nd=eg.WaitForChild
-                                ah=-4889
-                            elseif ah==28312 then
-                                ah=P(11219);
-                                break;
-                            elseif ah==-14370 then
-                                Rf=nd(eg,O(Rf[1],1,Rf[2]))
-                                ah=P(18045)
-                            elseif ah==-4889 then
-                                Rf='Rocky'
-                                ah=5459
-                            elseif ah==-1749 then
-                                eg=game:GetService('ReplicatedStorage'):WaitForChild('DialogueRemotes'):WaitForChild('SellAllItems')
-                                ah=-8244
-                            elseif ah==18526 then
-                                eg=workspace:WaitForChild('World'):WaitForChild('NPCs')
-                                ah=-15688
-                            elseif ah==5459 then
-                                Rf=td(nd(eg,Rf))
-                                ah=P(40423)
-                            elseif ah==28229 then
-                                eg=eg(Xa)
-                                ah=P(4261)
-                            elseif ah==26709 then
-                                eg=task.wait
-                                ah=28229
-                            elseif ah==16375 then
-                                Rf=td(unpack(j))
-                                ah=-14370
-                            elseif ah==7550 then
-                                eg={O(Rf[1],1,Rf[2])}
-                                ah=P(52780)
-                            elseif ah==-8244 then
-                                nd=eg.FireServer
-                                ah=P(-3401)
-                            elseif ah==-2091 then
-                                j=eg;
-                                ah=P(26476);
-                            elseif ah==30726 then
-                                if Oc then
-                                    ah=P(4977)
+                            if gg==12713 then
+                                Me=task.wait
+                                gg=638
+                            elseif gg==12786 then
+                                Me=game:GetService('ReplicatedStorage'):WaitForChild('DialogueRemotes'):WaitForChild('SellAllItems')
+                                gg=-32059
+                            elseif gg==7877 then
+                                Hb=gb(unpack(Sa))
+                                gg=6198
+                            elseif gg==-32059 then
+                                Uc=Me.FireServer
+                                gg=B(-28716)
+                            elseif gg==-26571 then
+                                Sa=Me;
+                                gg=12786;
+                            elseif gg==638 then
+                                Me=Me(mb)
+                                gg=B(-21069)
+                            elseif gg==20034 then
+                                Me={ub(Hb[1],1,Hb[2])}
+                                gg=B(29283)
+                            elseif gg==6198 then
+                                Hb=Uc(Me,ub(Hb[1],1,Hb[2]))
+                                gg=B(25022)
+                            elseif gg==-18196 then
+                                Hb='Rocky'
+                                gg=17771
+                            elseif gg==17771 then
+                                Hb=gb(Uc(Me,Hb))
+                                gg=20034
+                            elseif gg==-5890 then
+                                Me=workspace:WaitForChild('World'):WaitForChild('NPCs')
+                                gg=14803
+                            elseif gg==14748 then
+                                if x then
+                                    gg=B(1460)
                                 else
-                                    ah=P(21765)
+                                    gg=25237
                                 end
+                            elseif gg==14803 then
+                                Uc=Me.WaitForChild
+                                gg=B(-13116)
+                            elseif gg==25237 then
+                                gg=B(-31224);
+                                break;
                             end
                         end
-                    until ah==-32682
+                    until gg==-16152
                 end)
-                Y=vd(-24111)
-            elseif Y==21028 then
-                Y=vd(-7887);
+                ib=Ff(-1759)
+            elseif ib==3735 then
+                x=og;
+                if og then
+                    ib=Ff(-36196)
+                    break
+                end
+                ib=31005
+            elseif ib==31005 then
+                ib=Ff(-31112);
                 break;
             end
         end
-    until Y==-10194
+    until ib==-24817
 end})
-local bb=se:CreateSlider({Name='Auto Sell Interval (s)',Range={0,300},Increment=1,Suffix='seconds',CurrentValue=10,Flag='AutoSellInterval',Callback=function(Wb)
-    Xa=Wb;
+local Pd=Zc:CreateSlider({Name='Auto Sell Interval (s)',Range={0,300},Increment=1,Suffix='seconds',CurrentValue=10,Flag='AutoSellInterval',Callback=function(kc)
+    mb=kc;
 end})
-local ce=se:CreateSection(' Journal')
-local kg=se:CreateButton({Name='Claim All Journals',Callback=function()
-    local tc,yf,xe,fa,wd,xe,lc,n,ne,n,sg,U,Ef,ed,ig,ca,qa
-    U,tc={[-2477]=-23857,[12786]=-28859,[-15639]=-24768,[-19054]=-15203,[-6245]=31563,[8521]=-449,[-29693]=13704,[16279]=26298,[-23375]=-28662,[-6039]=7498,[23471]=-24768,[-10509]=-24907,[18996]=1595,[-22835]=-5108,[9481]=24490,[-16687]=8896,[-4224]=-10216,[5224]=-32383,[-25681]=13928,[4975]=-24235,[-30987]=-23857,[-25110]=26298,[-26354]=-18936,[29630]=-22927,[28613]=24490,[-3246]=-23605,[-11395]=-21352,[-1507]=-23857,[1333]=20471,[-8156]=-8025,[31564]=13704,[2258]=-23857,[13179]=-31714,[12646]=-24235,[-13920]=-31055,[19166]=10997,[27297]=-13978,[-9078]=-23857,[27681]=20740,[-24755]=-28754,[-20921]=-20574,[8404]=-23857,[-25375]=-23857,[-13531]=-22927,[27408]=21143,[30877]=-21352,[19936]=-23857,[-15788]=-534,[-29564]=26153,[29266]=-28912,[-27134]=-534,[-11823]=-23857,[-13529]=9487,[-13722]=11825,[-6729]=-27104,[20892]=5692,[11952]=-17536,[26761]=26298,[16631]=-5108,[21124]=31606,[-8409]=-28754,[27248]=-28912,[-20469]=-3835,[-3576]=-23857,[-27231]=-23857,[-28389]=-28859,[-10066]=19753,[-22167]=-449,[11171]=-6033,[-9288]=-28754,[22045]=-5890,[-28740]=5692},function(yc)
-        return U[yc- -20790]
+local zb=Zc:CreateSection(' Journal')
+local _e=Zc:CreateButton({Name='Claim All Journals',Callback=function()
+    local Ee,Tb,jh,b,xf,Lf,ja,wb,ke,T,Yc,ed,ze,Mc,T,ee,ja
+    wb,ke={[11512]=32163,[-16649]=-17018,[11342]=-13763,[20290]=16306,[-9088]=-18896,[14957]=20590,[-22458]=28385,[20402]=-6257,[14797]=22078,[4107]=16306,[19655]=2104,[-22579]=-13086,[-29880]=-10255,[-7598]=-20567,[-28159]=-10255,[-14933]=-32289,[-17187]=23388,[28504]=-12416,[-1640]=2741,[6989]=12945,[23503]=28385,[-18844]=16306,[24539]=-25368,[13886]=-19790,[-9860]=16306,[26872]=-19790,[-18405]=16306,[-114]=31353,[-5066]=-16124,[-7076]=-23348,[-17604]=16306,[20797]=32588,[16136]=-6257,[25096]=-14618,[362]=32163,[-4133]=-8243,[7626]=31960,[-19562]=16306,[-9733]=-12416,[-23852]=5296,[21296]=15331,[6866]=20590,[3593]=21017,[-27070]=31353,[-21178]=16306,[-2614]=-18896,[20687]=-16983,[-8904]=-13435,[821]=16306,[4437]=-12416,[-12529]=10371,[-21032]=21709,[16139]=-13086,[20502]=16306,[25083]=15331,[-22312]=4783,[-20322]=9797,[-13173]=-23348,[-19508]=2945,[-2513]=32108,[-3469]=-11470},function(V)
+        return wb[V-9868]
     end
-    ed=tc(10087)
+    Ee=ke(964)
     repeat
         while true do
-            if ed==20740 then
-                fa=xe.Name
-                ed=-23276
-            elseif ed==-29724 then
-                fa=td(sg(yf))
-                ed=22186
-            elseif ed==21143 then
-                yf=yf(sg)
-                ed=tc(-22297)
-            elseif ed==24490 then
-                ca+=yf;
-                ed=12212;
-            elseif ed==7797 then
-                yf=ne
-                ed=tc(-41711)
-            elseif ed==-18936 then
-                sg=yf.GetService
-                ed=tc(-9619)
-            elseif ed==1595 then
-                yf=yf.Scroller
-                ed=tc(102)
-            elseif ed==-449 then
-                Ef=O(yf[1],1,yf[2]);
-                if Ef~=nil and Ef.__iter~=nil then
-                    ed=tc(-30856)
-                    break
-                elseif pg(wd)=='table'then
-                    ed=tc(2681)
-                    break
-                end
-                ed=tc(-51777)
-            elseif ed==-23276 then
-                fa=sg(yf,fa)
-                ed=tc(-29199)
-            elseif ed==-28662 then
-                fa=td(sg(yf,fa))
-                ed=tc(-7611)
-            elseif ed==-10216 then
-                yf=yf.Frame
-                ed=tc(-8838)
-            elseif ed==-8025 then
-                yf=yf.PlayerGui
-                ed=tc(1255)
-            elseif ed==22186 then
-                yf=td(ipairs(O(fa[1],1,fa[2])))
-                ed=tc(-43625)
-            elseif ed==-26447 then
-                yf=game:GetService('ReplicatedStorage'):WaitForChild('Remotes')
-                ed=tc(-24036)
-            elseif ed==-23857 then
-                n,xe=wd(lc,qa);
-                qa=n;
-                if qa==nil then
-                    ed=-1906
-                else
-                    ed=-11055
-                end
-            elseif ed==5692 then
-                ne=yf;
-                ed=-26447;
-            elseif ed==19753 then
-                yf=Ef.__iter
-                ed=tc(-46471)
-            elseif ed==-1906 then
-                ed=tc(-39844);
-                break;
-            elseif ed==12212 then
-                yf=task.wait
-                ed=26624
-            elseif ed==-21686 then
-                yf=0
-                ed=tc(6458)
-            elseif ed==-11055 then
-                if xe:IsA('TextButton')or xe:IsA('ImageButton')then
-                    ed=tc(-50354)
-                    break
-                end
-                ed=tc(-48021)
-            elseif ed==26624 then
-                sg=0
-                ed=tc(6618)
-            elseif ed==-31714 then
-                yf=O(fa[1],1,fa[2]).LocalPlayer
-                ed=tc(-28946)
-            elseif ed==-23605 then
-                sg=yf.WaitForChild
-                ed=-32263
-            elseif ed==-13978 then
-                yf=td(we(wd))
-                ed=tc(-42957)
-            elseif ed==-17536 then
-                yf=yf.Journal
-                ed=tc(-1794)
-            elseif ed==-28754 then
-                yf=1
-                ed=tc(-11309)
-            elseif ed==-28912 then
-                ca=yf;
-                ed=7797;
-            elseif ed==13928 then
-                yf=td(yf(wd))
-                ed=tc(-49179)
-            elseif ed==-6033 then
-                fa='Players'
-                ed=tc(-44165)
-            elseif ed==-24235 then
-                ig=O(fa[1],1,fa[2]);
-                ed=-21686;
-            elseif ed==-28859 then
-                wd,lc,qa=O(yf[1],1,yf[2]);
-                ed=tc(-18532)
-            elseif ed==31606 then
-                sg=yf.FireServer
-                ed=tc(6891)
-            elseif ed==-5890 then
-                yf=yf.HUD
-                ed=tc(-25014)
-            elseif ed==-24768 then
-                yf=td(Yf(wd))
-                ed=tc(-34321)
-            elseif ed==26153 then
-                yf=ig
-                ed=tc(334)
-            elseif ed==-24907 then
-                fa=td(sg(yf,fa))
-                ed=tc(-8144)
-            elseif ed==-32263 then
-                fa='Journal_Claim'
-                ed=tc(-31299)
-            elseif ed==-5108 then
-                wd,lc,qa=O(yf[1],1,yf[2]);
-                if pg(wd)~='function'then
-                    ed=tc(6507)
+            if Ee==28385 then
+                b=gb(Wf(Lf))
+                Ee=ke(-20012)
+            elseif Ee==9797 then
+                Yc='Journal_Claim'
+                Ee=-3324
+            elseif Ee==12945 then
+                b=gb(b(Lf))
+                Ee=ke(-3305)
+            elseif Ee==-25798 then
+                Yc=ja.Name
+                Ee=20444
+            elseif Ee==-23348 then
+                Lf,ze,ed=ub(b[1],1,b[2]);
+                Ee=ke(-8537)
+            elseif Ee==-17446 then
+                b=b.Frame
+                Ee=18501
+            elseif Ee==18501 then
+                b=b.Journal
+                Ee=-1245
+            elseif Ee==15331 then
+                b=gb(qe(Lf))
+                Ee=ke(23754)
+            elseif Ee==-22140 then
+                b=b(jh)
+                Ee=ke(-11310)
+            elseif Ee==-13763 then
+                b=xf.__iter
+                Ee=ke(16857)
+            elseif Ee==-13435 then
+                b=game
+                Ee=ke(17494)
+            elseif Ee==-18896 then
+                Lf,ze,ed=ub(b[1],1,b[2]);
+                if Z(Lf)~='function'then
+                    Ee=ke(-12590)
                     break
                 end;
-                ed=tc(-46165);
-            elseif ed==-21352 then
-                yf=game
-                ed=tc(-47144)
-            elseif ed==-20574 then
-                sg=yf.GetChildren
-                ed=-29724
-            elseif ed==-22927 then
-                wd,lc,qa=O(yf[1],1,yf[2]);
-                ed=tc(-32613)
+                Ee=ke(13975);
+            elseif Ee==21017 then
+                jh=0
+                Ee=-22140
+            elseif Ee==-339 then
+                b=Tb
+                Ee=17592
+            elseif Ee==-25368 then
+                b=0
+                Ee=ke(10230)
+            elseif Ee==-16124 then
+                b=gb(ipairs(ub(Yc[1],1,Yc[2])))
+                Ee=ke(780)
+            elseif Ee==16306 then
+                T,ja=Lf(ze,ed);
+                ed=T;
+                if ed==nil then
+                    Ee=-4497
+                else
+                    Ee=24143
+                end
+            elseif Ee==-11470 then
+                b=game:GetService('ReplicatedStorage'):WaitForChild('Remotes')
+                Ee=16685
+            elseif Ee==-16983 then
+                b=task.wait
+                Ee=ke(13461)
+            elseif Ee==-19790 then
+                Lf,ze,ed=ub(b[1],1,b[2]);
+                Ee=ke(-9694)
+            elseif Ee==20444 then
+                Yc=jh(b,Yc)
+                Ee=ke(9754)
+            elseif Ee==31960 then
+                jh=b.GetService
+                Ee=-5894
+            elseif Ee==32163 then
+                ee=b;
+                Ee=-339;
+            elseif Ee==-4497 then
+                Ee=ke(-5065);
+                break;
+            elseif Ee==24143 then
+                if ja:IsA('TextButton')or ja:IsA('ImageButton')then
+                    Ee=ke(2270)
+                    break
+                end
+                Ee=ke(10689)
+            elseif Ee==-5894 then
+                Yc='Players'
+                Ee=29541
+            elseif Ee==20590 then
+                Tb=b;
+                Ee=ke(6399);
+            elseif Ee==-14967 then
+                Yc=gb(jh(b))
+                Ee=ke(4802)
+            elseif Ee==-3324 then
+                Yc=gb(jh(b,Yc))
+                Ee=ke(26004)
+            elseif Ee==-5906 then
+                b=b.PlayerGui
+                Ee=2143
+            elseif Ee==-13086 then
+                ee+=b;
+                Ee=ke(30555);
+            elseif Ee==17592 then
+                jh=b.GetChildren
+                Ee=-14967
+            elseif Ee==-1245 then
+                b=b.Scroller
+                Ee=ke(24825)
+            elseif Ee==-10255 then
+                xf=ub(b[1],1,b[2]);
+                if xf~=nil and xf.__iter~=nil then
+                    Ee=ke(21210)
+                    break
+                elseif Z(Lf)=='table'then
+                    Ee=ke(34951)
+                    break
+                end
+                Ee=ke(-8976)
+            elseif Ee==29541 then
+                Yc=gb(jh(b,Yc))
+                Ee=ke(29523)
+            elseif Ee==2104 then
+                b=ub(Yc[1],1,Yc[2]).LocalPlayer
+                Ee=-5906
+            elseif Ee==31353 then
+                b=1
+                Ee=ke(26007)
+            elseif Ee==-6257 then
+                Mc=ub(Yc[1],1,Yc[2]);
+                Ee=ke(34407);
+            elseif Ee==2143 then
+                b=b.HUD
+                Ee=-17446
+            elseif Ee==16685 then
+                jh=b.WaitForChild
+                Ee=ke(-10454)
+            elseif Ee==15987 then
+                jh=b.FireServer
+                Ee=-25798
+            elseif Ee==-20567 then
+                b=Mc
+                Ee=15987
             end
         end
-    until ed==-15203
+    until Ee==-32289
 end})
-local Rg=se:CreateSection(' Charms')
-local Zd={'Controlled Glove','Lucky Bell','Blue Coil','Rock Pounder','Shoulder Bag','Vision Goggles'}
-local lf={}
-local Me={}
-local nf=workspace:WaitForChild('World'):WaitForChild('Interactive'):WaitForChild('Purchaseable')
-for C,ge in ipairs(nf:GetChildren())do
-    local wf,Xc,Wa,h,dd,jf,Na,Lb,x
-    Wa,jf={[-13181]=-19778,[28692]=-6717,[-11320]=-27502,[-23932]=-26978,[22036]=-5238,[-22769]=4388,[-4766]=-8985,[26466]=31082,[-15662]=19128,[23157]=-31346,[-11944]=19128,[-21090]=31082,[-18992]=29074,[-9501]=-28600,[-30144]=9547,[-23204]=-27502,[13236]=31082,[-18928]=31082,[-11997]=9127,[20317]=-12558,[29591]=-14383,[-19738]=31082,[-26586]=27170,[348]=12567,[-16416]=-31346,[-28683]=19128,[1293]=-18502,[-4014]=-28600,[3653]=-3100,[-4759]=9746,[13935]=-5238},function(v)
-        return Wa[v- -25255]
+local qb=Zc:CreateSection(' Charms')
+local Qa={'Controlled Glove','Lucky Bell','Blue Coil','Rock Pounder','Shoulder Bag','Vision Goggles'}
+local Rb={}
+local G={}
+local rd=workspace:WaitForChild('World'):WaitForChild('Interactive'):WaitForChild('Purchaseable')
+for va,jd in ipairs(rd:GetChildren())do
+    local P,F,Hc,xe,Sd,Ge,za,oe,fg
+    oe,Hc={[15626]=-32601,[-28101]=-23523,[-21342]=-8486,[-6772]=-31084,[-14055]=-8486,[20248]=-23523,[26255]=6990,[-26933]=-475,[20258]=-475,[-319]=-8486,[24645]=25821,[-10597]=-32601,[19530]=-11434,[16998]=-28528,[-3499]=-23523,[27379]=-14269,[25898]=-28191,[28275]=-29144,[30389]=-14269,[-16162]=-28528,[722]=6990,[-17006]=-29144,[3882]=-23523,[-24339]=15198,[-1669]=-10300,[-17842]=27237,[-15992]=-21556,[-27176]=-23523,[31261]=-29796,[-17720]=4839},function(tb)
+        return oe[tb+8995]
     end
-    Lb=jf(-37252)
+    Ge=Hc(-26837)
     repeat
         while true do
-            if Lb==-21250 then
-                dd='PurchasePrompt'
-                Lb=-12477
-            elseif Lb==-4089 then
-                x=x(Me,Xc)
-                Lb=jf(-44993)
-            elseif Lb==-28600 then
-                x=ge
-                Lb=jf(-55399)
-            elseif Lb==-31346 then
-                Xc=x;
-                Lb=-18534;
-            elseif Lb==-5238 then
-                Na=O(dd[1],1,dd[2]);
-                Lb=jf(-24907);
-            elseif Lb==19128 then
-                lf[Xc]=h;
-                Lb=jf(-49187);
-            elseif Lb==9547 then
-                wf=x.FindFirstChild
-                Lb=-21250
-            elseif Lb==31082 then
-                Lb=jf(-44247);
+            if Ge==-475 then
+                P=F;
+                Ge=-21618;
+            elseif Ge==27237 then
+                if jd:IsA('Model')and jd:FindFirstChild('PurchasePrompt')then
+                    Ge=Hc(8003)
+                    break
+                end
+                Ge=-23523
+            elseif Ge==-23523 then
+                Ge=Hc(-33334);
                 break;
-            elseif Lb==-18534 then
-                x=ge.Name
-                Lb=jf(-36575)
-            elseif Lb==-26978 then
-                x=table.insert
-                Lb=-4089
-            elseif Lb==4388 then
-                x=dd
-                Lb=-8985
-            elseif Lb==-8985 then
-                x=x
-                Lb=jf(-41671)
-            elseif Lb==9127 then
-                if ge:IsA('Model')and ge:FindFirstChild('PurchasePrompt')then
-                    Lb=jf(-34756)
+            elseif Ge==-2039 then
+                Sd=fg
+                Ge=Hc(10535)
+            elseif Ge==11557 then
+                F=F(G,P)
+                Ge=Hc(11253)
+            elseif Ge==-21618 then
+                F=jd.Name
+                Ge=Hc(17260)
+            elseif Ge==-28191 then
+                Sd='PurchasePrompt'
+                Ge=-8919
+            elseif Ge==21322 then
+                F=xe
+                Ge=Hc(22266)
+            elseif Ge==-27345 then
+                fg=xe.ObjectText
+                Ge=-2039
+            elseif Ge==-28528 then
+                F=jd
+                Ge=Hc(15650)
+            elseif Ge==-16916 then
+                F=table.insert
+                Ge=11557
+            elseif Ge==-14269 then
+                F=F
+                Ge=Hc(11263)
+            elseif Ge==-8486 then
+                Rb[P]=za;
+                Ge=-16916;
+            elseif Ge==-29796 then
+                if not F then
+                    Ge=Hc(21394)
                     break
                 end
-                Lb=31082
-            elseif Lb==12567 then
-                x=Na
-                Lb=jf(-51841)
-            elseif Lb==-12477 then
-                dd=td(wf(x,dd))
-                Lb=jf(-11320)
-            elseif Lb==-28071 then
-                dd=wf
-                Lb=jf(-48024)
-            elseif Lb==-6717 then
-                wf=Na.ObjectText
-                Lb=-28071
-            elseif Lb==-27502 then
-                h=x;
-                if Xc and table.find(Zd,h)then
-                    Lb=jf(-37199)
+                Ge=-27345
+            elseif Ge==-8919 then
+                Sd=gb(fg(F,Sd))
+                Ge=Hc(-19592)
+            elseif Ge==6990 then
+                za=F;
+                if P and table.find(Qa,za)then
+                    Ge=Hc(-23050)
                     break
                 end
-                Lb=jf(-46345)
-            elseif Lb==27170 then
-                if not x then
-                    Lb=jf(-30021)
-                    break
-                end
-                Lb=jf(3437)
+                Ge=Hc(-36171)
+            elseif Ge==-32601 then
+                xe=ub(Sd[1],1,Sd[2]);
+                Ge=21322;
+            elseif Ge==-11434 then
+                F=Sd
+                Ge=Hc(18384)
+            elseif Ge==25821 then
+                fg=F.FindFirstChild
+                Ge=Hc(16903)
             end
         end
-    until Lb==29074
+    until Ge==15198
 end
-local de={['Rock Pounder']=workspace.World.Map['Cinder Isle']['Fernhill Forest']:FindFirstChild('Rock Pounder'),['Shoulder Bag']=workspace.World.Map['Cinder Isle']['Fernhill Forest']:FindFirstChild('Shoulder Bag')}
-for ub,s in pairs(de)do
-    local gb,ch,ef,z,Nb,ac,da,xc
-    ch,xc={[-20462]=-17003,[-742]=-10233,[-22980]=18921,[-9187]=-18537,[-27414]=-4720,[15189]=-13745,[-29217]=-17003,[-26133]=-4843,[-8982]=18921,[2650]=18921,[-17068]=-15830,[-28128]=18921,[1762]=18921,[-14649]=-21158,[27788]=18270,[25563]=-32044,[19316]=-5635,[-31561]=-21158,[-30326]=-20934,[11960]=-12412,[2832]=-287,[5577]=-215,[20530]=16933,[-8567]=-20934,[-23418]=18921,[-24618]=-21158,[23095]=16148,[24447]=-15830},function(uc)
-        return ch[uc+-801]
+local kg={['Rock Pounder']=workspace.World.Map['Cinder Isle']['Fernhill Forest']:FindFirstChild('Rock Pounder'),['Shoulder Bag']=workspace.World.Map['Cinder Isle']['Fernhill Forest']:FindFirstChild('Shoulder Bag')}
+for la,J in pairs(kg)do
+    local ye,I,id,ic,p,bg,vg,Fa
+    p,id={[22304]=21363,[32056]=11634,[18507]=-30404,[11499]=-18368,[-29652]=-18368,[-13175]=-18368,[4890]=-3702,[-11809]=-24666,[-16223]=-18368,[-29750]=18927,[13581]=-12336,[-9927]=2109,[-11749]=18927,[-26034]=-11188,[26271]=-18368,[-12626]=-16620,[2660]=-10231,[11666]=-31173,[27333]=9515,[1156]=-18531,[30986]=669,[-25006]=-13158,[-24472]=-11188,[9058]=-13158,[-21712]=18927,[11636]=-30591,[-14264]=22740,[17038]=30216,[7174]=-18531},function(y)
+        return p[y+-32603]
     end
-    Nb=xc(26364)
+    vg=id(63589)
     repeat
         while true do
-            if Nb==-21158 then
-                lf[ef]=ub;
-                Nb=-20606;
-            elseif Nb==-12412 then
-                da=z
-                Nb=-12142
-            elseif Nb==-20606 then
-                ac=table.insert
-                Nb=xc(59)
-            elseif Nb==-32044 then
-                if s and s:FindFirstChild('PurchasePrompt')then
-                    Nb=xc(-8386)
+            if vg==-11188 then
+                I=ic;
+                if I then
+                    vg=id(10891)
                     break
                 end
-                Nb=xc(3451)
-            elseif Nb==-20934 then
-                gb=ac;
-                Nb=xc(-25332);
-            elseif Nb==-17003 then
-                ef=ac;
-                if ef then
-                    Nb=xc(-30760)
+                vg=id(2951)
+            elseif vg==9515 then
+                if not ic then
+                    vg=id(39777)
                     break
                 end
-                Nb=xc(-27327)
-            elseif Nb==-4843 then
-                ac=gb
-                Nb=-6469
-            elseif Nb==-12142 then
-                ac=da
-                Nb=xc(-16267)
-            elseif Nb==-15830 then
-                ac=ac
-                Nb=xc(-28416)
-            elseif Nb==-6469 then
-                if not ac then
-                    Nb=xc(25248)
+                vg=id(49641)
+            elseif vg==30216 then
+                Fa=ye.ObjectText
+                vg=id(44269)
+            elseif vg==-31173 then
+                bg=Fa
+                vg=id(46184)
+            elseif vg==-12336 then
+                ic=bg
+                vg=id(33759)
+            elseif vg==11634 then
+                ic=ic(G,I)
+                vg=id(16380)
+            elseif vg==-18531 then
+                ic=ic
+                vg=id(8131)
+            elseif vg==18927 then
+                Rb[I]=la;
+                vg=-20555;
+            elseif vg==-13158 then
+                ye=ic;
+                vg=30036;
+            elseif vg==669 then
+                if J and J:FindFirstChild('PurchasePrompt')then
+                    vg=id(22676)
                     break
                 end
-                Nb=-25304
-            elseif Nb==-25304 then
-                z=gb.ObjectText
-                Nb=xc(12761)
-            elseif Nb==-10233 then
-                ac=ac(Me,ef)
-                Nb=xc(2563)
-            elseif Nb==-18537 then
-                ac=s.PurchasePrompt
-                Nb=xc(-29525)
-            elseif Nb==18921 then
-                Nb=xc(15990);
+                vg=-18368
+            elseif vg==30036 then
+                ic=ye
+                vg=id(59936)
+            elseif vg==-20555 then
+                ic=table.insert
+                vg=id(64659)
+            elseif vg==-18368 then
+                vg=id(54907);
                 break;
+            elseif vg==2109 then
+                ic=J.PurchasePrompt
+                vg=id(7597)
             end
         end
-    until Nb==-13745
+    until vg==21363
 end
-local function Ud(Xf)
-    local ng,Mg,Bb,Xe,oc,Wd
-    Wd,Bb={[12013]=-4901,[-28770]=-1296,[8233]=-29578,[-25805]=-29056,[662]=-20329,[22651]=-4901,[24464]=-29578},function(na)
-        return Wd[na+-14531]
+local function q(sf)
+    local Yb,dd,mg,ie,Oe,xc
+    mg,xc={[5396]=13005,[4036]=13503,[-14590]=13503,[20920]=5903,[6649]=10931},function(zf)
+        return mg[zf- -27822]
     end
-    Mg=Bb(38995)
+    ie=xc(-6902)
     repeat
         while true do
-            if Mg==-4901 then
-                Xe,oc=O(ng[1],1,ng[2]);
-                Mg=Bb(-11274);
-                break;
-            elseif Mg==-29578 then
-                ng=td(pcall(function()
-                    Kd:WaitForChild('DialogueRemotes'):WaitForChild('AttemptBuyCharm'):InvokeServer(Xf)
+            if ie==5903 then
+                Yb=gb(pcall(function()
+                    Of:WaitForChild('DialogueRemotes'):WaitForChild('AttemptBuyCharm'):InvokeServer(sf)
                 end))
-                Mg=Bb(26544)
+                ie=xc(-42412)
+            elseif ie==13503 then
+                dd,Oe=ub(Yb[1],1,Yb[2]);
+                ie=xc(-22426);
+                break;
             end
         end
-    until Mg==-29056
+    until ie==13005
 end
-local Pf=se:CreateDropdown({Name='Buy Charms',Options=Me,CurrentOption={'Select Charm'},MultipleOptions=false,Flag='CharmBuy',Callback=function(Ea)
-    local Ne,ve,Jf,hb,t
-    ve,Ne={[-22834]=-31159,[-22219]=-28323,[-695]=-14702,[8562]=32509,[1198]=-24580,[-21389]=-28323,[4761]=-20966,[5231]=-28323,[-6562]=-7973,[-8863]=10,[-5746]=23599,[-20399]=28143,[-26075]=10,[18946]=5580,[2166]=-31159,[32347]=-24580,[11185]=-7973,[-29360]=-28323},function(Ld)
-        return ve[Ld+-1639]
+local Pb=Zc:CreateDropdown({Name='Buy Charms',Options=G,CurrentOption={'Select Charm'},MultipleOptions=false,Flag='CharmBuy',Callback=function(Re)
+    local tc,tf,nf,rb,E
+    tf,rb={[4352]=13613,[24036]=-5298,[13546]=16845,[24917]=8861,[-16009]=-26637,[-23638]=-18789,[-29816]=18343,[21976]=13785,[-26108]=8861,[29021]=-5298,[6932]=4962,[31571]=13613,[-1304]=20062,[-11776]=4897,[-18130]=18343,[11333]=-5298,[-32023]=-5298},function(Ua)
+        return tf[Ua-21632]
     end
-    hb=Ne(-24436)
+    E=rb(35178)
     repeat
         while true do
-            if hb==-27457 then
-                Jf=lf[t]
-                hb=Ne(-21195)
-            elseif hb==-7973 then
-                t=Jf;
-                hb=-27457;
-            elseif hb==-28323 then
-                hb=Ne(-18760);
+            if E==-27431 then
+                tc=Re[tc]
+                E=rb(25984)
+            elseif E==-32197 then
+                tc=Rb[nf]
+                E=rb(3502)
+            elseif E==8861 then
+                tc=q(Hd)
+                E=rb(45668)
+            elseif E==-5298 then
+                E=rb(20328);
                 break;
-            elseif hb==-31159 then
-                Qf=Jf;
-                if Qf then
-                    hb=Ne(2837)
+            elseif E==18343 then
+                Hd=tc;
+                if Hd then
+                    E=rb(46549)
                     break
                 end
-                hb=Ne(6870)
-            elseif hb==32509 then
-                Jf=Ea[Jf]
-                hb=Ne(-4923)
-            elseif hb==-24580 then
-                Jf=Ud(Qf)
-                hb=Ne(-27721)
-            elseif hb==10 then
-                Jf=1
-                hb=Ne(10201)
+                E=rb(32965)
+            elseif E==13613 then
+                nf=tc;
+                E=-32197;
+            elseif E==16845 then
+                tc=1
+                E=-27431
             end
         end
-    until hb==28143
+    until E==20062
 end})
-local Ng=se:CreateButton({Name='Buy Again',Callback=function()
-    local if_,Dg,Ue,Ua
-    Ua,Dg={[5615]=-6704,[10890]=-15151,[8151]=-22919,[-22860]=-15151,[27520]=-14215,[21563]=18814,[-256]=-18722,[-16868]=21095,[5179]=-15151,[-1229]=-6704,[10986]=-15151},function(sb)
-        return Ua[sb+32292]
+local Rc=Zc:CreateButton({Name='Buy Again',Callback=function()
+    local O,k,c,kf
+    O,kf={[6912]=-29947,[13531]=3228,[14089]=-2154,[4071]=12533,[-23610]=-2154,[-15251]=-2154,[-10954]=13558,[-2568]=11787,[15506]=-27265},function(af)
+        return O[af+-28994]
     end
-    Ue=Dg(-24141)
+    k=kf(26426)
     repeat
         while true do
-            if Ue==-22919 then
-                if Qf then
-                    Ue=Dg(-33521)
+            if k==11787 then
+                if Hd then
+                    k=kf(44500)
                     break
                 end
-                Ue=Dg(-21402)
-            elseif Ue==-15151 then
-                Ue=Dg(-49160);
+                k=-2154
+            elseif k==-27265 then
+                c=q(Hd)
+                k=kf(43083)
+            elseif k==-2154 then
+                k=kf(35906);
                 break;
-            elseif Ue==-6704 then
-                if_=Ud(Qf)
-                Ue=Dg(-21306)
             end
         end
-    until Ue==21095
+    until k==-29947
 end})
-local _d=se:CreateSection(' Quests')
-local Aa=Id:CreateSection(' Teleport')
-local u=Id:CreateButton({Name='Teleport to Meteor',Callback=function()
-    local wb,Wc,f,l,Ce,gg,cb,Te,sc,fb,E,Jg,yg,Cb
-    wb,f={[-6907]=18353,[7991]=-18052,[-12760]=-13035,[18553]=15972,[22832]=23581,[-14037]=7471,[-12951]=-11639,[-1174]=-8228,[-31156]=2196,[-15211]=12659,[15630]=28084,[-25173]=-16235,[21172]=-6683,[-27061]=-27566,[3974]=-3600,[25481]=26607,[2387]=30056,[-2592]=-6683,[4436]=26607,[9259]=-29085,[7422]=25637,[-6030]=-23896,[9917]=23581,[5413]=3499,[-19012]=16573,[8994]=-18052,[7838]=3499,[11261]=-10880,[26339]=-10457,[18507]=4666,[10338]=31675,[-20005]=-10694,[14770]=3759,[-31483]=-2869,[-27033]=30056},function(p)
-        return wb[p+20212]
+local Ja=Wa:CreateSection(' Teleport')
+local dg=Wa:CreateButton({Name='Teleport to Meteor',Callback=function()
+    local n,na,Bb,we,N,Cd,nb,mh,Xd,Jf,Ef,ac,u,Qf
+    we,nb={[-30772]=14186,[22685]=-11068,[5785]=23406,[-29139]=14834,[29100]=-865,[5139]=-6023,[6510]=13065,[13434]=-17929,[29447]=-32530,[13752]=-15191,[23916]=-1159,[-5893]=-20830,[32488]=-26730,[-12018]=30190,[32577]=19756,[-19457]=-3572,[10662]=14834,[5841]=-15392,[-6548]=18561,[-10634]=-13830,[-204]=9242,[-14277]=-21683,[-28621]=9242,[-18938]=30827,[5976]=14888,[-3777]=-32562,[-25176]=-26300,[8844]=30827,[-13044]=-14616,[31269]=-15392,[-8666]=-865,[-26308]=-26730},function(Gd)
+        return we[Gd+23599]
     end
-    sc=f(-26242)
+    n=nb(-30147)
     repeat
         while true do
-            if sc==-2869 then
-                cb=l
-                sc=f(-12374)
-            elseif sc==26607 then
-                fb=O(Wc[1],1,Wc[2]);
-                sc=32643;
-            elseif sc==18914 then
-                cb=cb.CFrame
-                sc=f(-39224)
-            elseif sc==16573 then
-                yg=Vector3 .new
-                sc=11807
-            elseif sc==-10694 then
-                E=0
-                sc=-1003
-            elseif sc==-18052 then
-                cb=le.Character
-                sc=f(-1659)
-            elseif sc==2196 then
-                l=5
-                sc=f(-40217)
-            elseif sc==-8228 then
-                if not l then
-                    sc=f(-51695)
+            if n==23406 then
+                N=gb(N(u,ac,Cd))
+                n=-5690
+            elseif n==-1159 then
+                if not ac then
+                    n=nb(-23803)
                     break
                 end
-                sc=f(-35423)
-            elseif sc==31675 then
-                cb=Ce
-                sc=16647
-            elseif sc==23581 then
-                Ce=cb;
-                sc=f(-9874);
-            elseif sc==11180 then
-                yg=cb.FindFirstChild
-                sc=-29266
-            elseif sc==30056 then
-                fb.CFrame=cb;
-                sc=f(-22804)
-            elseif sc==-3600 then
-                E=td(l(Wc))
-                sc=-1948
-            elseif sc==16647 then
-                yg=cb.WaitForChild
-                sc=10038
-            elseif sc==26285 then
-                Cb=O(Te[1],1,Te[2])
-                sc=f(-27119)
-            elseif sc==-13126 then
-                if yg then
-                    sc=f(-8951)
+                n=-16695
+            elseif n==-8714 then
+                ac=Bb
+                n=nb(-52220)
+            elseif n==14888 then
+                u=0
+                n=3113
+            elseif n==-26730 then
+                Ef=Jf;
+                if Ef and Ef:IsA('Model')and Ef.PrimaryPart then
+                    n=nb(5848)
                     break
                 end
-                sc=11927
-            elseif sc==12659 then
-                E=workspace.Active
-                sc=f(-47273)
-            elseif sc==-10457 then
-                yg=gg
-                sc=-10880
-            elseif sc==-23896 then
-                cb=workspace
-                sc=11180
-            elseif sc==-12718 then
-                Te=td(gg(E,Te))
-                sc=26285
-            elseif sc==-29266 then
-                Wc='Active'
-                sc=639
-            elseif sc==3499 then
-                Jg=cb;
-                if Jg and Jg:IsA('Model')and Jg.PrimaryPart then
-                    sc=f(-11218)
+                n=nb(-14755)
+            elseif n==13065 then
+                Jf=Jf.CFrame
+                n=nb(-10165)
+            elseif n==14834 then
+                mh=Jf;
+                n=26365;
+            elseif n==-32530 then
+                Jf=Uf.Character
+                n=nb(-27376)
+            elseif n==-26300 then
+                u='Active'
+                n=nb(-54371)
+            elseif n==-13373 then
+                na=gb(Qf(Cd,na))
+                n=-14481
+            elseif n==-24282 then
+                u=Uf.CharacterAdded
+                n=nb(8978)
+            elseif n==14186 then
+                u=gb(N(Jf,u))
+                n=-1302
+            elseif n==3113 then
+                ac=5
+                n=-8652
+            elseif n==-16695 then
+                Cd=workspace.Active
+                n=nb(-914)
+            elseif n==-3572 then
+                Qf=ub(Cd[1],1,Cd[2])
+                n=nb(-18460)
+            elseif n==-17929 then
+                N=Vector3 .new
+                n=nb(-17623)
+            elseif n==-17283 then
+                if N then
+                    n=nb(-37876)
                     break
                 end
-                sc=f(960)
-            elseif sc==-22218 then
-                l=O(Wc[1],1,Wc[2])
-                sc=f(-21386)
-            elseif sc==32643 then
-                cb=Jg.PrimaryPart
-                sc=18914
-            elseif sc==-6683 then
-                sc=f(-32972);
+                n=-24282
+            elseif n==-1302 then
+                ac=ub(u[1],1,u[2])
+                n=nb(317)
+            elseif n==939 then
+                N=Jf.WaitForChild
+                n=nb(-34233)
+            elseif n==-8652 then
+                Cd=0
+                n=nb(-17814)
+            elseif n==-15392 then
+                Xd=ub(u[1],1,u[2]);
+                n=-19983;
+            elseif n==-23254 then
+                Cd=gb(ac(u))
+                n=nb(-43056)
+            elseif n==-11068 then
+                Qf=Cd.FindFirstChild
+                n=24610
+            elseif n==26365 then
+                Jf=mh
+                n=939
+            elseif n==30827 then
+                n=nb(-29492);
                 break;
-            elseif sc==639 then
-                Wc=td(yg(cb,Wc))
-                sc=-22218
-            elseif sc==-16235 then
-                cb=cb+O(yg[1],1,yg[2])
-                sc=f(-17825)
-            elseif sc==-1948 then
-                gg=O(E[1],1,E[2])
-                sc=f(6127)
-            elseif sc==11807 then
-                Wc=0
-                sc=f(-51368)
-            elseif sc==30480 then
-                Te='ActiveMeteor'
-                sc=-12718
-            elseif sc==-10880 then
-                cb=yg
-                sc=f(2620)
-            elseif sc==-1003 then
-                yg=td(yg(Wc,l,E))
-                sc=f(-45385)
-            elseif sc==10038 then
-                Wc='HumanoidRootPart'
-                sc=f(-10953)
-            elseif sc==15972 then
-                yg=cb
-                sc=-13126
-            elseif sc==18353 then
-                l=Cb
-                sc=-2869
-            elseif sc==-11317 then
-                l=Wc.Wait
-                sc=f(-16238)
-            elseif sc==11927 then
-                Wc=le.CharacterAdded
-                sc=-11317
-            elseif sc==-27566 then
-                gg=E.FindFirstChild
-                sc=30480
-            elseif sc==-29085 then
-                Wc=td(yg(cb,Wc))
-                sc=f(5269)
+            elseif n==-13830 then
+                u='HumanoidRootPart'
+                n=28210
+            elseif n==28210 then
+                u=gb(N(Jf,u))
+                n=nb(-17758)
+            elseif n==-32562 then
+                N=Jf
+                n=-17283
+            elseif n==9242 then
+                Jf=ac
+                n=nb(-49907)
+            elseif n==-19983 then
+                Jf=Ef.PrimaryPart
+                n=nb(-17089)
+            elseif n==-865 then
+                Xd.CFrame=Jf;
+                n=nb(-42537)
+            elseif n==8737 then
+                N=Jf.FindFirstChild
+                n=nb(-48775)
+            elseif n==-21683 then
+                Jf=N
+                n=nb(-12937)
+            elseif n==-5690 then
+                Jf=Jf+ub(N[1],1,N[2])
+                n=nb(-32265)
+            elseif n==19756 then
+                ac=u.Wait
+                n=-23254
+            elseif n==-14481 then
+                Bb=ub(na[1],1,na[2])
+                n=-8714
+            elseif n==24610 then
+                na='ActiveMeteor'
+                n=-13373
+            elseif n==-6023 then
+                N=Qf
+                n=-21683
+            elseif n==18561 then
+                Jf=workspace
+                n=8737
             end
         end
-    until sc==-13035
+    until n==-20830
 end})
-local Ae=Id:CreateButton({Name='Teleport to Enchantment Altar',Callback=function()
-    local gd,bg,Sf,ie,Vf,Bf,Ye,gc,ld,Da,Xd
-    Ye,Vf={[7296]=-2225,[-28233]=-16487,[9707]=12420,[12455]=23832,[1222]=-10929,[1355]=-2225,[1010]=-22943,[-19749]=-3175,[-7553]=-13160,[19885]=20016,[23855]=-8679,[30087]=20259,[-16053]=9596,[-30031]=-3175,[-24352]=12420,[11595]=-4764,[-25340]=-25450,[-5518]=-15389,[20876]=-5896,[20228]=-7518,[-9578]=27315,[13649]=27315,[-32042]=-25250},function(Eg)
-        return Ye[Eg+-8040]
+local Qg=Wa:CreateButton({Name='Teleport to Enchantment Altar',Callback=function()
+    local bd,pb,oc,lc,Fg,_g,Lb,ve,le,Je,Fc
+    bd,Je={[-28297]=20606,[8401]=29304,[25756]=-28379,[-30300]=822,[5695]=31941,[8134]=-11084,[-1970]=29304,[2482]=-30563,[-8987]=-28379,[-11199]=26592,[-22810]=9591,[-1905]=4495,[21158]=-9532,[-27684]=-10204,[-18013]=-12765,[-27626]=20154,[22873]=16935,[2219]=27679,[1820]=9591,[-11066]=12356,[-31028]=-12765},function(Oc)
+        return bd[Oc+10495]
     end
-    ie=Vf(-20193)
+    Fg=Je(-21694)
     repeat
         while true do
-            if ie==-15698 then
-                Sf=game:GetService('Players').LocalPlayer.CharacterAdded
-                ie=-26701
-            elseif ie==-12329 then
-                Sf=td(ld(gd,Sf))
-                ie=Vf(-8013)
-            elseif ie==-5896 then
-                gd=CFrame.new
-                ie=Vf(-24002)
-            elseif ie==23832 then
-                ld=gd
-                ie=9580
-            elseif ie==17751 then
-                Sf=td(ld(gd,Sf))
-                ie=Vf(-16312)
-            elseif ie==-22943 then
-                ld=Da
-                ie=Vf(21689)
-            elseif ie==20016 then
-                gd=gd.Character
-                ie=Vf(20495)
-            elseif ie==20565 then
-                Sf='Players'
-                ie=-12329
-            elseif ie==-25250 then
-                ld=4148
-                ie=-19593
-            elseif ie==-4764 then
-                Sf='HumanoidRootPart'
-                ie=17751
-            elseif ie==-14911 then
-                Sf=-Sf
-                ie=17812
-            elseif ie==-15389 then
-                gd=Xd
-                ie=Vf(-17300)
-            elseif ie==27211 then
-                Bf=td(gc(Sf))
-                ie=Vf(28268)
-            elseif ie==17812 then
-                gc=2551
-                ie=7668
-            elseif ie==9596 then
-                gd=O(Sf[1],1,Sf[2]).LocalPlayer
-                ie=Vf(27925)
-            elseif ie==-16487 then
-                gd=game
-                ie=-14221
-            elseif ie==-19593 then
-                Sf=669
-                ie=-14911
-            elseif ie==-26701 then
-                gc=Sf.Wait
-                ie=27211
-            elseif ie==-3175 then
-                Xd=gd;
-                ie=Vf(2522);
-            elseif ie==9580 then
-                if ld then
-                    ie=Vf(-1538)
+            if Fg==20154 then
+                Fc=Fc.Character
+                Fg=2346
+            elseif Fg==4202 then
+                Fc=lc
+                Fg=Je(-21561)
+            elseif Fg==-10204 then
+                Fc=ub(le[1],1,le[2]).LocalPlayer
+                Fg=Je(-38121)
+            elseif Fg==16935 then
+                Fc=gb(Fc(pb,le,_g))
+                Fg=Je(-12465)
+            elseif Fg==14774 then
+                le=gb(pb(Fc,le))
+                Fg=Je(-19482)
+            elseif Fg==20606 then
+                le=-le
+                Fg=4824
+            elseif Fg==2346 then
+                pb=Fc
+                Fg=-11970
+            elseif Fg==9591 then
+                Fc=pb
+                Fg=Je(-28508)
+            elseif Fg==-28379 then
+                ve=ub(le[1],1,le[2]);
+                Fg=Je(-8013);
+            elseif Fg==4824 then
+                _g=2551
+                Fg=Je(12378)
+            elseif Fg==-11970 then
+                if pb then
+                    Fg=Je(-8675)
                     break
                 end
-                ie=-15698
-            elseif ie==-2225 then
-                bg.CFrame=O(gd[1],1,gd[2]);
-                ie=Vf(38127);
+                Fg=10566
+            elseif Fg==-32714 then
+                le='HumanoidRootPart'
+                Fg=14774
+            elseif Fg==12356 then
+                pb=Fc.WaitForChild
+                Fg=-32714
+            elseif Fg==26592 then
+                Fc=game
+                Fg=-10656
+            elseif Fg==26158 then
+                Lb=ub(oc[1],1,oc[2])
+                Fg=Je(-12400)
+            elseif Fg==-8789 then
+                le=669
+                Fg=Je(-38792)
+            elseif Fg==29304 then
+                ve.CFrame=ub(Fc[1],1,Fc[2]);
+                Fg=Je(10663);
                 break;
-            elseif ie==-14221 then
-                ld=gd.GetService
-                ie=20565
-            elseif ie==12420 then
-                bg=O(Sf[1],1,Sf[2]);
-                ie=Vf(28916);
-            elseif ie==27315 then
-                gd=ld
-                ie=Vf(-21991)
-            elseif ie==-25450 then
-                ld=gd.WaitForChild
-                ie=Vf(19635)
-            elseif ie==-7518 then
-                Da=O(Bf[1],1,Bf[2])
-                ie=Vf(9050)
-            elseif ie==7668 then
-                gd=td(gd(ld,Sf,gc))
-                ie=Vf(9395)
+            elseif Fg==10566 then
+                le=game:GetService('Players').LocalPlayer.CharacterAdded
+                Fg=Je(-4800)
+            elseif Fg==-12765 then
+                lc=Fc;
+                Fg=4202;
+            elseif Fg==-11084 then
+                oc=gb(_g(le))
+                Fg=26158
+            elseif Fg==4495 then
+                pb=Lb
+                Fg=Je(-33305)
+            elseif Fg==10533 then
+                le=gb(pb(Fc,le))
+                Fg=Je(-38179)
+            elseif Fg==31941 then
+                _g=le.Wait
+                Fg=Je(-2361)
+            elseif Fg==31031 then
+                pb=4148
+                Fg=-8789
+            elseif Fg==-21783 then
+                le='Players'
+                Fg=10533
+            elseif Fg==-10656 then
+                pb=Fc.GetService
+                Fg=-21783
+            elseif Fg==-30563 then
+                Fc=CFrame.new
+                Fg=31031
             end
         end
-    until ie==20259
+    until Fg==-9532
 end})
-local Za=Id:CreateButton({Name='Teleport to Traveling Merchant',Callback=function()
-    local Kg,dg,ke,sf,Qg,qc,ih,mf,dh,Zc,e,Je
-    qc,Zc={[327]=-1999,[1159]=-2092,[-30662]=29245,[13360]=26467,[15416]=20617,[-6958]=-7710,[-27042]=20657,[30588]=12989,[21170]=4600,[-31951]=29245,[-10391]=-25428,[-17051]=-29936,[9217]=-21644,[16700]=23285,[25036]=-20616,[-25511]=2830,[2328]=13712,[17840]=-20616,[-17359]=15552,[-14006]=-18249,[-4929]=6653,[-12240]=20253,[-17936]=-31250,[-9606]=2830,[31895]=-20500,[-8180]=26467,[-12693]=13761,[-25508]=23285,[-31126]=-24181,[15817]=32256,[-23760]=13761,[1274]=31431},function(Mf)
-        return qc[Mf- -24573]
+local sg=Wa:CreateButton({Name='Teleport to Traveling Merchant',Callback=function()
+    local de,s,Ob,Mb,Nd,Q,ge,sc,ob,fh,Ea,bf
+    Nd,s={[-21924]=23774,[25513]=26466,[29204]=-955,[30860]=-27109,[-3121]=22066,[-1843]=22143,[-23829]=17261,[6738]=-6169,[12323]=7934,[-21275]=-955,[-13982]=-16212,[-30362]=-5300,[-28462]=8739,[1812]=26466,[30138]=27033,[32071]=7934,[785]=-13452,[12381]=28845,[-32254]=-23791,[-14485]=15513,[19721]=-16212,[24442]=28271,[-11057]=12916,[-20692]=31478,[23483]=22066,[22603]=-7900,[30381]=24336,[18016]=26813,[-9469]=-27917},function(Og)
+        return Nd[Og- -20050]
     end
-    mf=Zc(-34964)
+    Ob=s(-18238)
     repeat
         while true do
-            if mf==23285 then
-                Qg=O(dh[1],1,dh[2]);
-                mf=Zc(-41932);
-            elseif mf==-18249 then
-                Je=5
-                mf=5985
-            elseif mf==-24181 then
-                if ke then
-                    mf=Zc(-9157)
+            if Ob==23774 then
+                bf=0
+                Ob=-12584
+            elseif Ob==19531 then
+                ob=gb(fh(bf))
+                Ob=8126
+            elseif Ob==15758 then
+                Mb='Traveling Merchant'
+                Ob=s(10088)
+            elseif Ob==-955 then
+                Ea=Mb;
+                Ob=s(-7669);
+            elseif Ob==7934 then
+                Q=ub(bf[1],1,bf[2]);
+                if Q and Q:FindFirstChild('Traveling Merchant')and Q['Traveling Merchant'].PrimaryPart then
+                    Ob=s(-21893)
                     break
                 end
-                mf=-4964
-            elseif mf==-29936 then
-                Kg=dg
-                mf=Zc(-3403)
-            elseif mf==-18921 then
-                dh=td(ke(Kg,dh))
-                mf=Zc(-7873)
-            elseif mf==6653 then
-                ke=Vector3 .new
-                mf=6851
-            elseif mf==-2092 then
-                e=td(Je(dh))
-                mf=30629
-            elseif mf==6851 then
-                dh=0
-                mf=Zc(-38579)
-            elseif mf==4600 then
-                ke=Kg.WaitForChild
-                mf=Zc(-36813)
-            elseif mf==-31250 then
-                Kg=Kg+O(ke[1],1,ke[2])
-                mf=Zc(-32753)
-            elseif mf==26467 then
-                Qg.CFrame=Kg;
-                mf=Zc(-37266)
-            elseif mf==30629 then
-                ih=O(e[1],1,e[2])
-                mf=18417
-            elseif mf==32256 then
-                Kg=sf[Kg]
-                mf=Zc(-15356)
-            elseif mf==31431 then
-                Je=dh.Wait
-                mf=Zc(-23414)
-            elseif mf==-4964 then
-                dh=le.CharacterAdded
-                mf=Zc(-23299)
-            elseif mf==20253 then
-                dh='HumanoidRootPart'
-                mf=-18921
-            elseif mf==18417 then
-                ke=ih
-                mf=20617
-            elseif mf==-25428 then
-                Kg=workspace.World.NPCs
-                mf=31947
-            elseif mf==-10981 then
-                ke=td(ke(dh,Je,e))
-                mf=Zc(-42509)
-            elseif mf==29245 then
-                Kg=le.Character
-                mf=-25455
-            elseif mf==-20616 then
-                sf=O(dh[1],1,dh[2]);
-                if sf and sf:FindFirstChild('Traveling Merchant')and sf['Traveling Merchant'].PrimaryPart then
-                    mf=Zc(-56524)
+                Ob=24336
+            elseif Ob==927 then
+                if de then
+                    Ob=s(-19265)
                     break
                 end
-                mf=Zc(-48333)
-            elseif mf==-21644 then
-                Kg=Kg.PrimaryPart
-                mf=Zc(-22245)
-            elseif mf==31947 then
-                ke=Kg.FindFirstChild
-                mf=29985
-            elseif mf==13712 then
-                Kg=Kg.CFrame
-                mf=Zc(-29502)
-            elseif mf==-25455 then
-                ke=Kg
-                mf=Zc(-55699)
-            elseif mf==29985 then
-                dh='Merchant Cart'
-                mf=-29155
-            elseif mf==5985 then
-                e=0
-                mf=-10981
-            elseif mf==-29155 then
-                dh=td(ke(Kg,dh))
-                mf=Zc(463)
-            elseif mf==20617 then
-                Kg=ke
-                mf=Zc(-50084)
-            elseif mf==2830 then
-                dg=Kg;
-                mf=Zc(-41624);
-            elseif mf==13761 then
-                mf=Zc(-31531);
+                Ob=29277
+            elseif Ob==29580 then
+                de=sc
+                Ob=-13452
+            elseif Ob==8385 then
+                bf='HumanoidRootPart'
+                Ob=s(-29519)
+            elseif Ob==28845 then
+                Mb=Ea
+                Ob=s(-34535)
+            elseif Ob==-13452 then
+                Mb=de
+                Ob=s(-41325)
+            elseif Ob==-23791 then
+                ob=0
+                Ob=-9745
+            elseif Ob==23840 then
+                de=Mb
+                Ob=927
+            elseif Ob==22143 then
+                Mb=Uf.Character
+                Ob=23840
+            elseif Ob==-10907 then
+                de=Mb.FindFirstChild
+                Ob=s(-50412)
+            elseif Ob==-12584 then
+                fh=5
+                Ob=s(-52304)
+            elseif Ob==-9745 then
+                de=gb(de(bf,fh,ob))
+                Ob=19386
+            elseif Ob==22066 then
+                ge.CFrame=Mb;
+                Ob=s(10331)
+            elseif Ob==12916 then
+                fh=bf.Wait
+                Ob=19531
+            elseif Ob==26813 then
+                bf=gb(de(Mb,bf))
+                Ob=s(12021)
+            elseif Ob==26466 then
+                Mb=workspace.World.NPCs
+                Ob=-10907
+            elseif Ob==17261 then
+                Mb=Mb.CFrame
+                Ob=s(2553)
+            elseif Ob==27033 then
+                Mb=Q[Mb]
+                Ob=-27774
+            elseif Ob==-27774 then
+                Mb=Mb.PrimaryPart
+                Ob=s(-43879)
+            elseif Ob==-16212 then
+                ge=ub(bf[1],1,bf[2]);
+                Ob=15758;
+            elseif Ob==-7900 then
+                de=Vector3 .new
+                Ob=s(-41974)
+            elseif Ob==19386 then
+                Mb=Mb+ub(de[1],1,de[2])
+                Ob=s(-23171)
+            elseif Ob==29277 then
+                bf=Uf.CharacterAdded
+                Ob=s(-31107)
+            elseif Ob==-5300 then
+                bf='Merchant Cart'
+                Ob=s(-2034)
+            elseif Ob==8126 then
+                sc=ub(ob[1],1,ob[2])
+                Ob=29580
+            elseif Ob==-27917 then
+                bf=gb(de(Mb,bf))
+                Ob=s(-329)
+            elseif Ob==24336 then
+                Ob=s(10810);
                 break;
-            elseif mf==15552 then
-                Kg='Traveling Merchant'
-                mf=Zc(-8756)
+            elseif Ob==15513 then
+                de=Mb.WaitForChild
+                Ob=8385
             end
         end
-    until mf==-7710
+    until Ob==-27109
 end})
-local Gf=workspace:WaitForChild('Spawns'):WaitForChild('TeleportSpawns')
-local Qc={}
-local Tg={}
-for oh,gh in ipairs(Gf:GetChildren())do
-    local kh,T,pa,y,lh
-    y,pa={[-11076]=-13775,[-14371]=62,[-25868]=-861,[-21564]=11415,[17236]=196,[-24856]=11415,[15948]=-18741,[12574]=-7372,[29040]=-18741,[-25965]=29701,[18770]=-24344,[-19534]=-13775,[12449]=8950},function(a)
-        return y[a-13193]
+local wd=workspace:WaitForChild('Spawns'):WaitForChild('TeleportSpawns')
+local W={}
+local hg={}
+for Wc,Xc in ipairs(wd:GetChildren())do
+    local Ra,zd,Nf,jg,Ue
+    Nf,zd={[25363]=-18425,[14913]=-18877,[3591]=-20373,[-9454]=4266,[12341]=-18425,[-16120]=4266,[10953]=-5307,[25271]=19917,[-9831]=-18877,[28302]=-5307,[-13713]=25,[13287]=-25879,[27743]=14787,[-12565]=-1183,[-27252]=4266},function(ih)
+        return Nf[ih+-27158]
     end
-    lh=pa(-12675)
+    jg=zd(40445)
     repeat
         while true do
-            if lh==-13775 then
-                kh=table.insert
-                lh=pa(-12772)
-            elseif lh==-18741 then
-                kh=gh.Position
-                lh=pa(-8371)
-            elseif lh==-861 then
-                if gh:IsA('BasePart')then
-                    lh=pa(-6341)
+            if jg==-18877 then
+                Ra=table.insert
+                jg=753
+            elseif jg==-18425 then
+                jg=zd(13445);
+                break;
+            elseif jg==4266 then
+                Ra=Xc.Position
+                jg=zd(55460)
+            elseif jg==-20373 then
+                Ra=Ra(W,Ue)
+                jg=zd(11038)
+            elseif jg==-5307 then
+                hg[Xc.Name]=Ra;
+                jg=zd(39499)
+            elseif jg==753 then
+                Ue=Xc.Name
+                jg=zd(30749)
+            elseif jg==-25879 then
+                if Xc:IsA('BasePart')then
+                    jg=zd(17327)
                     break
                 end
-                lh=-7372
-            elseif lh==29701 then
-                T=gh.Name
-                lh=22263
-            elseif lh==22263 then
-                kh=kh(Qc,T)
-                lh=pa(29141)
-            elseif lh==11415 then
-                Tg[gh.Name]=kh;
-                lh=pa(25767)
-            elseif lh==-7372 then
-                lh=pa(30429);
-                break;
+                jg=zd(52521)
             end
         end
-    until lh==196
+    until jg==25
 end
-local Oa={}
+local Pe={}
+local Ab={}
+for Qd,nh in ipairs(rd:GetChildren())do
+    local fe,Nb,zc,eb,Zb,uf,zg,ug
+    ug,eb={[-15914]=7042,[-16096]=29092,[20006]=30267,[-25655]=22094,[28480]=15183,[31779]=15183,[15960]=6217,[2171]=15183,[-22014]=-9710,[-22138]=-27151,[-28929]=-9710,[24452]=22094,[14293]=-20719,[-12445]=-2619,[13541]=-1778,[18500]=-20329,[2391]=-4318,[-14807]=-7845,[-21100]=-9710,[-31165]=5458,[29173]=21771,[7304]=-317,[-1549]=-14527,[396]=29092,[32201]=-9710,[11926]=-23842,[-16758]=28301,[-31701]=7042,[-9816]=-9710,[27322]=22695,[-31745]=-2619,[-22874]=-22775},function(z)
+        return ug[z-13393]
+    end
+    zg=eb(26934)
+    repeat
+        while true do
+            if zg==-1778 then
+                if nh:IsA('Model')and nh.PrimaryPart then
+                    zg=eb(15784)
+                    break
+                end
+                zg=-9710
+            elseif zg==-9710 then
+                zg=eb(25319);
+                break;
+            elseif zg==15183 then
+                Zb=nh.PrimaryPart
+                zg=eb(29353)
+            elseif zg==-2619 then
+                Nb=Zb;
+                if Nb and Nb~=''then
+                    zg=eb(40715)
+                    break
+                end
+                zg=eb(45594)
+            elseif zg==6217 then
+                Zb=Zb.Position
+                zg=eb(13789)
+            elseif zg==-14527 then
+                fe='PurchasePrompt'
+                zg=26807
+            elseif zg==29092 then
+                Ab[Nb]=Zb;
+                zg=eb(-7707)
+            elseif zg==26807 then
+                fe=gb(uf(Zb,fe))
+                zg=eb(37845)
+            elseif zg==22094 then
+                zc=ub(fe[1],1,fe[2]);
+                if zc and zc:IsA('ProximityPrompt')then
+                    zg=eb(-3365)
+                    break
+                end
+                zg=eb(-15536)
+            elseif zg==-31211 then
+                uf=Zb.FindFirstChild
+                zg=eb(11844)
+            elseif zg==22695 then
+                Zb=table.insert
+                zg=eb(42566)
+            elseif zg==28301 then
+                Zb=zc.ObjectText
+                zg=eb(948)
+            elseif zg==-4318 then
+                Zb=nh
+                zg=-31211
+            elseif zg==21771 then
+                Zb=Zb(Pe,Nb)
+                zg=eb(41873)
+            end
+        end
+    until zg==-23842
+end
+local _f=Wa:CreateDropdown({Name='Teleport to Purchasable',Options=Pe,CurrentOption={'Select Item'},MultipleOptions=false,Flag='PurchasableTP',Callback=function(Pc)
+    local Y,Rd,he,Na,be,gf,Ld,Fe,D,ra,kb,X,Cb
+    gf,Cb={[-24959]=-30933,[26724]=-15054,[13696]=21315,[13016]=3660,[20781]=25103,[-1160]=-29340,[-30781]=22568,[15484]=1432,[-30125]=-24020,[-16575]=-28320,[-16215]=-9938,[-22366]=-568,[8237]=28312,[-28945]=3252,[-5924]=-30438,[-1761]=-2749,[6411]=-24020,[10924]=-568,[-16472]=21469,[12044]=3252,[7157]=24114,[-26531]=18097,[-25690]=-16537,[-8398]=-8138,[-13797]=-31647,[-30384]=-20838,[-31498]=21315,[27324]=26517,[-26176]=-28320,[28702]=-2749,[-2137]=22568,[14185]=-23558,[30425]=-4210,[-24326]=-4534},function(ce)
+        return gf[ce+-6894]
+    end
+    Rd=Cb(-6903)
+    repeat
+        while true do
+            if Rd==21315 then
+                X=Fe;
+                Rd=Cb(-18796);
+            elseif Rd==-9938 then
+                Fe=Pc[Fe]
+                Rd=Cb(13305)
+            elseif Rd==26517 then
+                ra=Fe.GetService
+                Rd=19468
+            elseif Rd==-30933 then
+                he=gb(ra(Fe,he))
+                Rd=Cb(5133)
+            elseif Rd==-18036 then
+                he=gb(ra(Fe,he))
+                Rd=Cb(21079)
+            elseif Rd==-4534 then
+                if ra then
+                    Rd=Cb(-9681)
+                    break
+                end
+                Rd=17562
+            elseif Rd==17562 then
+                he=game:GetService('Players').LocalPlayer.CharacterAdded
+                Rd=Cb(-9578)
+            elseif Rd==-8138 then
+                Rd=Cb(19910);
+                break;
+            elseif Rd==18097 then
+                Y=gb(be(he))
+                Rd=Cb(33618)
+            elseif Rd==22568 then
+                Fe=game
+                Rd=Cb(34218)
+            elseif Rd==19468 then
+                he='Players'
+                Rd=-18036
+            elseif Rd==21469 then
+                be=he.Wait
+                Rd=Cb(-19637)
+            elseif Rd==-13953 then
+                ra=D
+                Rd=Cb(-19282)
+            elseif Rd==3252 then
+                kb.CFrame=ub(Fe[1],1,Fe[2]);
+                Rd=Cb(-1504)
+            elseif Rd==30700 then
+                Fe=CFrame.new
+                Rd=23580
+            elseif Rd==-2749 then
+                kb=ub(he[1],1,he[2]);
+                Rd=30700;
+            elseif Rd==-24020 then
+                Na=Fe;
+                Rd=Cb(22378);
+            elseif Rd==-28320 then
+                Fe=ra
+                Rd=Cb(-24604)
+            elseif Rd==-568 then
+                Ld=Fe;
+                if Ld then
+                    Rd=Cb(4757)
+                    break
+                end
+                Rd=-8138
+            elseif Rd==1897 then
+                Fe=Fe.Character
+                Rd=Cb(27675)
+            elseif Rd==25103 then
+                ra=Fe
+                Rd=Cb(-17432)
+            elseif Rd==-23558 then
+                Fe=ub(he[1],1,he[2]).LocalPlayer
+                Rd=1897
+            elseif Rd==-31647 then
+                Fe=1
+                Rd=Cb(-9321)
+            elseif Rd==-16537 then
+                Fe=X
+                Rd=Cb(15131)
+            elseif Rd==23580 then
+                Fe=gb(Fe(Ld))
+                Rd=Cb(18938)
+            elseif Rd==28312 then
+                ra=Fe.WaitForChild
+                Rd=-25703
+            elseif Rd==1432 then
+                Fe=Ab[Na]
+                Rd=Cb(17818)
+            elseif Rd==-15054 then
+                D=ub(Y[1],1,Y[2])
+                Rd=-13953
+            elseif Rd==-25703 then
+                he='HumanoidRootPart'
+                Rd=Cb(-18065)
+            end
+        end
+    until Rd==3660
+end})
+local ba=workspace:WaitForChild('World'):WaitForChild('NPCs')
+local M={}
 local ka={}
-for Fg,d in ipairs(nf:GetChildren())do
-    local qe,Ia,ea,wc,i,bf,tf,qg
-    qg,i={[23396]=-27282,[-11214]=19482,[-32756]=10850,[-21818]=11167,[6253]=-18518,[-8918]=22380,[26061]=-11626,[11861]=31730,[-8858]=-11945,[18116]=-30479,[9659]=-19341,[-11981]=-11945,[18119]=21809,[-29034]=17202,[-27796]=-22310,[11851]=26600,[-1683]=-30479,[15421]=19420,[30420]=19482,[14955]=12074,[15371]=30479,[17913]=-30532,[-15737]=-11626,[-1141]=-30479,[-3493]=26600,[27644]=-30479,[29461]=-23120,[-6510]=-18518,[-24054]=8152,[13002]=-30479,[-5292]=-30479,[-5154]=-22310,[10839]=10850},function(Tb)
-        return qg[Tb- -30633]
+for cf,Gb in ipairs(ba:GetChildren())do
+    local Ta,La,Bc,tg,sd
+    La,Bc={[-21451]=9202,[17976]=-31597,[21224]=-26122,[9264]=-11912,[6481]=3908,[3869]=-26122,[-15205]=-7185,[11303]=1260,[27603]=-20455,[14789]=11422,[-10325]=-7185,[-19219]=-31597,[27552]=14181,[15428]=-17967,[19995]=31353},function(H)
+        return La[H-22679]
     end
-    ea=i(-59667)
+    tg=Bc(31943)
     repeat
         while true do
-            if ea==30479 then
-                tf=d
-                ea=i(-15678)
-            elseif ea==485 then
-                Ia=td(bf(tf,Ia))
-                ea=i(-24380)
-            elseif ea==-18518 then
-                qe=O(Ia[1],1,Ia[2]);
-                if qe and qe:IsA('ProximityPrompt')then
-                    ea=i(-46370)
-                    break
-                end
-                ea=i(-31774)
-            elseif ea==-22310 then
-                wc=tf;
-                if wc and wc~=''then
-                    ea=i(-52451)
-                    break
-                end
-                ea=i(-35925)
-            elseif ea==26600 then
-                tf=d.PrimaryPart
-                ea=3687
-            elseif ea==-29347 then
-                tf=tf(Oa,wc)
-                ea=i(-34126)
-            elseif ea==-11626 then
-                tf=qe.ObjectText
-                ea=i(-35787)
-            elseif ea==17202 then
-                if d:IsA('Model')and d.PrimaryPart then
-                    ea=i(-15262)
-                    break
-                end
-                ea=i(-32316)
-            elseif ea==3687 then
-                tf=tf.Position
-                ea=i(-42614)
-            elseif ea==11167 then
-                tf=table.insert
-                ea=-29347
-            elseif ea==-30479 then
-                ea=i(-12720);
+            if tg==-31597 then
+                tg=Bc(38107);
                 break;
-            elseif ea==-11945 then
-                ka[wc]=tf;
-                ea=i(-17631)
-            elseif ea==12074 then
-                bf=tf.FindFirstChild
-                ea=-21361
-            elseif ea==-21361 then
-                Ia='PurchasePrompt'
-                ea=485
+            elseif tg==-26122 then
+                ka[Gb.Name]=sd;
+                tg=Bc(3460)
+            elseif tg==11422 then
+                sd=sd.Position
+                tg=Bc(26548)
+            elseif tg==9202 then
+                Ta=Gb.Name
+                tg=Bc(50282)
+            elseif tg==-7185 then
+                sd=Gb.PrimaryPart
+                tg=Bc(37468)
+            elseif tg==-11912 then
+                if Gb:IsA('Model')and Gb.PrimaryPart then
+                    tg=Bc(29160)
+                    break
+                end
+                tg=Bc(40655)
+            elseif tg==-20455 then
+                sd=sd(M,Ta)
+                tg=Bc(12354)
+            elseif tg==3908 then
+                sd=table.insert
+                tg=Bc(1228)
             end
         end
-    until ea==-30532
+    until tg==-17967
 end
-local Hb=Id:CreateDropdown({Name='Teleport to Purchasable',Options=Oa,CurrentOption={'Select Item'},MultipleOptions=false,Flag='PurchasableTP',Callback=function(wg)
-    local Ba,Wg,fc,ye,Pb,ze,Nd,Lg,kc,Lc,ab,X,D
-    kc,X={[-28593]=-18276,[29434]=-4959,[19366]=-21109,[21266]=-31889,[-5186]=-932,[3368]=618,[-13091]=26445,[5698]=21453,[-13234]=-1591,[-7055]=-6094,[2019]=8999,[-2277]=-4905,[26909]=-11799,[-14525]=-23490,[-14507]=-6654,[25897]=-26134,[29113]=-31889,[14818]=-6774,[1536]=-10354,[-1110]=25153,[4333]=-6774,[25799]=11594,[-15548]=-18276,[24073]=-32078,[19496]=17583,[3910]=-6654,[-29119]=-4959,[27377]=-17788,[29730]=618,[-2036]=-16008,[2103]=11003,[-2637]=26306,[-20269]=-10354},function(G)
-        return kc[G-28949]
+local Eb=Wa:CreateDropdown({Name='Teleport to NPCS',Options=M,CurrentOption={'Select NPC'},MultipleOptions=false,Flag='NPCTP',Callback=function(od)
+    local Ic,sb,sa,j,bb,gd,qa,Kc,ua,Ed,t,Gc,Xf
+    qa,ua={[-2270]=20926,[5320]=10403,[-32746]=16789,[15657]=-25717,[26975]=24247,[1865]=10403,[29695]=14884,[26477]=900,[-1389]=24247,[-30969]=-26302,[-31466]=16789,[-30680]=7337,[10803]=31863,[-5433]=-29994,[-31375]=28424,[23791]=19912,[397]=-3750,[-15814]=-25717,[12243]=7337,[-5116]=-19485,[-26714]=-15509,[15564]=12534,[31864]=-32001,[6267]=-29994,[1106]=-11597,[23555]=28277,[-18152]=-15509,[-16658]=-28682,[2474]=-7476},function(pd)
+        return qa[pd+21114]
     end
-    Wg=X(48445)
+    sb=ua(-51794)
     repeat
         while true do
-            if Wg==-10354 then
-                Nd=Lc;
-                if Nd then
-                    Wg=X(32859)
+            if sb==-8991 then
+                bb=Ic+ub(bb[1],1,bb[2])
+                sb=-11818
+            elseif sb==-32664 then
+                Kc=CFrame.new
+                sb=ua(-37772)
+            elseif sb==10403 then
+                Xf=Kc;
+                sb=-17244;
+            elseif sb==24247 then
+                Ic=Kc;
+                if Ic then
+                    sb=ua(-14847)
                     break
                 end
-                Wg=X(58383)
-            elseif Wg==-11799 then
-                Pb=td(ab(Lc,Pb))
-                Wg=X(32317)
-            elseif Wg==-26134 then
-                Lc=td(Lc(Nd))
-                Wg=X(58062)
-            elseif Wg==16353 then
-                ab=ye
-                Wg=-23490
-            elseif Wg==-18276 then
-                Lg=Lc;
-                Wg=-2779;
-            elseif Wg==17583 then
-                Lc=1
-                Wg=X(26913)
-            elseif Wg==11003 then
-                Lc=Lc.Character
-                Wg=4131
-            elseif Wg==-6774 then
-                fc=Lc;
-                Wg=6913;
-            elseif Wg==-4959 then
-                Wg=X(48315);
+                sb=12534
+            elseif sb==20926 then
+                t=ub(Ed[1],1,Ed[2])
+                sb=29923
+            elseif sb==-11597 then
+                sa='HumanoidRootPart'
+                sb=-12902
+            elseif sb==10995 then
+                bb=gb(bb(sa,gd,Ed))
+                sb=-8991
+            elseif sb==-15509 then
+                Gc=ub(sa[1],1,sa[2]);
+                sb=-32664;
+            elseif sb==2789 then
+                if bb then
+                    sb=ua(-20717)
+                    break
+                end
+                sb=-10682
+            elseif sb==-12902 then
+                sa=gb(bb(Kc,sa))
+                sb=ua(-47828)
+            elseif sb==-25717 then
+                Gc.CFrame=ub(Kc[1],1,Kc[2]);
+                sb=ua(-5550)
+            elseif sb==-10682 then
+                sa=Uf.CharacterAdded
+                sb=28255
+            elseif sb==-26302 then
+                Ed=gb(gd(sa))
+                sb=ua(-23384)
+            elseif sb==7424 then
+                Kc=od[Kc]
+                sb=ua(-52580)
+            elseif sb==12534 then
+                sb=ua(10750);
                 break;
-            elseif Wg==-4905 then
-                Pb=game:GetService('Players').LocalPlayer.CharacterAdded
-                Wg=-29107
-            elseif Wg==-31889 then
-                ze.CFrame=O(Lc[1],1,Lc[2]);
-                Wg=X(-170)
-            elseif Wg==-16008 then
-                Lc=wg[Lc]
-                Wg=X(13401)
-            elseif Wg==-23490 then
-                Lc=ab
-                Wg=X(43767)
-            elseif Wg==-29107 then
-                D=Pb.Wait
-                Wg=-21111
-            elseif Wg==-2779 then
-                Lc=ka[Lg]
-                Wg=X(30485)
-            elseif Wg==21453 then
-                Pb='HumanoidRootPart'
-                Wg=X(55858)
-            elseif Wg==26007 then
-                Pb=td(ab(Lc,Pb))
-                Wg=X(27839)
-            elseif Wg==618 then
-                ze=O(Pb[1],1,Pb[2]);
-                Wg=X(21894);
-            elseif Wg==26306 then
-                Pb='Players'
-                Wg=26007
-            elseif Wg==-6094 then
-                Lc=CFrame.new
-                Wg=X(54846)
-            elseif Wg==-6654 then
-                Lc=game
-                Wg=X(56326)
-            elseif Wg==6913 then
-                Lc=fc
-                Wg=1498
-            elseif Wg==-19917 then
-                ye=O(Ba[1],1,Ba[2])
-                Wg=16353
-            elseif Wg==-17788 then
-                ab=Lc.GetService
-                Wg=X(26312)
-            elseif Wg==-932 then
-                if ab then
-                    Wg=X(14424)
-                    break
-                end
-                Wg=X(26672)
-            elseif Wg==-21111 then
-                Ba=td(D(Pb))
-                Wg=-19917
-            elseif Wg==25153 then
-                Lc=O(Pb[1],1,Pb[2]).LocalPlayer
-                Wg=X(31052)
-            elseif Wg==4131 then
-                ab=Lc
-                Wg=X(23763)
-            elseif Wg==1498 then
-                ab=Lc.WaitForChild
-                Wg=X(34647)
+            elseif sb==-29994 then
+                Kc=Uf.Character
+                sb=ua(2441)
+            elseif sb==7337 then
+                Kc=1
+                sb=7424
+            elseif sb==-30629 then
+                Kc=ka[j]
+                sb=ua(-22503)
+            elseif sb==-11818 then
+                Kc=gb(Kc(bb))
+                sb=ua(-36928)
+            elseif sb==5806 then
+                gd=5
+                sb=ua(-52489)
+            elseif sb==31863 then
+                sa=0
+                sb=5806
+            elseif sb==-28682 then
+                bb=Vector3 .new
+                sb=ua(-10311)
+            elseif sb==28277 then
+                bb=Kc
+                sb=2789
+            elseif sb==-17244 then
+                Kc=Xf
+                sb=ua(8581)
+            elseif sb==29923 then
+                bb=t
+                sb=-3750
+            elseif sb==-3750 then
+                Kc=bb
+                sb=ua(-15794)
+            elseif sb==28255 then
+                gd=sa.Wait
+                sb=ua(-52083)
+            elseif sb==14884 then
+                bb=Kc.WaitForChild
+                sb=ua(-20008)
+            elseif sb==16789 then
+                j=Kc;
+                sb=-30629;
+            elseif sb==28424 then
+                Ed=0
+                sb=10995
             end
         end
-    until Wg==-21109
+    until sb==-32001
 end})
-local me=workspace:WaitForChild('World'):WaitForChild('NPCs')
-local Ic={}
-local ob={}
-for pf,Pg in ipairs(me:GetChildren())do
-    local Ac,vf,Nc,Ve,ua
-    ua,Ve={[-2037]=7145,[-17602]=-9065,[-19024]=20430,[-17506]=-11604,[23990]=-9065,[9573]=1426,[-8443]=3287,[10016]=-14320,[24016]=20430,[2132]=-23299,[-26759]=7145,[8637]=-20141},function(Ec)
-        return ua[Ec-5758]
+local Ha=Wa:CreateDropdown({Name='Teleport Spawns',Options=W,CurrentOption={'Select Spawn'},MultipleOptions=false,Flag='SpawnTP',Callback=function(fb)
+    local Td,Ac,if_,ag,Se,Eg,Qb,rf,De,wf,qd,pf,K
+    Qb,qd={[25601]=16723,[-13898]=-18365,[-9304]=-22760,[-20021]=19173,[14751]=15296,[-20066]=-10360,[6788]=16723,[-1409]=27193,[15093]=-1661,[-25336]=8273,[-17767]=-25208,[22543]=12016,[-17862]=-22092,[-1522]=-638,[13153]=31608,[-26177]=27193,[-17959]=11482,[-5164]=-8464,[-1434]=-1661,[-27979]=-25208,[31980]=-16125,[-18060]=8273,[-2389]=29432,[-19559]=16953,[-27751]=-10003,[27134]=15583,[-23403]=-16125,[-29164]=-30295,[-19023]=15296,[5652]=-20007,[1426]=13623},function(Wd)
+        return Qb[Wd-11344]
     end
-    Nc=Ve(15331)
+    if_=qd(26095)
     repeat
         while true do
-            if Nc==-9065 then
-                ob[Pg.Name]=vf;
-                Nc=Ve(-21001)
-            elseif Nc==-23299 then
-                vf=table.insert
-                Nc=-30653
-            elseif Nc==1426 then
-                if Pg:IsA('Model')and Pg.PrimaryPart then
-                    Nc=Ve(7890)
+            if if_==-7922 then
+                pf=Ac.WaitForChild
+                if_=qd(38478)
+            elseif if_==16953 then
+                Ac=De
+                if_=-7922
+            elseif if_==27193 then
+                Se=ub(Eg[1],1,Eg[2]);
+                if_=5959;
+            elseif if_==29432 then
+                Ac=hg[K]
+                if_=qd(26437)
+            elseif if_==8273 then
+                Ac=pf
+                if_=qd(-12059)
+            elseif if_==12016 then
+                pf=wf
+                if_=qd(-6716)
+            elseif if_==-16125 then
+                De=Ac;
+                if_=qd(-8215);
+            elseif if_==-15286 then
+                Eg=gb(pf(Ac,Eg))
+                if_=qd(-14833)
+            elseif if_==16723 then
+                K=Ac;
+                if_=qd(8955);
+            elseif if_==11482 then
+                Ac=Uf.Character
+                if_=qd(-6518)
+            elseif if_==5959 then
+                Ac=CFrame.new
+                if_=qd(12770)
+            elseif if_==-8464 then
+                Td=gb(ag(Eg))
+                if_=qd(-8677)
+            elseif if_==-22092 then
+                pf=Ac
+                if_=qd(2040)
+            elseif if_==15583 then
+                Eg='HumanoidRootPart'
+                if_=-15286
+            elseif if_==-22760 then
+                if pf then
+                    if_=qd(-13992)
                     break
                 end
-                Nc=Ve(3721)
-            elseif Nc==3508 then
-                vf=vf.Position
-                Nc=Ve(-11844)
-            elseif Nc==29570 then
-                vf=vf(Ic,Ac)
-                Nc=Ve(29774)
-            elseif Nc==7145 then
-                Nc=Ve(14395);
+                if_=qd(-17820)
+            elseif if_==-1661 then
+                rf=Ac;
+                if rf then
+                    if_=qd(-6615)
+                    break
+                end
+                if_=-18365
+            elseif if_==-19986 then
+                ag=Eg.Wait
+                if_=qd(6180)
+            elseif if_==13623 then
+                Ac=gb(Ac(rf))
+                if_=qd(-6423)
+            elseif if_==1159 then
+                Ac=fb[Ac]
+                if_=qd(18132)
+            elseif if_==-25208 then
+                Se.CFrame=ub(Ac[1],1,Ac[2]);
+                if_=qd(-2554)
+            elseif if_==-30295 then
+                Eg=Uf.CharacterAdded
+                if_=-19986
+            elseif if_==19173 then
+                wf=ub(Td[1],1,Td[2])
+                if_=qd(33887)
+            elseif if_==-18365 then
+                if_=qd(-16407);
                 break;
-            elseif Nc==-30653 then
-                Ac=Pg.Name
-                Nc=29570
-            elseif Nc==20430 then
-                vf=Pg.PrimaryPart
-                Nc=3508
+            elseif if_==15296 then
+                Ac=1
+                if_=1159
             end
         end
-    until Nc==-20141
-end
-local _f=Id:CreateDropdown({Name='Teleport to NPCS',Options=Ic,CurrentOption={'Select NPC'},MultipleOptions=false,Flag='NPCTP',Callback=function(Vc)
-    local Yd,Gb,Nf,Dd,tb,eb,kd,Fc,Ya,fh,Fb,jd,Tf
-    kd,Fc={[21471]=21623,[21536]=8248,[27218]=13236,[1573]=19514,[31716]=-13596,[22746]=-27554,[-4806]=16815,[-20988]=-13596,[11748]=16815,[-26035]=21623,[21351]=-29416,[-10204]=15342,[-3953]=31078,[21506]=4840,[21428]=-21579,[17436]=16850,[-21195]=13236,[-8892]=29656,[32222]=30236,[-5740]=19514,[19953]=-15134,[-9356]=30266,[11475]=-17551,[17198]=6575,[24833]=-2185,[2836]=-15134,[8445]=1412,[-19950]=-14054,[28112]=-6534,[21401]=30236,[-4545]=15342,[-14004]=-2417},function(Rd)
-        return kd[Rd-17766]
-    end
-    Nf=Fc(37719)
-    repeat
-        while true do
-            if Nf==19514 then
-                tb.CFrame=O(Gb[1],1,Gb[2]);
-                Nf=Fc(-3222)
-            elseif Nf==13236 then
-                eb=Gb;
-                if eb then
-                    Nf=Fc(3762)
-                    break
-                end
-                Nf=Fc(49482)
-            elseif Nf==16815 then
-                jd=Gb;
-                Nf=Fc(8874);
-            elseif Nf==-13387 then
-                Fb=fh
-                Nf=Fc(39237)
-            elseif Nf==-1907 then
-                Fb=Vector3 .new
-                Nf=27477
-            elseif Nf==13557 then
-                Fb=Gb
-                Nf=Fc(40512)
-            elseif Nf==30266 then
-                Dd=le.CharacterAdded
-                Nf=-2197
-            elseif Nf==27477 then
-                Dd=0
-                Nf=Fc(39194)
-            elseif Nf==-18915 then
-                Dd='HumanoidRootPart'
-                Nf=Fc(39117)
-            elseif Nf==-29710 then
-                Fb=Gb.WaitForChild
-                Nf=-18915
-            elseif Nf==-2417 then
-                Gb=le.Character
-                Nf=13557
-            elseif Nf==15342 then
-                tb=O(Dd[1],1,Dd[2]);
-                Nf=4961;
-            elseif Nf==30236 then
-                Ya=Gb;
-                Nf=Fc(39302);
-            elseif Nf==-14054 then
-                Gb=td(Gb(Fb))
-                Nf=Fc(19339)
-            elseif Nf==31078 then
-                Gb=Vc[Gb]
-                Nf=Fc(29514)
-            elseif Nf==8248 then
-                Gb=Ya
-                Nf=-29710
-            elseif Nf==1412 then
-                Fb=eb+O(Fb[1],1,Fb[2])
-                Nf=Fc(-2184)
-            elseif Nf==-15134 then
-                Gb=1
-                Nf=Fc(13813)
-            elseif Nf==21623 then
-                Gb=Fb
-                Nf=Fc(39167)
-            elseif Nf==4961 then
-                Gb=CFrame.new
-                Nf=-1907
-            elseif Nf==6575 then
-                Yd=td(Tf(Dd))
-                Nf=2497
-            elseif Nf==-13596 then
-                Nf=Fc(29241);
-                break;
-            elseif Nf==-1522 then
-                Fb=td(Fb(Dd,Tf,Yd))
-                Nf=Fc(26211)
-            elseif Nf==-27554 then
-                if Fb then
-                    Nf=Fc(-8269)
-                    break
-                end
-                Nf=Fc(8410)
-            elseif Nf==2497 then
-                fh=O(Yd[1],1,Yd[2])
-                Nf=-13387
-            elseif Nf==29656 then
-                Gb=ob[jd]
-                Nf=Fc(44984)
-            elseif Nf==-2197 then
-                Tf=Dd.Wait
-                Nf=Fc(34964)
-            elseif Nf==-21579 then
-                Tf=5
-                Nf=Fc(35202)
-            elseif Nf==16850 then
-                Yd=0
-                Nf=-1522
-            elseif Nf==-29416 then
-                Dd=td(Fb(Gb,Dd))
-                Nf=Fc(13221)
-            end
-        end
-    until Nf==-17551
+    until if_==-10003
 end})
-local Hg=Id:CreateDropdown({Name='Teleport Spawns',Options=Qc,CurrentOption={'Select Spawn'},MultipleOptions=false,Flag='SpawnTP',Callback=function(He)
-    local hg,V,lg,Ze,xf,aa,fd,hf,rg,Ma,cg,rb,Qb
-    Ma,rg={[-17257]=-22123,[29069]=-26994,[-28935]=-12104,[-15971]=-19366,[5739]=-103,[-15957]=-13954,[30961]=28870,[16359]=28870,[23173]=23527,[26347]=12876,[-28396]=-26994,[-10281]=-1841,[4862]=22479,[-8924]=5275,[28890]=-20787,[20804]=11181,[4405]=-20016,[22950]=18480,[5714]=-13954,[19108]=27119,[13890]=5676,[-20416]=8409,[23327]=-20787,[-22456]=-22123,[12483]=20557,[-779]=-19366,[-17618]=11181,[4543]=14007},function(pd)
-        return Ma[pd- -149]
+local _b=ha:CreateSection('Movement')
+local A=ha:CreateSlider({Name='Walkspeed',Range={0,100},Increment=1,Suffix='Speed',CurrentValue=16,Flag='Walkspeed',Callback=function(Ie)
+    local gh,o,Qc
+    o,Qc={[-25362]=-19153,[-12659]=26537,[21832]=26537,[14536]=30860,[-13321]=22810,[31584]=22810,[23777]=-18167,[-11293]=22810},function(ig)
+        return o[ig-15742]
     end
-    lg=rg(4713)
+    gh=Qc(39519)
     repeat
         while true do
-            if lg==27026 then
-                hf=td(hf(fd))
-                lg=rg(-16106)
-            elseif lg==-3003 then
-                rb=td(cg(aa))
-                lg=21411
-            elseif lg==11181 then
-                hf=Qb
-                lg=rg(-22605)
-            elseif lg==-12264 then
-                cg=aa.Wait
-                lg=-3003
-            elseif lg==27119 then
-                Qb=hg
-                lg=rg(-17767)
-            elseif lg==-22123 then
-                Ze=hf;
-                lg=rg(26198);
-            elseif lg==8485 then
-                aa=le.CharacterAdded
-                lg=-12264
-            elseif lg==-12104 then
-                hf=le.Character
-                lg=-9265
-            elseif lg==21411 then
-                hg=O(rb[1],1,rb[2])
-                lg=rg(18959)
-            elseif lg==-1841 then
-                hf=CFrame.new
-                lg=27026
-            elseif lg==30113 then
-                aa='HumanoidRootPart'
-                lg=rg(12334)
-            elseif lg==23527 then
-                hf=Tg[V]
-                lg=rg(28920)
-            elseif lg==-19366 then
-                lg=rg(5590);
+            if gh==26537 then
+                gh=Qc(-9620);
                 break;
-            elseif lg==-20787 then
-                xf=O(aa[1],1,aa[2]);
-                lg=rg(-10430);
-            elseif lg==12876 then
-                hf=Ze
-                lg=-16982
-            elseif lg==-14825 then
-                hf=He[hf]
-                lg=rg(30812)
-            elseif lg==20557 then
-                aa=td(Qb(hf,aa))
-                lg=rg(23178)
-            elseif lg==-9265 then
-                Qb=hf
-                lg=-23716
-            elseif lg==-16982 then
-                Qb=hf.WaitForChild
-                lg=30113
-            elseif lg==-26994 then
-                fd=hf;
-                if fd then
-                    lg=rg(-29084)
+            elseif gh==-18167 then
+                if Uf.Character and Uf.Character:FindFirstChildOfClass('Humanoid')then
+                    gh=Qc(4449)
                     break
                 end
-                lg=rg(-16120)
-            elseif lg==-13954 then
-                xf.CFrame=O(hf[1],1,hf[2]);
-                lg=rg(-928)
-            elseif lg==22479 then
-                hf=1
-                lg=-14825
-            elseif lg==-23716 then
-                if Qb then
-                    lg=rg(20655)
-                    break
-                end
-                lg=8485
-            elseif lg==28870 then
-                V=hf;
-                lg=rg(23024);
+                gh=Qc(37574)
+            elseif gh==22810 then
+                Uf.Character:FindFirstChildOfClass('Humanoid').WalkSpeed=Ie;
+                gh=Qc(3083)
             end
         end
-    until lg==-103
+    until gh==-19153
 end})
-local fg=_e:CreateSection('Movement')
-local va=_e:CreateSlider({Name='Walkspeed',Range={0,100},Increment=1,Suffix='Speed',CurrentValue=16,Flag='Walkspeed',Callback=function(ag)
-    local ma,md,La
-    La,ma={[17943]=-31258,[14354]=-26475,[-23719]=-26135,[28729]=19242,[-11509]=26889,[24596]=-26135,[15454]=-26135,[-16538]=-31716},function(Rb)
-        return La[Rb+-21764]
-    end
-    md=ma(5226)
-    repeat
-        while true do
-            if md==-26135 then
-                le.Character:FindFirstChildOfClass('Humanoid').WalkSpeed=ag;
-                md=ma(50493)
-            elseif md==-31716 then
-                if le.Character and le.Character:FindFirstChildOfClass('Humanoid')then
-                    md=ma(46360)
-                    break
-                end
-                md=19242
-            elseif md==19242 then
-                md=ma(10255);
-                break;
-            end
-        end
-    until md==26889
-end})
-local fe=_e:CreateSlider({Name='FOV',Range={20,120},Increment=1,Suffix='FOV',CurrentValue=mc.FieldOfView,Flag='FOV',Callback=function(df)
-    mc.FieldOfView=df;
+local ng=ha:CreateSlider({Name='FOV',Range={20,120},Increment=1,Suffix='FOV',CurrentValue=Jb.FieldOfView,Flag='FOV',Callback=function(wa)
+    Jb.FieldOfView=wa;
 end});
-Cf.JumpRequest:Connect(function()
-    local Sb,wa,rc,og,N,Ag
-    Sb,og={[-2602]=-22186,[-26649]=-20278,[9451]=3045,[-1015]=26236,[22639]=-20278,[-15455]=-20278,[18946]=16041,[18699]=-1813,[-6405]=21975,[4440]=-11362,[-4966]=-20278},function(hh)
-        return Sb[hh+3656]
+wg.JumpRequest:Connect(function()
+    local vd,yd,Pg,oa,Vd,me
+    oa,Pg={[-21389]=13449,[20458]=1749,[10286]=-6588,[-25226]=-4475,[-20845]=-4475,[8485]=-20013,[27574]=13861,[8068]=14931,[-25653]=-4475,[1494]=-4475},function(Id)
+        return oa[Id-873]
     end
-    N=og(784)
+    me=Pg(-20516)
     repeat
         while true do
-            if N==-1813 then
-                rc=wa(Ag,rc)
-                N=og(-19111)
-            elseif N==16041 then
-                Ag=le.Character:FindFirstChildOfClass('Humanoid')
-                N=-1191
-            elseif N==-1191 then
-                wa=Ag.ChangeState
-                N=-25262
-            elseif N==-11362 then
-                if Fa and le.Character and le.Character:FindFirstChildOfClass('Humanoid')then
-                    N=og(15290)
+            if me==13861 then
+                vd=yd(Vd,vd)
+                me=Pg(2367)
+            elseif me==22268 then
+                vd=Enum.HumanoidStateType
+                me=30756
+            elseif me==-10761 then
+                yd=Vd.ChangeState
+                me=22268
+            elseif me==13449 then
+                if _h and Uf.Character and Uf.Character:FindFirstChildOfClass('Humanoid')then
+                    me=Pg(11159)
                     break
                 end
-                N=og(18983)
-            elseif N==-20278 then
-                N=og(-10061);
+                me=Pg(-19972)
+            elseif me==-6588 then
+                Vd=Uf.Character:FindFirstChildOfClass('Humanoid')
+                me=-10761
+            elseif me==30756 then
+                vd=vd.Jumping
+                me=Pg(28447)
+            elseif me==-4475 then
+                me=Pg(21331);
                 break;
-            elseif N==-25262 then
-                rc=Enum.HumanoidStateType
-                N=-6216
-            elseif N==-6216 then
-                rc=rc.Jumping
-                N=og(15043)
             end
         end
-    until N==21975
+    until me==1749
 end);
-Sc.Stepped:Connect(function()
-    local Kb,Pa,vb,Kb,ee,ga,bh,zg,yb,W,re,Pa,jh,ad
-    ee,jh={[-20353]=-15861,[-17131]=-22564,[-8997]=13722,[-25637]=16085,[7819]=-3341,[-25371]=-3341,[-21232]=20910,[-13774]=-3341,[20791]=19041,[31582]=20910,[4253]=16225,[-7795]=24485,[1689]=-22011,[1328]=18057,[28524]=-7390,[-22268]=20128,[-29665]=23042,[-26054]=-25396,[-30995]=-3341,[-3623]=24485,[-7776]=24485,[24817]=-23789,[17494]=8832,[29303]=-3341,[29235]=-3341,[1463]=-24487,[-11304]=-3341,[-15435]=20255,[32565]=13722,[12573]=20255,[32262]=12686,[23642]=-3032,[-21788]=23042,[-23159]=-25396,[30733]=18057,[913]=-3341,[31413]=-8247,[-10414]=13443,[-5547]=-3341,[15979]=-8247,[32744]=27100,[15522]=11883,[-24804]=-23789,[30519]=12686,[18614]=-11335,[32662]=-23789,[-30456]=-12854,[22096]=3178},function(B)
-        return ee[B+6383]
+Yd.Stepped:Connect(function()
+    local Va,ff,jb,ch,Fb,xa,ga,re,of,We,pc,xa,cg,ff
+    of,Va={[21965]=6499,[1665]=11559,[25300]=-6797,[1058]=25,[-7518]=27845,[19062]=-6797,[-19562]=6499,[9439]=6499,[-23468]=25,[-13307]=6499,[-25842]=25,[-2225]=6499,[4307]=-28163,[-28925]=-24027,[8501]=-30150,[-25105]=-27889,[6065]=14934,[-29100]=-30191,[-28604]=-28163,[-32624]=26912,[-8773]=13917,[13719]=-28029,[19289]=6499,[-32380]=4669,[32318]=139,[-24740]=-24280,[31841]=-7539,[-6297]=-30150,[-10122]=-11172,[3982]=-28163,[22075]=-7539,[8761]=-31392,[17394]=23190,[-30570]=16602,[-18878]=6499,[-11711]=23836,[7287]=6499,[-21315]=139,[623]=-30191,[30352]=24380,[14571]=27845,[-14290]=3299,[600]=23190,[13048]=19362,[-25728]=-24027},function(Aa)
+        return of[Aa+22018]
     end
-    vb=jh(26361)
+    Fb=Va(-47123)
     repeat
         while true do
-            if vb==-8247 then
-                zg,ga,W=O(yb[1],1,yb[2]);
-                vb=jh(-17687)
-            elseif vb==8832 then
-                re=td(bh(yb))
-                vb=jh(-4694)
-            elseif vb==16085 then
-                yb=td(yb(zg))
-                vb=jh(9596)
-            elseif vb==13722 then
-                zg,ga,W=O(yb[1],1,yb[2]);
-                vb=jh(-11930)
-            elseif vb==-3032 then
-                yb=ad.__iter
-                vb=jh(-32020)
-            elseif vb==18057 then
-                ad=O(yb[1],1,yb[2]);
-                if ad~=nil and ad.__iter~=nil then
-                    vb=jh(17259)
-                    break
-                elseif pg(zg)=='table'then
-                    vb=jh(-21818)
-                    break
-                end
-                vb=jh(-5470)
-            elseif vb==12686 then
-                zg,ga,W=O(yb[1],1,yb[2]);
-                if pg(zg)~='function'then
-                    vb=jh(-36048)
+            if Fb==-24027 then
+                cg,ga,pc=ub(We[1],1,We[2]);
+                Fb=Va(-2729)
+            elseif Fb==27845 then
+                cg,ga,pc=ub(We[1],1,We[2]);
+                if Z(cg)~='function'then
+                    Fb=Va(10300)
                     break
                 end;
-                vb=jh(22852);
-            elseif vb==20255 then
-                yb=td(Yf(zg))
-                vb=jh(-15380)
-            elseif vb==23042 then
-                yb=td(we(zg))
-                vb=jh(24350)
-            elseif vb==1553 then
-                bh=yb.GetDescendants
-                vb=jh(11111)
-            elseif vb==-11335 then
-                yb=le.Character
-                vb=1553
-            elseif vb==-23789 then
-                vb=jh(15713);
-                break;
-            elseif vb==-3341 then
-                Pa,Kb=zg(ga,W);
-                W=Pa;
-                if W==nil then
-                    vb=jh(18434)
+                Fb=Va(-24243);
+            elseif Fb==-28163 then
+                xa.CanCollide=false;
+                Fb=Va(-35325)
+            elseif Fb==6499 then
+                ff,xa=cg(ga,pc);
+                pc=ff;
+                if pc==nil then
+                    Fb=Va(-51118)
                 else
-                    vb=8315
+                    Fb=-29629
                 end
-            elseif vb==27100 then
-                if r and le.Character then
-                    vb=jh(12231)
+            elseif Fb==23190 then
+                We=Uf.Character
+                Fb=Va(-8970)
+            elseif Fb==-30150 then
+                re=ub(We[1],1,We[2]);
+                if re~=nil and re.__iter~=nil then
+                    Fb=Va(-54642)
+                    break
+                elseif Z(cg)=='table'then
+                    Fb=Va(-13257)
                     break
                 end
-                vb=jh(-31187)
-            elseif vb==24485 then
-                Kb.CanCollide=false;
-                vb=jh(-31754)
-            elseif vb==-22011 then
-                yb=td(ipairs(O(re[1],1,re[2])))
-                vb=jh(24136)
-            elseif vb==8315 then
-                if Kb:IsA('BasePart')then
-                    vb=jh(-14178)
+                Fb=Va(-12579)
+            elseif Fb==-31392 then
+                We=gb(qe(cg))
+                Fb=Va(9823)
+            elseif Fb==-9344 then
+                ch=gb(jb(We))
+                Fb=-20677
+            elseif Fb==-20677 then
+                We=gb(ipairs(ub(ch[1],1,ch[2])))
+                Fb=Va(-7447)
+            elseif Fb==-27889 then
+                if Ub and Uf.Character then
+                    Fb=Va(-21418)
                     break
                 end
-                vb=jh(-37378)
+                Fb=-30191
+            elseif Fb==32042 then
+                We=gb(We(cg))
+                Fb=Va(-50943)
+            elseif Fb==139 then
+                We=gb(Wf(cg))
+                Fb=Va(-13517)
+            elseif Fb==26912 then
+                We=re.__iter
+                Fb=32042
+            elseif Fb==-29629 then
+                if xa:IsA('BasePart')then
+                    Fb=Va(-17711)
+                    break
+                end
+                Fb=Va(-40896)
+            elseif Fb==-7539 then
+                cg,ga,pc=ub(We[1],1,We[2]);
+                Fb=Va(-14731)
+            elseif Fb==-30191 then
+                Fb=Va(-33729);
+                break;
+            elseif Fb==19362 then
+                jb=We.GetDescendants
+                Fb=-9344
             end
         end
-    until vb==3178
+    until Fb==23836
 end)
-local Fe=_e:CreateToggle({Name='Fly',CurrentValue=false,Flag='Fly',Callback=function(Gg)
-    Ka=Gg;
+local R=ha:CreateToggle({Name='Fly',CurrentValue=false,Flag='Fly',Callback=function(Cg)
+    Za=Cg;
 end})
-local m=_e:CreateSlider({Name='Fly Speed',Range={10,250},Increment=1,Suffix='Speed',CurrentValue=50,Flag='FlySpeed',Callback=function(Yb)
-    De=Yb;
+local jf=ha:CreateSlider({Name='Fly Speed',Range={10,250},Increment=1,Suffix='Speed',CurrentValue=50,Flag='FlySpeed',Callback=function(Ia)
+    td=Ia;
 end});
-Sc.RenderStepped:Connect(function()
-    local Ig,F,af,ec,ra,Bg,mh,Cg,If
-    mh,F={[-25153]=10052,[24134]=18793,[-32154]=13950,[-2233]=-9634,[6322]=-14207,[25438]=30813,[16235]=23322,[-12084]=-4044,[-25976]=23322,[3834]=6,[933]=31873,[18556]=11875,[23909]=-17336,[-28055]=-6178,[12529]=-24694,[1015]=19036,[-5335]=-2038,[32408]=-9634,[31971]=-12730,[10954]=28312,[-30890]=-25006,[-16405]=-24694,[-20211]=-21327,[4760]=-21556,[5800]=-28492,[-8609]=13950,[23264]=-14207,[28202]=-13648,[-22930]=22622,[-20136]=27370,[-9405]=31304,[30860]=-25006,[19905]=21622,[26610]=-12930,[-12109]=-517,[-11137]=-24790,[8760]=-6286,[6922]=-17550,[-4012]=22999,[-19551]=21622,[29267]=-2038,[23921]=19036,[23076]=13541,[-27815]=-517,[-3109]=23536,[-31436]=22999,[-5811]=-11135,[-15005]=-20487,[-15614]=22622,[4432]=-21629,[2039]=-24587,[28926]=-12730,[-4401]=30813,[-4733]=28312,[-28193]=-1176,[30950]=21778,[-4732]=-29424,[31883]=-20487,[7519]=-12884},function(Og)
-        return mh[Og- -17055]
+Yd.RenderStepped:Connect(function()
+    local Ne,Bd,yb,Zd,lf,Jc,Ce,lb,Da
+    Ce,lb={[-15763]=-4646,[-26755]=-6583,[-27212]=11078,[-10627]=-30884,[-17412]=2691,[22435]=30237,[-26574]=3512,[7725]=17616,[23119]=22306,[1498]=-28691,[14885]=-9101,[-29328]=4721,[27212]=27266,[-1878]=14256,[-235]=-30544,[17105]=-22747,[-31418]=31789,[29535]=8547,[4049]=30698,[6048]=-2752,[-20320]=22476,[-11593]=13780,[31278]=-9512,[-18864]=-24898,[16203]=-13175,[29784]=25277,[24878]=-6228,[-5528]=22476,[27743]=-18624,[-31207]=30698,[-30762]=25277,[-14865]=-28691,[16574]=-3041,[-8925]=25867,[23385]=3735,[-6590]=28962,[-26653]=-13353,[11716]=-6228,[-9383]=6136,[-27258]=21945,[-17191]=4809,[25326]=8842,[-30945]=9347,[-2173]=-29134,[4874]=-24898,[-18038]=25867,[26891]=31789,[-11620]=5741,[-1410]=13780,[24877]=18009,[-17569]=22306,[-21576]=17510,[26363]=5741,[11755]=-9512,[28554]=18009,[24170]=-3041,[-23008]=-13679,[10194]=23002,[-19261]=12913,[-8213]=16883,[-8745]=4809},function(Ib)
+        return Ce[Ib+-26606]
     end
-    If=F(-9536)
+    Zd=lb(32)
     repeat
         while true do
-            if If==10052 then
-                Cg=0
-                If=F(6854)
-            elseif If==-9634 then
-                ec+=ra;
-                If=F(-37191)
-            elseif If==-17336 then
-                ra=ra(Ig,Bg,Cg)
-                If=F(11871)
-            elseif If==23536 then
-                ra=ra.LookVector
-                If=F(-16040)
-            elseif If==13950 then
-                ra=Vector3 .new
-                If=8364
-            elseif If==-24694 then
-                ec=ra;
-                if Cf:IsKeyDown(Enum.KeyCode.W)then
-                    If=F(-37266)
+            if Zd==13780 then
+                lf+=yb;
+                Zd=lb(-4156)
+            elseif Zd==-13175 then
+                if wg:IsKeyDown(Enum.KeyCode.E)then
+                    Zd=lb(49725)
                     break
                 end
-                If=F(2850)
-            elseif If==-22597 then
-                ra=ra.RightVector
-                If=F(-10733)
-            elseif If==-25006 then
-                ra=mc.CFrame
-                If=F(-10133)
-            elseif If==-21327 then
-                ra=mc.CFrame
-                If=F(-20164)
-            elseif If==23322 then
-                ra=ec*De
-                If=F(-48491)
-            elseif If==31304 then
-                ra=mc.CFrame
-                If=-18306
-            elseif If==-20487 then
-                if Cf:IsKeyDown(Enum.KeyCode.A)then
-                    If=F(-12295)
+                Zd=lb(56390)
+            elseif Zd==-3041 then
+                Bd=yb;
+                Zd=28648;
+            elseif Zd==-13644 then
+                Jc=1
+                Zd=-25737
+            elseif Zd==-6583 then
+                yb=yb.HumanoidRootPart
+                Zd=lb(43180)
+            elseif Zd==-18624 then
+                yb=yb(Ne,Jc,Da)
+                Zd=lb(57884)
+            elseif Zd==4721 then
+                Da=0
+                Zd=lb(54349)
+            elseif Zd==22306 then
+                yb=Vector3 .new
+                Zd=lb(15979)
+            elseif Zd==18009 then
+                lf=yb;
+                if wg:IsKeyDown(Enum.KeyCode.W)then
+                    Zd=lb(51484)
                     break
                 end
-                If=13541
-            elseif If==8364 then
-                Ig=0
-                If=F(-11255)
-            elseif If==17913 then
-                Cg=0
-                If=-2085
-            elseif If==17468 then
-                Ig=0
-                If=F(-29139)
-            elseif If==-13648 then
-                if Cf:IsKeyDown(Enum.KeyCode.E)then
-                    If=F(-8295)
+                Zd=28962
+            elseif Zd==-28691 then
+                Bd.Velocity=yb;
+                Zd=lb(-47)
+            elseif Zd==25867 then
+                lf-=yb;
+                Zd=lb(9415)
+            elseif Zd==-30884 then
+                Ne=0
+                Zd=-13644
+            elseif Zd==-25737 then
+                Da=0
+                Zd=lb(17223)
+            elseif Zd==-9512 then
+                lf-=yb;
+                Zd=lb(14986)
+            elseif Zd==-2132 then
+                yb=yb.LookVector
+                Zd=lb(-4601)
+            elseif Zd==-2752 then
+                yb=Jb.CFrame
+                Zd=lb(49991)
+            elseif Zd==27266 then
+                yb=yb.RightVector
+                Zd=lb(21078)
+            elseif Zd==28962 then
+                if wg:IsKeyDown(Enum.KeyCode.S)then
+                    Zd=lb(32654)
                     break
                 end
-                If=27370
-            elseif If==-21556 then
-                ra=mc.CFrame
-                If=-22597
-            elseif If==21622 then
-                if Cf:IsKeyDown(Enum.KeyCode.S)then
-                    If=F(-47945)
+                Zd=lb(17861)
+            elseif Zd==17616 then
+                yb=Uf.Character
+                Zd=lb(-149)
+            elseif Zd==5741 then
+                yb=lf*td
+                Zd=lb(11741)
+            elseif Zd==30698 then
+                lf+=yb;
+                Zd=lb(20016)
+            elseif Zd==-9101 then
+                if wg:IsKeyDown(Enum.KeyCode.D)then
+                    Zd=lb(5030)
                     break
                 end
-                If=F(14828)
-            elseif If==-11135 then
-                ra=Vector3 .zero
-                If=F(-4526)
-            elseif If==-2085 then
-                ra=ra(Ig,Bg,Cg)
-                If=F(15353)
-            elseif If==30813 then
-                af=ra;
-                If=F(-22866);
-            elseif If==-4044 then
-                Bg=1
-                If=17913
-            elseif If==-14207 then
-                ec-=ra;
-                If=F(6021)
-            elseif If==-17550 then
-                ra=ra.LookVector
-                If=F(-22390)
-            elseif If==19036 then
-                ec+=ra;
-                If=F(-36606)
-            elseif If==-28492 then
-                Bg=1
-                If=F(-42208)
-            elseif If==-2038 then
-                ec-=ra;
-                If=F(-32060)
-            elseif If==-18306 then
-                ra=ra.RightVector
-                If=F(-21788)
-            elseif If==27370 then
-                if Cf:IsKeyDown(Enum.KeyCode.Q)then
-                    If=F(-49209)
+                Zd=-13175
+            elseif Zd==12913 then
+                Jc=1
+                Zd=lb(-2722)
+            elseif Zd==23830 then
+                yb=yb.RightVector
+                Zd=lb(7742)
+            elseif Zd==22476 then
+                lf-=yb;
+                Zd=lb(41491)
+            elseif Zd==-29134 then
+                Ne=0
+                Zd=lb(7345)
+            elseif Zd==3735 then
+                yb=yb.LookVector
+                Zd=lb(8568)
+            elseif Zd==28648 then
+                yb=Vector3 .zero
+                Zd=lb(51483)
+            elseif Zd==25277 then
+                if wg:IsKeyDown(Enum.KeyCode.Q)then
+                    Zd=lb(53497)
                     break
                 end
-                If=F(-820)
-            elseif If==6 then
-                ra=le.Character
-                If=17278
-            elseif If==17278 then
-                ra=ra.HumanoidRootPart
-                If=F(8383)
-            elseif If==13541 then
-                if Cf:IsKeyDown(Enum.KeyCode.D)then
-                    If=F(-26460)
-                    break
-                end
-                If=-13648
-            elseif If==28312 then
-                ec+=ra;
-                If=F(11147)
-            elseif If==-12884 then
-                if Ka and le.Character and le.Character:FindFirstChild('HumanoidRootPart')then
-                    If=F(-13221)
-                    break
-                end
-                If=F(-32669)
-            elseif If==22622 then
-                If=F(-21787);
+                Zd=lb(52969)
+            elseif Zd==31789 then
+                yb=Vector3 .new
+                Zd=lb(24433)
+            elseif Zd==-6228 then
+                yb=Jb.CFrame
+                Zd=-2132
+            elseif Zd==-13353 then
+                Zd=lb(-4339);
                 break;
-            elseif If==-6286 then
-                ra=Vector3 .new
-                If=17468
-            elseif If==22999 then
-                af.Velocity=ra;
-                If=F(-39985)
-            elseif If==-12730 then
-                ec-=ra;
-                If=F(-43031)
+            elseif Zd==3512 then
+                if Za and Uf.Character and Uf.Character:FindFirstChild('HumanoidRootPart')then
+                    Zd=lb(34331)
+                    break
+                end
+                Zd=-13353
+            elseif Zd==6136 then
+                yb=yb(Ne,Jc,Da)
+                Zd=lb(15013)
+            elseif Zd==8842 then
+                yb=Jb.CFrame
+                Zd=lb(53818)
+            elseif Zd==4809 then
+                if wg:IsKeyDown(Enum.KeyCode.A)then
+                    Zd=lb(51932)
+                    break
+                end
+                Zd=-9101
+            elseif Zd==17510 then
+                yb=Jb.CFrame
+                Zd=23830
+            elseif Zd==-24898 then
+                lf+=yb;
+                Zd=lb(42809)
             end
         end
-    until If==-29424
+    until Zd==9347
 end)
-local ja=_e:CreateSection('Player Teleport')
-local function cd()
-    local oe,_c,Ed,Db,c,Tc,oe,Uf,ue,_c,L,k,Pd,Df,Yg
-    Tc,Db={[14226]=29838,[5049]=-12250,[-32186]=-19706,[-20810]=16520,[-13217]=-189,[9706]=29838,[21806]=20912,[17817]=-6166,[9287]=20912,[14798]=17573,[2602]=-13968,[-13373]=15700,[15523]=-19706,[-28704]=16808,[9563]=20912,[7483]=20912,[1994]=8231,[27313]=15700,[-15817]=20912,[-32698]=-5637,[-12858]=-6718,[24601]=18493,[726]=15700,[9608]=-4626,[-28311]=-23223,[13229]=-25435,[9491]=29838,[12604]=20912,[18851]=20912,[-14911]=30425,[-31098]=586,[25606]=-25203,[4540]=-5637,[-28729]=586,[17659]=12287,[32231]=8231,[14211]=-13968,[-13876]=20912,[5687]=20912,[432]=9185,[-25179]=-29042,[-19384]=20912,[-4820]=17573,[14471]=4866,[19327]=-189,[2576]=4276,[32606]=16808,[158]=-29042},function(R)
-        return Tc[R-29090]
+local Md=ha:CreateSection('Player Teleport')
+local function L()
+    local S,Sg,xg,ef,ae,Ug,Df,Qe,Dc,Hg,Df,Kg,nc,ef,Lc
+    nc,Lc={[15009]=-15085,[19646]=19889,[-13151]=-12481,[14767]=10218,[14997]=-7140,[30967]=-9898,[-6554]=-28769,[3973]=14757,[24763]=14757,[25335]=14757,[11959]=14757,[-31914]=-15085,[-28562]=-5046,[12969]=4190,[26474]=-16789,[311]=-32698,[28514]=-16789,[10120]=-16789,[12583]=4305,[18344]=-32698,[22447]=11250,[-20718]=-11212,[-3062]=4190,[9750]=-3008,[7642]=14757,[13265]=14757,[13905]=-19398,[-10105]=-28769,[-28768]=-306,[-6704]=-11212,[-25346]=16264,[-18048]=-23513,[27039]=24168,[19907]=-9898,[-32699]=-11958,[4554]=21952,[-4736]=-19398,[-15981]=19889,[30905]=24168,[13650]=14757,[-6589]=7836,[748]=-26526,[16737]=14757,[-1170]=16264,[3764]=-32514,[492]=-28769,[-7481]=14757,[8506]=14757,[28795]=12088,[27582]=-12623},function(yg)
+        return nc[yg-23817]
     end
-    k=Db(34139)
+    Kg=Lc(38814)
     repeat
         while true do
-            if k==8231 then
-                Pd,c,Df=O(Uf[1],1,Uf[2]);
-                k=Db(50896)
-            elseif k==-13968 then
-                Uf=Yg.__iter
-                k=-20388
-            elseif k==-20388 then
-                Uf=td(Uf(Pd))
-                k=Db(-3096)
-            elseif k==31954 then
-                Ed=td(L(Uf))
-                k=Db(46749)
-            elseif k==-29042 then
-                Yg=O(Uf[1],1,Uf[2]);
-                if Yg~=nil and Yg.__iter~=nil then
-                    k=Db(31692)
+            if Kg==-12623 then
+                xg=gb(xg(S))
+                Kg=Lc(43724)
+            elseif Kg==-15085 then
+                xg=gb(qe(S))
+                Kg=Lc(36786)
+            elseif Kg==-3008 then
+                xg=Hg.__iter
+                Kg=Lc(51399)
+            elseif Kg==-16789 then
+                return Ug
+            elseif Kg==9010 then
+                ae=ef.Name
+                Kg=Lc(27581)
+            elseif Kg==21952 then
+                xg=gb(ipairs(ub(Dc[1],1,Dc[2])))
+                Kg=Lc(17113)
+            elseif Kg==-12481 then
+                xg=kh
+                Kg=13834
+            elseif Kg==12088 then
+                xg=gb(Wf(S))
+                Kg=Lc(42161)
+            elseif Kg==-32514 then
+                xg=xg(Ug,ae)
+                Kg=Lc(32323)
+            elseif Kg==-7140 then
+                xg={}
+                Kg=Lc(50856)
+            elseif Kg==-32698 then
+                Hg=ub(xg[1],1,xg[2]);
+                if Hg~=nil and Hg.__iter~=nil then
+                    Kg=Lc(33567)
                     break
-                elseif pg(Pd)=='table'then
-                    k=Db(43561)
-                    break
-                end
-                k=Db(41694)
-            elseif k==-12250 then
-                Uf={}
-                k=Db(15873)
-            elseif k==-23223 then
-                L=Uf.GetPlayers
-                k=31954
-            elseif k==12287 then
-                Uf=td(ipairs(O(Ed[1],1,Ed[2])))
-                k=Db(61696)
-            elseif k==-5637 then
-                Uf=td(we(Pd))
-                k=Db(29248)
-            elseif k==586 then
-                Uf=table.insert
-                k=29115
-            elseif k==-20804 then
-                if oe~=le then
-                    k=Db(361)
+                elseif Z(S)=='table'then
+                    Kg=Lc(-8097)
                     break
                 end
-                k=Db(38653)
-            elseif k==29838 then
-                return ue
-            elseif k==3950 then
-                Uf=Ra
-                k=Db(779)
-            elseif k==20912 then
-                _c,oe=Pd(c,Df);
-                Df=_c;
-                if Df==nil then
-                    k=Db(38581)
+                Kg=Lc(35776)
+            elseif Kg==-19398 then
+                xg=table.insert
+                Kg=9010
+            elseif Kg==-9898 then
+                S,Qe,Sg=ub(xg[1],1,xg[2]);
+                Kg=Lc(49152)
+            elseif Kg==4190 then
+                S,Qe,Sg=ub(xg[1],1,xg[2]);
+                Kg=Lc(16336)
+            elseif Kg==24168 then
+                Ug=xg;
+                Kg=Lc(10666);
+            elseif Kg==28084 then
+                Dc=gb(ae(xg))
+                Kg=Lc(28371)
+            elseif Kg==-8515 then
+                if ef~=Uf then
+                    Kg=Lc(19081)
+                    break
+                end
+                Kg=Lc(37467)
+            elseif Kg==14757 then
+                Df,ef=S(Qe,Sg);
+                Sg=Df;
+                if Sg==nil then
+                    Kg=Lc(52331)
                 else
-                    k=-20804
+                    Kg=-8515
                 end
-            elseif k==16808 then
-                Pd,c,Df=O(Uf[1],1,Uf[2]);
-                if pg(Pd)~='function'then
-                    k=Db(-3608)
+            elseif Kg==13834 then
+                ae=xg.GetPlayers
+                Kg=28084
+            elseif Kg==-11212 then
+                S,Qe,Sg=ub(xg[1],1,xg[2]);
+                if Z(S)~='function'then
+                    Kg=Lc(52612)
                     break
                 end;
-                k=Db(36573);
-            elseif k==-19706 then
-                Pd,c,Df=O(Uf[1],1,Uf[2]);
-                k=Db(47941)
-            elseif k==-189 then
-                ue=Uf;
-                k=3950;
-            elseif k==3745 then
-                Uf=Uf(ue,L)
-                k=Db(13273)
-            elseif k==29115 then
-                L=oe.Name
-                k=3745
-            elseif k==4866 then
-                Uf=td(Yf(Pd))
-                k=Db(61321)
+                Kg=Lc(48580);
             end
         end
-    until k==24075
+    until Kg==-15172
 end
-local Be=_e:CreateDropdown({Name='Teleport to Player',Options=cd(),CurrentOption={'Select Player'},MultipleOptions=false,Flag='PlayerTP',Callback=function(Sg)
-    local xg,Va,he,yd,cf,ib,xd,_h,Ta,o,Gc,Ie
-    yd,ib={[17285]=-23967,[-23870]=22747,[4516]=22747,[30578]=20023,[-27456]=-25292,[-14898]=14163,[26221]=26386,[-517]=10553,[-24676]=20023,[18919]=22406,[7114]=22406,[11233]=-14011,[-14143]=-15938,[-14238]=18180,[-29633]=-18023,[-6250]=-21519,[-7668]=-20843,[17036]=-14011,[-14803]=10553,[4469]=7163,[28671]=22406,[-29143]=22406,[14707]=-13642,[-19636]=14163,[13671]=5375,[-1579]=218,[22053]=-32331},function(Ob)
-        return yd[Ob+29209]
+local gc=ha:CreateDropdown({Name='Teleport to Player',Options=L(),CurrentOption={'Select Player'},MultipleOptions=false,Flag='PlayerTP',Callback=function(Af)
+    local lg,jc,pe,d,ea,Be,ab,Le,cd,Kb,vf,Db
+    ea,ab={[7524]=3857,[-30631]=-22004,[-24862]=17915,[-13524]=-29073,[22714]=23477,[-7669]=20717,[17926]=9128,[-10370]=21361,[32096]=17791,[12813]=21361,[-6868]=-145,[-583]=24480,[-5488]=-23959,[-8213]=28537,[18013]=-1437,[-5254]=26500,[13108]=-28526,[3262]=17709,[8869]=-22004,[12590]=3857,[28721]=-32226,[-8567]=-4112,[-11640]=28689,[25571]=18438,[-4876]=-1141,[7669]=1303,[-18331]=17791,[22110]=-27481,[9301]=-15737,[22005]=-27924,[-32715]=-22004,[8318]=-7705,[-15436]=-1437,[27127]=24480,[23459]=26500},function(Ve)
+        return ea[Ve-16163]
     end
-    _h=ib(-24740)
+    d=ab(10909)
     repeat
         while true do
-            if _h==5375 then
-                if Va then
-                    _h=ib(-11924)
+            if d==21361 then
+                Be=Le;
+                d=ab(11287);
+            elseif d==-1141 then
+                Le=jc.Character
+                d=ab(8494)
+            elseif d==-29073 then
+                lg=Uf.CharacterAdded
+                d=18312
+            elseif d==1303 then
+                Kb=0
+                d=ab(9295)
+            elseif d==-31905 then
+                cd=Vector3 .new
+                d=ab(38877)
+            elseif d==-145 then
+                cd=gb(cd(lg,pe,Kb))
+                d=10727
+            elseif d==9128 then
+                cd=Db
+                d=18438
+            elseif d==20717 then
+                Le=Le.HumanoidRootPart
+                d=ab(4523)
+            elseif d==18312 then
+                pe=lg.Wait
+                d=ab(19425)
+            elseif d==10727 then
+                Le=Le+ub(cd[1],1,cd[2])
+                d=ab(727)
+            elseif d==-23959 then
+                if cd then
+                    d=ab(41734)
                     break
                 end
-                _h=ib(-36877)
-            elseif _h==5460 then
-                he=he.HumanoidRootPart
-                _h=6334
-            elseif _h==20911 then
-                xd=5
-                _h=-28232
-            elseif _h==7163 then
-                he=1
-                _h=14919
-            elseif _h==-28232 then
-                xg=0
-                _h=-27627
-            elseif _h==22747 then
-                he=le.Character
-                _h=ib(-7156)
-            elseif _h==22406 then
-                _h=ib(-35459);
-                break;
-            elseif _h==-13944 then
-                Va=o
-                _h=-23967
-            elseif _h==28830 then
-                xg=td(xd(cf))
-                _h=-6486
-            elseif _h==-23213 then
-                Va=he.FindFirstChild
-                _h=-7939
-            elseif _h==-18023 then
-                he=Ie.Character
-                _h=5460
-            elseif _h==-13642 then
-                xd=cf.Wait
-                _h=28830
-            elseif _h==6334 then
-                he=he.CFrame
-                _h=28739
-            elseif _h==-32331 then
-                Va=he
-                _h=ib(-15538)
-            elseif _h==-20843 then
-                cf=le.CharacterAdded
-                _h=ib(-14502)
-            elseif _h==14163 then
-                Ie=O(cf[1],1,cf[2]);
-                if Ie and Ie.Character and Ie.Character:FindFirstChild('HumanoidRootPart')then
-                    _h=ib(-24693)
+                d=ab(2639)
+            elseif d==10032 then
+                cd=Le.FindFirstChild
+                d=ab(7596)
+            elseif d==-29358 then
+                Le=kh
+                d=10032
+            elseif d==-28526 then
+                Db=ub(Kb[1],1,Kb[2])
+                d=ab(34089)
+            elseif d==26500 then
+                Le=1
+                d=-16974
+            elseif d==18438 then
+                Le=cd
+                d=ab(5793)
+            elseif d==-16974 then
+                Le=Af[Le]
+                d=ab(23687)
+            elseif d==-1437 then
+                Be:WaitForChild('HumanoidRootPart').CFrame=Le;
+                d=ab(-16552)
+            elseif d==28689 then
+                Le=Le.CFrame
+                d=-31905
+            elseif d==23477 then
+                lg=0
+                d=-15619
+            elseif d==24480 then
+                jc=ub(lg[1],1,lg[2]);
+                if jc and jc.Character and jc.Character:FindFirstChild('HumanoidRootPart')then
+                    d=ab(-2168)
                     break
                 else
-                    _h=ib(-58352)
+                    d=ab(-14468)
                     break
                 end
-                _h=ib(-10290)
-            elseif _h==20023 then
-                Gc=he;
-                _h=ib(-58842);
-            elseif _h==-10465 then
-                cf=0
-                _h=20911
-            elseif _h==-6486 then
-                o=O(xg[1],1,xg[2])
-                _h=-13944
-            elseif _h==-7939 then
-                cf=td(Va(he,Ta))
-                _h=ib(-48845)
-            elseif _h==27245 then
-                he=he+O(Va[1],1,Va[2])
-                _h=ib(-29726)
-            elseif _h==-25292 then
-                he=Ra
-                _h=-23213
-            elseif _h==-27627 then
-                Va=td(Va(cf,xd,xg))
-                _h=27245
-            elseif _h==28739 then
-                Va=Vector3 .new
-                _h=-10465
-            elseif _h==-14011 then
-                Ta=he;
-                _h=ib(-56665);
-            elseif _h==10553 then
-                Gc:WaitForChild('HumanoidRootPart').CFrame=he;
-                _h=ib(-22095)
-            elseif _h==-23967 then
-                he=Va
-                _h=ib(-53885)
-            elseif _h==14919 then
-                he=Sg[he]
-                _h=ib(-17976)
+                d=-22004
+            elseif d==17709 then
+                Kb=gb(pe(lg))
+                d=ab(29271)
+            elseif d==-4112 then
+                lg=gb(cd(Le,vf))
+                d=ab(15580)
+            elseif d==-22004 then
+                d=ab(38273);
+                break;
+            elseif d==17791 then
+                Le=Uf.Character
+                d=ab(38168)
+            elseif d==-27924 then
+                cd=Le
+                d=ab(10675)
+            elseif d==3857 then
+                vf=Le;
+                d=-29358;
+            elseif d==-15619 then
+                pe=5
+                d=ab(23832)
             end
         end
-    until _h==-21519
+    until d==-27481
 end})
-local Qd,Vd,Ge,pe,mg,jb,We,Gd,id
-Ge,pe={[-15801]=2225,[15508]=-20806,[-4520]=-23476,[-8737]=2558,[11916]=-26308,[27176]=3057,[-28428]=2558,[8759]=17195,[32099]=-6702,[-13435]=-26277,[-15299]=2225,[-13799]=-4936,[-13587]=22181},function(nh)
-    return Ge[nh- -9186]
+local wc,pa,fc,lh,bc,Ad,Zg,cc,eh
+fc,lh={[8096]=-23602,[29042]=-4891,[-967]=-23861,[-31888]=1016,[22620]=3854,[-2236]=11479,[-16324]=-16637,[-8493]=-8373,[909]=-16637,[-12295]=-14158,[27169]=-8373,[-11438]=11479},function(Jd)
+    return fc[Jd+5644]
 end
-jb=pe(-22985)
+bc=lh(-7880)
 repeat
     while true do
-        if jb==-4936 then
-            mg=_e
-            jb=8443
-        elseif jb==22181 then
-            We=mg.Notify
-            jb=pe(2730)
-        elseif jb==-26308 then
-            Gd='Phoenix Hub'
-            jb=pe(-427)
-        elseif jb==17195 then
-            id='Loaded Successfully! :D'
-            jb=15494
-        elseif jb==-6702 then
-            Gd=We(mg,Gd)
-            jb=pe(-37614)
-        elseif jb==1886 then
-            Gd={Name=Gd,Callback=function()
-                local Ga,Of,Ke,ba,la,A
-                Ke,ba={[-7349]=1876,[-21913]=-31164,[-25169]=-15741,[-29961]=-11236,[5159]=-11236,[31905]=-31164,[27432]=-14763},function(Uc)
-                    return Ke[Uc+-18082]
+        if bc==-8373 then
+            bc=lh(2452);
+            break;
+        elseif bc==-14158 then
+            eh='Phoenix Hub'
+            bc=5915
+        elseif bc==15360 then
+            Ad=wc.CreateButton
+            bc=4443
+        elseif bc==5915 then
+            Zg='Loaded Successfully! :D'
+            bc=lh(23398)
+        elseif bc==-4891 then
+            cc=5
+            bc=-7931
+        elseif bc==11479 then
+            wc=ha
+            bc=15360
+        elseif bc==-23861 then
+            wc=Cf
+            bc=2705
+        elseif bc==-16637 then
+            pa=ub(eh[1],1,eh[2]);
+            bc=lh(-6611);
+        elseif bc==-7931 then
+            eh={Title=eh,Content=Zg,Duration=cc}
+            bc=-32170
+        elseif bc==2705 then
+            Ad=wc.Notify
+            bc=lh(-17939)
+        elseif bc==22255 then
+            eh=gb(Ad(wc,eh))
+            bc=lh(-4735)
+        elseif bc==4443 then
+            eh='Refresh Player List'
+            bc=6934
+        elseif bc==-32170 then
+            eh=Ad(wc,eh)
+            bc=lh(-14137)
+        elseif bc==6934 then
+            eh={Name=eh,Callback=function()
+                local bh,_d,Rf,Ag,aa,Ya
+                Ya,aa={[31350]=237,[31911]=23154,[-28574]=19290,[-21985]=-11418,[-19224]=23154,[23263]=-1430,[18591]=-1430},function(Ka)
+                    return Ya[Ka+7467]
                 end
-                Of=ba(49987)
+                bh=aa(24444)
                 repeat
                     while true do
-                        if Of==-31164 then
-                            A=Be
-                            Of=1242
-                        elseif Of==24748 then
-                            la=Ga(A,O(la[1],1,la[2]))
-                            Of=ba(23241)
-                        elseif Of==-20963 then
-                            la=td(cd())
-                            Of=24748
-                        elseif Of==1242 then
-                            Ga=A.Refresh
-                            Of=-20963
-                        elseif Of==-11236 then
-                            Of=ba(45514);
+                        if bh==19290 then
+                            Ag=_d(Rf,ub(Ag[1],1,Ag[2]))
+                            bh=aa(15796)
+                        elseif bh==-13323 then
+                            Ag=gb(L())
+                            bh=aa(-36041)
+                        elseif bh==-1430 then
+                            bh=aa(23883);
                             break;
+                        elseif bh==23154 then
+                            Rf=gc
+                            bh=1371
+                        elseif bh==1371 then
+                            _d=Rf.Refresh
+                            bh=-13323
                         end
                     end
-                until Of==-14763
+                until bh==237
             end}
-            jb=-14707
-        elseif jb==15494 then
-            Vd=5
-            jb=-7289
-        elseif jb==2225 then
-            Qd=O(Gd[1],1,Gd[2]);
-            jb=17839;
-        elseif jb==8443 then
-            We=mg.CreateButton
-            jb=pe(-13706)
-        elseif jb==2558 then
-            jb=pe(17990);
-            break;
-        elseif jb==-14707 then
-            Gd=td(We(mg,Gd))
-            jb=pe(-24987)
-        elseif jb==-7289 then
-            Gd={Title=Gd,Content=id,Duration=Vd}
-            jb=pe(22913)
-        elseif jb==17839 then
-            mg=Z
-            jb=pe(-22773)
-        elseif jb==-23476 then
-            Gd='Refresh Player List'
-            jb=1886
+            bc=22255
         end
     end
-until jb==3057
+until bc==-23602
